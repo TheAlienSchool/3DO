@@ -3,38 +3,38 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 
-// Sacred Geometry Constants - Consciousness-Serving Technology Principles
-const SACRED_GEOMETRY = {
+// Network Layout Constants - Balanced geometric distribution
+const NETWORK_GEOMETRY = {
   GOLDEN_RATIO: 1.618033988749,
-  TRIANGLE_HEIGHT: 0.866025403784, // √3/2 for perfect equilateral
-  PHI_INVERSE: 0.618033988749, // 1/φ for harmonic proportions
-  SACRED_ANGLES: {
-    VERTEX_1: 0, // Top vertex
-    VERTEX_2: 120, // Bottom left (120° rotation)
-    VERTEX_3: 240, // Bottom right (240° rotation)
+  TRIANGLE_HEIGHT: 0.866025403784, // √3/2 for equilateral triangle
+  PHI_INVERSE: 0.618033988749, // 1/φ for balanced proportions
+  VERTEX_ANGLES: {
+    TOP: 0,
+    BOTTOM_LEFT: 120,
+    BOTTOM_RIGHT: 240,
   }
 } as const
 
-// Sacred Triangle Vertices - Pre-calculated for Performance Excellence
-const SACRED_TRIANGLE_VERTICES = [
-  { x: 50, y: 25, label: 'Awareness' }, // Top vertex - Mind
-  { x: 25, y: 65, label: 'Embodiment' }, // Bottom left - Body  
-  { x: 75, y: 65, label: 'Spirit' }, // Bottom right - Spirit
+// Triangle Vertices - Visual structure for network layout
+const TRIANGLE_VERTICES = [
+  { x: 50, y: 25 }, // Top vertex
+  { x: 25, y: 65 }, // Bottom left
+  { x: 75, y: 65 }, // Bottom right
 ] as const
 
-// Enhanced Network Node Interface with Sacred Positioning
+// Network Node Interface
 interface NetworkNode {
   id: string
   type: 'individual' | 'venue'
   x: number
   y: number
-  sacredPosition: 'triangle_edge' | 'vertex' | 'center'
+  position: 'triangle_edge' | 'vertex' | 'center'
   edgeIndex?: number // Which triangle edge (0, 1, 2)
   edgeRatio?: number // Position along edge using golden ratio
   timestamp: Date
   connections: string[]
   pulseActive: boolean
-  contemplativeDepth: number // Engagement quality metric
+  engagementLevel: number // Practice engagement metric
 }
 
 // Network Connection Interface
@@ -60,102 +60,102 @@ const BreathingNetwork: React.FC = () => {
     startBreathingRhythm()
   }, [])
 
-  // Sacred Geometry Positioning Functions - Consciousness-Serving Architecture
-  const generateSacredPosition = (index: number, totalNodes: number, isVenue: boolean = false): Partial<NetworkNode> => {
-    // Venues are placed at sacred triangle vertices
+  // Network Positioning - Balanced geometric distribution
+  const generateNetworkPosition = (index: number, totalNodes: number, isVenue: boolean = false): Partial<NetworkNode> => {
+    // Venues are placed at triangle vertices (anchor points)
     if (isVenue) {
       const vertexIndex = index % 3
-      const vertex = SACRED_TRIANGLE_VERTICES[vertexIndex]
+      const vertex = TRIANGLE_VERTICES[vertexIndex]
       return {
         x: vertex.x,
         y: vertex.y,
-        sacredPosition: 'vertex',
-        contemplativeDepth: 1.0 // Venues anchor the community
+        position: 'vertex',
+        engagementLevel: 1.0 // Venues anchor the practice community
       }
     }
-    
-    // Individuals are positioned along triangle edges using golden ratio
+
+    // Individuals are positioned along triangle edges using golden ratio spacing
     const edge = index % 3 // Which edge of the triangle
     const positionOnEdge = (index / 3) % 1 // Position along the edge
-    
-    // Use golden ratio for harmonic spacing
-    const goldenPosition = (positionOnEdge * SACRED_GEOMETRY.PHI_INVERSE) % 1
-    
-    const startVertex = SACRED_TRIANGLE_VERTICES[edge]
-    const endVertex = SACRED_TRIANGLE_VERTICES[(edge + 1) % 3]
-    
+
+    // Use golden ratio for balanced spacing
+    const goldenPosition = (positionOnEdge * NETWORK_GEOMETRY.PHI_INVERSE) % 1
+
+    const startVertex = TRIANGLE_VERTICES[edge]
+    const endVertex = TRIANGLE_VERTICES[(edge + 1) % 3]
+
     return {
       x: startVertex.x + (endVertex.x - startVertex.x) * goldenPosition,
       y: startVertex.y + (endVertex.y - startVertex.y) * goldenPosition,
-      sacredPosition: 'triangle_edge',
+      position: 'triangle_edge',
       edgeIndex: edge,
       edgeRatio: goldenPosition,
-      contemplativeDepth: 0.7 + (Math.sin(goldenPosition * Math.PI) * 0.3) // Harmonic depth variation
+      engagementLevel: 0.7 + (Math.sin(goldenPosition * Math.PI) * 0.3) // Varied engagement levels
     }
   }
 
-  // Initialize network with sacred geometry positioning
+  // Initialize network with balanced geometric positioning
   const initializeNetwork = () => {
     const initialNodes: NetworkNode[] = []
     const initialConnections: NetworkConnection[] = []
-    
-    // Calculate optimal node distribution for sacred geometry
-    const maxVisibleNodes = 21 // Sacred number for triangle edges (7 per edge)
+
+    // Calculate optimal node distribution for visual clarity
+    const maxVisibleNodes = 21 // Balanced distribution (7 per triangle edge)
     const visibleParticipants = Math.min(totalParticipants, maxVisibleNodes)
-    
-    // Generate nodes with sacred positioning
+
+    // Generate nodes with balanced positioning
     for (let i = 0; i < visibleParticipants; i++) {
       const isVenue = i < 3 || (i > 6 && i % 7 === 0) // 3 vertex venues + periodic venues
-      const sacredPosition = generateSacredPosition(i, visibleParticipants, isVenue)
-      
+      const networkPosition = generateNetworkPosition(i, visibleParticipants, isVenue)
+
       const node: NetworkNode = {
         id: `node-${i}`,
         type: isVenue ? 'venue' : 'individual',
-        x: sacredPosition.x!,
-        y: sacredPosition.y!,
-        sacredPosition: sacredPosition.sacredPosition!,
-        edgeIndex: sacredPosition.edgeIndex,
-        edgeRatio: sacredPosition.edgeRatio,
+        x: networkPosition.x!,
+        y: networkPosition.y!,
+        position: networkPosition.position!,
+        edgeIndex: networkPosition.edgeIndex,
+        edgeRatio: networkPosition.edgeRatio,
         timestamp: new Date(Date.now() - Math.random() * 7 * 24 * 60 * 60 * 1000),
         connections: [],
         pulseActive: false,
-        contemplativeDepth: sacredPosition.contemplativeDepth!
+        engagementLevel: networkPosition.engagementLevel!
       }
       initialNodes.push(node)
     }
 
-    // Generate sacred connections based on geometric relationships
+    // Generate network connections based on geometric relationships
     initialNodes.forEach((node, index) => {
       const connectionCount = node.type === 'venue' ? 6 : 2 // Venues connect to more community members
       
       for (let i = 0; i < connectionCount; i++) {
-        // Sacred connection algorithm: connect based on geometric harmony
+        // Network connection algorithm: connect based on geometric proximity
         let targetIndex: number
-        
-        if (node.sacredPosition === 'vertex') {
+
+        if (node.position === 'vertex') {
           // Vertices connect along their adjacent edges
           const edgeOffset = i < 3 ? i * 2 + 1 : (i - 3) * 2 + 2
           targetIndex = (index + edgeOffset) % initialNodes.length
         } else {
           // Edge nodes connect to adjacent nodes and nearest vertex
-          const goldenOffset = Math.floor(i * SACRED_GEOMETRY.GOLDEN_RATIO) + 1
+          const goldenOffset = Math.floor(i * NETWORK_GEOMETRY.GOLDEN_RATIO) + 1
           targetIndex = (index + goldenOffset) % initialNodes.length
         }
-        
+
         if (targetIndex !== index && targetIndex < initialNodes.length) {
           const targetNode = initialNodes[targetIndex]
-          
-          // Connection strength based on sacred geometry relationships
+
+          // Connection strength based on geometric distance
           const geometricDistance = Math.sqrt(
             Math.pow(node.x - targetNode.x, 2) + Math.pow(node.y - targetNode.y, 2)
           )
-          const harmonicStrength = 1 - (geometricDistance / 50) // Normalize to 0-1
-          const sacredStrength = Math.max(0.3, harmonicStrength * SACRED_GEOMETRY.PHI_INVERSE)
-          
+          const proximityStrength = 1 - (geometricDistance / 50) // Normalize to 0-1
+          const connectionStrength = Math.max(0.3, proximityStrength * NETWORK_GEOMETRY.PHI_INVERSE)
+
           const connection: NetworkConnection = {
             from: node.id,
             to: targetNode.id,
-            strength: sacredStrength
+            strength: connectionStrength
           }
           initialConnections.push(connection)
         }
@@ -166,7 +166,7 @@ const BreathingNetwork: React.FC = () => {
     setConnections(initialConnections)
   }
 
-  // Start contemplative breathing rhythm (4s inhale, 6s exhale)
+  // Start breathing rhythm (4s inhale, 6s exhale)
   const startBreathingRhythm = () => {
     const breatheCycle = () => {
       // Exhale phase (6 seconds)
@@ -180,37 +180,37 @@ const BreathingNetwork: React.FC = () => {
     breatheCycle()
   }
 
-  // Add new participant with sacred positioning and contemplative pulse
+  // Add new participant with network positioning and visual pulse
   const addNewParticipant = (type: 'individual' | 'venue' = 'individual') => {
     setNodes(prev => {
       const currentNodeCount = prev.length
-      const sacredPosition = generateSacredPosition(currentNodeCount, currentNodeCount + 1, type === 'venue')
-      
+      const networkPosition = generateNetworkPosition(currentNodeCount, currentNodeCount + 1, type === 'venue')
+
       const newNode: NetworkNode = {
         id: `node-${Date.now()}`,
         type,
-        x: sacredPosition.x!,
-        y: sacredPosition.y!,
-        sacredPosition: sacredPosition.sacredPosition!,
-        edgeIndex: sacredPosition.edgeIndex,
-        edgeRatio: sacredPosition.edgeRatio,
+        x: networkPosition.x!,
+        y: networkPosition.y!,
+        position: networkPosition.position!,
+        edgeIndex: networkPosition.edgeIndex,
+        edgeRatio: networkPosition.edgeRatio,
         timestamp: new Date(),
         connections: [],
         pulseActive: true,
-        contemplativeDepth: sacredPosition.contemplativeDepth!
+        engagementLevel: networkPosition.engagementLevel!
       }
 
       return [...prev, newNode]
     })
-    
+
     setTotalParticipants(prev => prev + (type === 'venue' ? 15 : 1))
 
-    // Sacred pulse effect - longer, more contemplative
+    // Visual pulse effect for new additions
     setTimeout(() => {
-      setNodes(prev => prev.map(node => 
+      setNodes(prev => prev.map(node =>
         node.id.includes(Date.now().toString()) ? { ...node, pulseActive: false } : node
       ))
-    }, 4000) // Extended pulse duration for contemplative effect
+    }, 4000)
   }
 
   // Breathing animation scale calculation
@@ -235,12 +235,12 @@ const BreathingNetwork: React.FC = () => {
 
   return (
     <div className="relative w-full h-64 lg:h-80 overflow-hidden rounded-lg bg-gradient-to-br from-warm-cream/10 to-sage-green/10">
-      {/* Sacred Geometry Network Visualization */}
+      {/* Practice Network Visualization */}
       <motion.div
         className="absolute inset-0"
-        animate={{ 
+        animate={{
           scale: breathingScale,
-          transition: { 
+          transition: {
             duration: breathingPhase === 'inhale' ? 4 : 6,
             ease: "easeInOut"
           }
@@ -252,9 +252,9 @@ const BreathingNetwork: React.FC = () => {
           viewBox="0 0 100 100"
           preserveAspectRatio="xMidYMid meet"
         >
-          {/* Sacred Triangle Foundation - Consciousness-Serving Architecture */}
-          <motion.g 
-            className="sacred-triangle-foundation"
+          {/* Triangle Framework - Visual structure */}
+          <motion.g
+            className="triangle-framework"
             opacity={0.2}
             animate={{
               opacity: breathingPhase === 'inhale' ? 0.3 : 0.2,
@@ -263,22 +263,22 @@ const BreathingNetwork: React.FC = () => {
           >
             {/* Triangle Edges */}
             <path
-              d={`M ${SACRED_TRIANGLE_VERTICES[0].x} ${SACRED_TRIANGLE_VERTICES[0].y} 
-                  L ${SACRED_TRIANGLE_VERTICES[1].x} ${SACRED_TRIANGLE_VERTICES[1].y} 
-                  L ${SACRED_TRIANGLE_VERTICES[2].x} ${SACRED_TRIANGLE_VERTICES[2].y} 
+              d={`M ${TRIANGLE_VERTICES[0].x} ${TRIANGLE_VERTICES[0].y}
+                  L ${TRIANGLE_VERTICES[1].x} ${TRIANGLE_VERTICES[1].y}
+                  L ${TRIANGLE_VERTICES[2].x} ${TRIANGLE_VERTICES[2].y}
                   Z`}
               stroke="currentColor"
               strokeWidth="0.5"
               fill="none"
               className="text-sage-green"
             />
-            
-            {/* Golden Ratio Guidelines - Subtle Sacred Structure */}
-            {SACRED_TRIANGLE_VERTICES.map((vertex, index) => {
-              const nextVertex = SACRED_TRIANGLE_VERTICES[(index + 1) % 3]
+
+            {/* Golden Ratio Guidelines - Balanced spacing markers */}
+            {TRIANGLE_VERTICES.map((vertex, index) => {
+              const nextVertex = TRIANGLE_VERTICES[(index + 1) % 3]
               const goldenPoint = {
-                x: vertex.x + (nextVertex.x - vertex.x) * SACRED_GEOMETRY.PHI_INVERSE,
-                y: vertex.y + (nextVertex.y - vertex.y) * SACRED_GEOMETRY.PHI_INVERSE
+                x: vertex.x + (nextVertex.x - vertex.x) * NETWORK_GEOMETRY.PHI_INVERSE,
+                y: vertex.y + (nextVertex.y - vertex.y) * NETWORK_GEOMETRY.PHI_INVERSE
               }
               return (
                 <circle
@@ -291,21 +291,6 @@ const BreathingNetwork: React.FC = () => {
                 />
               )
             })}
-            
-            {/* Vertex Labels - Sacred Meaning */}
-            {SACRED_TRIANGLE_VERTICES.map((vertex, index) => (
-              <text
-                key={`vertex-label-${index}`}
-                x={vertex.x}
-                y={vertex.y - 3}
-                textAnchor="middle"
-                fontSize="2"
-                fill="currentColor"
-                className="text-deep-brown opacity-30 font-medium"
-              >
-                {vertex.label}
-              </text>
-            ))}
           </motion.g>
           {/* Connection Lines */}
           <g className="connections" opacity={0.3}>
@@ -337,7 +322,7 @@ const BreathingNetwork: React.FC = () => {
             <AnimatePresence>
               {nodes.map((node) => (
                 <motion.g key={node.id}>
-                  {/* Sacred Node Circle with Contemplative Depth */}
+                  {/* Network Node Circle */}
                   <motion.circle
                     cx={node.x}
                     cy={node.y}
@@ -345,21 +330,21 @@ const BreathingNetwork: React.FC = () => {
                     fill={getNodeColor(node)}
                     className="drop-shadow-sm"
                     initial={{ scale: 0, opacity: 0 }}
-                    animate={{ 
-                      scale: 1, 
-                      opacity: 0.7 + (node.contemplativeDepth * 0.3), // Opacity reflects contemplative engagement
+                    animate={{
+                      scale: 1,
+                      opacity: 0.7 + (node.engagementLevel * 0.3), // Opacity reflects practice engagement
                       r: node.pulseActive ? getNodeSize(node) * 1.5 : getNodeSize(node)
                     }}
                     exit={{ scale: 0, opacity: 0 }}
-                    transition={{ 
+                    transition={{
                       duration: 0.6,
-                      r: { duration: node.pulseActive ? 2 : 0.3 }, // Longer pulse for contemplative effect
-                      opacity: { duration: 1.2 } // Gentle opacity transitions
+                      r: { duration: node.pulseActive ? 2 : 0.3 },
+                      opacity: { duration: 1.2 }
                     }}
                   />
 
-                  {/* Sacred Position Indicator for Vertices */}
-                  {node.sacredPosition === 'vertex' && (
+                  {/* Vertex Position Indicator */}
+                  {node.position === 'vertex' && (
                     <motion.circle
                       cx={node.x}
                       cy={node.y}
@@ -488,15 +473,15 @@ const BreathingNetwork: React.FC = () => {
   )
 }
 
-// Contemplative Commitment Button Component - Anti-Gaming Sacred Interaction
-interface ContemplativeButtonProps {
+// Practice Commitment Button Component - Intentional engagement flow
+interface PracticeButtonProps {
   onCommit: () => void
   children: React.ReactNode
   type: 'individual' | 'venue'
   className?: string
 }
 
-const ContemplativeCommitButton: React.FC<ContemplativeButtonProps> = ({ 
+const ContemplativeCommitButton: React.FC<PracticeButtonProps> = ({ 
   onCommit, 
   children, 
   type,
@@ -510,7 +495,7 @@ const ContemplativeCommitButton: React.FC<ContemplativeButtonProps> = ({
     setCommitmentPhase('breathing')
     setBreathing(true)
     
-    // Require 3 conscious breath cycles (30 seconds total)
+    // Require 3 breath cycles (30 seconds total)
     const breathingTimer = setInterval(() => {
       setBreathCount(prev => {
         if (prev >= 2) { // 0, 1, 2 = 3 breaths
@@ -527,7 +512,7 @@ const ContemplativeCommitButton: React.FC<ContemplativeButtonProps> = ({
   const handleFinalCommit = () => {
     setCommitmentPhase('committing')
     
-    // Brief moment of contemplative integration
+    // Brief integration moment
     setTimeout(() => {
       onCommit()
       setCommitmentPhase('ready')
@@ -564,7 +549,7 @@ const ContemplativeCommitButton: React.FC<ContemplativeButtonProps> = ({
       >
         <div className="text-center">
           <p className="text-sage-green mb-4 font-medium">
-            Take three conscious breaths before joining our community
+            Take three breaths before joining the practice
           </p>
           <div className="text-deep-brown/70 mb-6">
             Breath {breathCount + 1} of 3
@@ -613,10 +598,10 @@ const ContemplativeCommitButton: React.FC<ContemplativeButtonProps> = ({
       >
         <div className="text-center">
           <p className="text-deep-brown mb-4 font-medium">
-            Your place in our sacred breathing network:
+            Your place in the practice network:
           </p>
-          
-          {/* Sacred Geometry Preview */}
+
+          {/* Network Position Preview */}
           <div className="w-24 h-24 mx-auto mb-4 relative">
             <svg viewBox="0 0 100 100" className="w-full h-full">
               {/* Mini triangle */}
@@ -637,21 +622,21 @@ const ContemplativeCommitButton: React.FC<ContemplativeButtonProps> = ({
               />
             </svg>
           </div>
-          
+
           <p className="text-sm text-deep-brown/70 mb-6">
-            {type === 'venue' 
-              ? 'You will anchor the community as a sacred sanctuary space'
-              : 'You will join the contemplative network with fellow practitioners'
+            {type === 'venue'
+              ? 'You will anchor the community as a practice space'
+              : 'You will join thousands preparing together'
             }
           </p>
-          
+
           <motion.button
             onClick={handleFinalCommit}
             className="btn-primary"
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
           >
-            Join the Sacred Network
+            Join the Practice
           </motion.button>
         </div>
       </motion.div>
@@ -673,7 +658,7 @@ const ContemplativeCommitButton: React.FC<ContemplativeButtonProps> = ({
             transition={{ duration: 2, ease: "linear" }}
           />
           <p className="text-sage-green font-medium">
-            Integrating into the sacred network...
+            Joining the practice network...
           </p>
         </div>
       </motion.div>
