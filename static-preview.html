@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Days Off | August 30 - September 1, 2025</title>
+    <meta name="description" content="A threesome with mind, body, and spirit. What would change if you gave yourself permission to pause?">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --warm-cream: #F5F1E8;
+            --deep-brown: #2C1810;
+            --sage-green: #6B8E6B;
+            --soft-gray: #E8E5E0;
+            --warm-white: #FEFCF8;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            background: linear-gradient(135deg, var(--warm-cream) 0%, var(--warm-white) 100%);
+            color: var(--deep-brown);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(245, 241, 232, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 50;
+            padding: 1.5rem 0;
+        }
+        
+        .nav-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            text-decoration: none;
+            color: var(--deep-brown);
+        }
+        
+        .logo-circle {
+            width: 2.5rem;
+            height: 2.5rem;
+            background: var(--sage-green);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--warm-cream);
+            font-weight: bold;
+            font-size: 0.875rem;
+        }
+        
+        .logo-text {
+            font-weight: bold;
+            font-size: 1.25rem;
+        }
+        
+        /* Main Content */
+        main {
+            padding-top: 6rem;
+        }
+        
+        .hero {
+            text-align: center;
+            padding: 6rem 0;
+            position: relative;
+        }
+        
+        .hero-title {
+            font-size: clamp(3rem, 8vw, 6rem);
+            font-weight: 900;
+            line-height: 0.9;
+            margin-bottom: 2rem;
+            letter-spacing: -0.02em;
+        }
+        
+        .hero-subtitle {
+            font-size: clamp(1.25rem, 3vw, 1.5rem);
+            margin-bottom: 3rem;
+            color: rgba(44, 24, 16, 0.8);
+        }
+        
+        .hero-date {
+            color: var(--sage-green);
+            font-weight: 500;
+        }
+        
+        /* Counters */
+        .counters {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 3rem;
+            margin: 4rem 0;
+        }
+        
+        .counter {
+            text-align: center;
+        }
+        
+        .counter-number {
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            font-weight: bold;
+            color: var(--deep-brown);
+            font-variant-numeric: tabular-nums;
+        }
+        
+        .counter-label {
+            font-size: 1.125rem;
+            font-weight: 500;
+            color: var(--sage-green);
+            margin-top: 0.5rem;
+            letter-spacing: 0.025em;
+        }
+        
+        /* Buttons */
+        .cta-group {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            align-items: center;
+            margin: 3rem 0;
+        }
+        
+        @media (min-width: 640px) {
+            .cta-group {
+                flex-direction: row;
+                justify-content: center;
+            }
+        }
+        
+        .btn {
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            letter-spacing: 0.025em;
+            border: 2px solid transparent;
+        }
+        
+        .btn-primary {
+            background: var(--deep-brown);
+            color: var(--warm-cream);
+        }
+        
+        .btn-primary:hover {
+            background: var(--sage-green);
+            transform: translateY(-2px);
+        }
+        
+        .btn-secondary {
+            border-color: var(--deep-brown);
+            color: var(--deep-brown);
+            background: transparent;
+        }
+        
+        .btn-secondary:hover {
+            background: var(--deep-brown);
+            color: var(--warm-cream);
+            transform: translateY(-2px);
+        }
+        
+        /* Breath Pacer */
+        .breath-pacer {
+            margin: 4rem 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5rem;
+        }
+        
+        .breath-circle {
+            width: 4rem;
+            height: 4rem;
+            background: var(--sage-green);
+            border-radius: 50%;
+            animation: breathe 6s ease-in-out infinite;
+            position: relative;
+        }
+        
+        .breath-circle::before {
+            content: '';
+            position: absolute;
+            inset: 0.5rem;
+            background: rgba(254, 252, 248, 0.2);
+            border-radius: 50%;
+        }
+        
+        @keyframes breathe {
+            0%, 100% { 
+                transform: scale(0.8);
+                opacity: 0.6;
+            }
+            50% { 
+                transform: scale(1.3);
+                opacity: 1;
+            }
+        }
+        
+        .breath-text {
+            color: var(--sage-green);
+            font-weight: 500;
+            font-size: 1.125rem;
+        }
+        
+        /* Content Sections */
+        .section {
+            padding: 6rem 0;
+        }
+        
+        .section-white {
+            background: var(--warm-white);
+        }
+        
+        .section-dark {
+            background: var(--deep-brown);
+            color: var(--warm-cream);
+        }
+        
+        .section-title {
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 2rem;
+            line-height: 1.1;
+        }
+        
+        .section-subtitle {
+            font-size: 1.25rem;
+            text-align: center;
+            margin-bottom: 3rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .three-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .step {
+            text-align: center;
+        }
+        
+        .step-number {
+            width: 3rem;
+            height: 3rem;
+            background: var(--sage-green);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+            color: var(--warm-cream);
+            font-weight: bold;
+        }
+        
+        .step-title {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        
+        .step-description {
+            color: rgba(44, 24, 16, 0.7);
+        }
+        
+        /* Footer */
+        footer {
+            background: var(--soft-gray);
+            padding: 3rem 0;
+            text-align: center;
+        }
+        
+        .footer-logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .footer-logo-circle {
+            width: 2rem;
+            height: 2rem;
+            background: var(--sage-green);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--warm-cream);
+            font-weight: bold;
+            font-size: 0.75rem;
+        }
+        
+        .footer-text {
+            color: rgba(44, 24, 16, 0.7);
+            margin-bottom: 1.5rem;
+        }
+        
+        .footer-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1.5rem;
+            font-size: 0.875rem;
+        }
+        
+        .footer-links a {
+            color: var(--deep-brown);
+            text-decoration: none;
+        }
+        
+        .footer-links a:hover {
+            color: var(--sage-green);
+            text-decoration: underline;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 1rem;
+            }
+            
+            .section {
+                padding: 4rem 0;
+            }
+            
+            .hero {
+                padding: 4rem 0;
+            }
+            
+            .counters {
+                gap: 2rem;
+            }
+        }
+        
+        /* Accessibility */
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+        
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Skip to main content for screen readers -->
+    <a href="#main-content" class="sr-only">Skip to main content</a>
+    
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="nav-content">
+                <a href="#" class="logo">
+                    <div class="logo-circle">3DO</div>
+                    <span class="logo-text">Three Days Off</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero-title">
+                    WHAT WOULD CHANGE<br>
+                    IF YOU GAVE YOURSELF<br>
+                    PERMISSION TO PAUSE?
+                </h1>
+                
+                <p class="hero-subtitle">
+                    A threesome with mind, body, and spirit<br>
+                    <span class="hero-date">August 30 - September 1, 2025</span>
+                </p>
+                
+                <!-- Recognition Ripples -->
+                <div class="counters">
+                    <div class="counter">
+                        <div class="counter-number" id="pledges">1,247</div>
+                        <p class="counter-label">Recognition Ripples</p>
+                    </div>
+                    <div class="counter">
+                        <div class="counter-number" id="venues">89</div>
+                        <p class="counter-label">Sanctuary Spaces</p>
+                    </div>
+                </div>
+                
+                <!-- Primary CTAs -->
+                <div class="cta-group">
+                    <a href="#pledge" class="btn btn-primary">Create Space for What's Already Here</a>
+                    <a href="#venues" class="btn btn-secondary">Offer a Sanctuary Space</a>
+                </div>
+                
+                <!-- Breath Pacer -->
+                <div class="breath-pacer">
+                    <p class="breath-text">What wants to emerge? • Three breaths to begin</p>
+                    <div class="breath-circle"></div>
+                    <p style="font-size: 0.875rem; color: var(--deep-brown);">Breathe with the rhythm</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Core Message Section -->
+        <section class="section section-white">
+            <div class="container">
+                <h2 class="section-title">Not a retreat from the world, but a gift to it</h2>
+                <p class="section-subtitle">
+                    Three Days Off is an invitation to discover what happens when mind, body, 
+                    and spirit choose to spend time together without the usual distractions. 
+                    A threesome with yourself—simple, profound, and always available.
+                </p>
+                
+                <div class="three-steps">
+                    <div class="step">
+                        <div class="step-number">•</div>
+                        <h3 class="step-title">Pause</h3>
+                        <p class="step-description">When mind, body, and spirit stop running</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">•</div>
+                        <h3 class="step-title">Breathe</h3>
+                        <p class="step-description">The conversation between three</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">•</div>
+                        <h3 class="step-title">Observe</h3>
+                        <p class="step-description">Seeing through three sets of eyes</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Call to Action -->
+        <section class="section section-dark">
+            <div class="container">
+                <h2 class="section-title">Your threesome with yourself is always available</h2>
+                <p class="section-subtitle" style="color: rgba(254, 252, 248, 0.9);">
+                    Labor Day weekend becomes an opportunity to remember that mind, body, and spirit 
+                    are always present, always offering their wisdom. This practice costs nothing 
+                    and offers everything.
+                </p>
+                <div class="cta-group">
+                    <a href="#pledge" class="btn" style="background: var(--warm-cream); color: var(--deep-brown);">Begin Your Practice</a>
+                    <a href="#how" class="btn" style="border-color: var(--warm-cream); color: var(--warm-cream);">What Wants to Emerge?</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-logo">
+                <div class="footer-logo-circle">3DO</div>
+                <span style="font-weight: bold; font-size: 1.125rem;">Three Days Off</span>
+            </div>
+            <p class="footer-text">
+                A practice from <strong>TheAlienSchool.com</strong> • Created by <strong>Kamau Zuberi Akabueze</strong>
+            </p>
+            <div class="footer-links">
+                <a href="#press">Press</a>
+                <a href="#privacy">Privacy</a>
+                <a href="#accessibility">Accessibility</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // Simple counter animation
+        function animateCounters() {
+            const pledgeEl = document.getElementById('pledges');
+            const venueEl = document.getElementById('venues');
+            
+            let pledgeCount = 1247;
+            let venueCount = 89;
+            
+            setInterval(() => {
+                if (Math.random() > 0.7) {
+                    pledgeCount += Math.floor(Math.random() * 3) + 1;
+                    pledgeEl.textContent = pledgeCount.toLocaleString();
+                }
+                
+                if (Math.random() > 0.9) {
+                    venueCount += 1;
+                    venueEl.textContent = venueCount.toLocaleString();
+                }
+            }, 5000);
+        }
+        
+        // Start counter animation when page loads
+        document.addEventListener('DOMContentLoaded', animateCounters);
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
