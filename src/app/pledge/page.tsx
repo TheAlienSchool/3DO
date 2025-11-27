@@ -273,9 +273,8 @@ export default function PledgePage() {
                   {/* Privacy Note */}
                   <div className="bg-warm-white p-4 rounded-lg">
                     <p className="text-xs text-deep-brown/60">
-                      <strong>Privacy Promise:</strong> We store email separately from pledge data, never share personal information, 
-                      and you can request deletion anytime. Your data serves the collective understanding of global 
-                      contemplative practice, nothing more.
+                      <strong>Privacy Promise:</strong> We store email separately from practice data, never share personal information,
+                      and you can request deletion anytime. Your data helps us understand global participation patterns, nothing more.
                     </p>
                   </div>
 
