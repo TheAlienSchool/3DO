@@ -26,13 +26,13 @@ export default function CollectivePauseResearchPost() {
               </Link>
             </div>
             <h1 className="text-display mb-6">
-              The Wisdom of Collective Pause
+              The Research Behind Collective Preparation
             </h1>
             <p className="text-xl text-deep-brown/70 mb-4">
-              Ancient Practices and Modern Understanding of Synchronized Contemplative States
+              Ancient Practices and Modern Research on Synchronized Preparation States
             </p>
             <div className="text-sm text-deep-brown/60">
-              Three Days Off Community • Contemplative Wisdom • August 2025
+              Three Days Off Community • Research Insights • August 2025
             </div>
           </motion.header>
 
@@ -46,25 +46,25 @@ export default function CollectivePauseResearchPost() {
             
             {/* Opening */}
             <div className="text-xl leading-relaxed text-deep-brown/80 mb-8 border-l-4 border-sage-green pl-6">
-              "When people practice stillness together, something profound emerges—a shared field of presence that supports each individual's contemplative capacity while creating collective wisdom."
+              "When people practice preparation together, something measurable emerges—a shared network effect that supports each individual's capacity while creating collective benefit."
             </div>
 
             <p className="text-lg leading-relaxed mb-6">
-              Contemplative traditions across cultures have long recognized that group practice creates something beyond the sum of its parts. From Quaker silent worship to Zen meditation halls, from Indigenous talking circles to modern mindfulness communities, humans have discovered that practicing stillness together amplifies the benefits for everyone involved.
+              Preparation traditions across cultures have long recognized that group practice creates something beyond the sum of its parts. From Quaker silent worship to Zen meditation halls, from Indigenous talking circles to modern mindfulness communities, humans have discovered that practicing together amplifies the benefits for everyone involved.
             </p>
 
-            <h2 className="text-heading mt-12 mb-6">Sacred Geometry in Human Connection</h2>
+            <h2 className="text-heading mt-12 mb-6">Network Patterns in Human Connection</h2>
 
             <p className="mb-6">
-              Three Days Off's breathing network visualization draws inspiration from patterns observed in contemplative communities throughout history. When groups practice together, they naturally organize in ways that reflect sacred geometric principles—triangular arrangements, circular formations, and proportional spacing that seems to emerge organically.
+              Three Days Off's practice network visualization draws inspiration from patterns observed in preparation communities throughout history. When groups practice together, they naturally organize in ways that reflect balanced geometric principles—triangular arrangements, circular formations, and proportional spacing that seems to emerge organically.
             </p>
 
             <div className="bg-warm-white p-6 rounded-lg my-8">
               <h3 className="text-lg font-semibold mb-4">Patterns in Collective Practice:</h3>
               <ul className="space-y-2">
-                <li>• <strong>Natural Triangulation:</strong> Groups of three or more show enhanced collective presence</li>
+                <li>• <strong>Natural Triangulation:</strong> Groups of three or more show enhanced collective benefit</li>
                 <li>• <strong>Breathing Synchrony:</strong> Slower, deeper breathing naturally emerges in group settings</li>
-                <li>• <strong>Organic Spacing:</strong> Participants intuitively find optimal distances for shared contemplation</li>
+                <li>• <strong>Organic Spacing:</strong> Participants intuitively find optimal distances for shared practice</li>
                 <li>• <strong>Rhythmic Harmony:</strong> Group rhythms often settle into 4-6 second breathing patterns</li>
               </ul>
             </div>
@@ -72,7 +72,7 @@ export default function CollectivePauseResearchPost() {
             <h2 className="text-heading mt-12 mb-6">Universal Patterns Across Cultures</h2>
 
             <p className="mb-6">
-              Across diverse cultural contexts—from traditional Indigenous ceremonies to modern meditation communities—similar patterns emerge when people practice contemplative pause together. These universal tendencies suggest that collective stillness taps into fundamental aspects of human social connection and shared consciousness.
+              Across diverse cultural contexts—from traditional Indigenous ceremonies to modern meditation communities—similar patterns emerge when people practice preparation together. These universal tendencies suggest that collective practice taps into fundamental aspects of human social connection and shared nervous system regulation.
             </p>
 
             <blockquote className="border-l-4 border-sage-green pl-6 italic text-lg my-8 text-deep-brown/80">
@@ -82,7 +82,7 @@ export default function CollectivePauseResearchPost() {
 
             <h3 className="text-lg font-semibold mt-8 mb-4">Pattern 1: The Group Threshold</h3>
             <p className="mb-6">
-              While individual contemplative practice offers profound benefits, something qualitatively different emerges when three or more people practice together. Community members consistently report:
+              While individual preparation practice offers profound benefits, something qualitatively different emerges when three or more people practice together. Community members consistently report:
             </p>
 
             <ul className="mb-6 space-y-2">
@@ -92,44 +92,44 @@ export default function CollectivePauseResearchPost() {
               <li>• Increased sense of connection and belonging</li>
             </ul>
 
-            <h3 className="text-lg font-semibold mt-8 mb-4">Pattern 2: Natural Sacred Organization</h3>
+            <h3 className="text-lg font-semibold mt-8 mb-4">Pattern 2: Natural Network Organization</h3>
             <p className="mb-6">
-              Groups practicing Three Days Off together often naturally arrange themselves in triangular or circular formations without conscious instruction. These spatial relationships seem to emerge organically, creating optimal conditions for shared contemplative experience.
+              Groups practicing Three Days Off together often naturally arrange themselves in triangular or circular formations without deliberate instruction. These spatial relationships seem to emerge organically, creating optimal conditions for shared practice experience.
             </p>
 
             <h3 className="text-lg font-semibold mt-8 mb-4">Pattern 3: Connection Across Distance</h3>
             <p className="mb-6">
-              Perhaps most remarkably, Three Days Off participants report feeling connected to the global community even when practicing alone. Many describe sensing the presence of others practicing simultaneously, suggesting that collective contemplative fields may extend beyond physical proximity.
+              Perhaps most remarkably, Three Days Off participants report feeling connected to the global community even when practicing alone. Many describe sensing the presence of others practicing simultaneously, suggesting that collective practice networks may extend beyond physical proximity.
             </p>
 
-            <h2 className="text-heading mt-12 mb-6">Understanding Collective Presence</h2>
+            <h2 className="text-heading mt-12 mb-6">Understanding Collective Practice Benefits</h2>
 
             <p className="mb-6">
-              While the mechanisms of collective contemplative practice are still being explored by researchers worldwide, ancient wisdom traditions have long recognized the phenomenon. Modern contemplative communities consistently observe certain patterns that align with emerging research in social neuroscience.
+              While the mechanisms of collective preparation practice are still being explored by researchers worldwide, ancient wisdom traditions have long recognized the phenomenon. Modern practice communities consistently observe certain patterns that align with emerging research in social neuroscience.
             </p>
 
             <h3 className="text-lg font-semibold mt-8 mb-4">Empathic Resonance</h3>
             <p className="mb-6">
-              When people practice contemplative pause together, they often report increased empathy and emotional attunement. This "contemplative contagion" appears to be how one person's state of presence naturally supports similar states in others nearby.
+              When people practice preparation together, they often report increased empathy and emotional attunement. This "practice contagion" appears to be how one person's state of presence naturally supports similar states in others nearby.
             </p>
 
             <h3 className="text-lg font-semibold mt-8 mb-4">Shared Nervous System Regulation</h3>
             <p className="mb-6">
-              Group contemplative practice seems to support nervous system regulation across all participants. The overactive mental chatter that often accompanies anxiety and stress appears to settle more easily in group settings, correlating with participants' reports of feeling "held" by collective presence.
+              Group preparation practice seems to support nervous system regulation across all participants. The overactive mental chatter that often accompanies anxiety and stress appears to settle more easily in group settings, correlating with participants' reports of feeling "held" by collective practice.
             </p>
 
             <div className="bg-sage-green/10 p-8 rounded-lg my-12">
-              <h3 className="text-lg font-semibold mb-4">Contemplative Wisdom:</h3>
+              <h3 className="text-lg font-semibold mb-4">Practice Insight:</h3>
               <p className="mb-4">
-                "There's something about practicing together that creates a field of safety and presence. Individual nervous systems seem to regulate more easily when held by collective stillness, creating space for deeper wisdom to emerge."
+                "There's something about practicing together that creates a field of safety and presence. Individual nervous systems seem to regulate more easily when held by collective practice, creating space for deeper insight to emerge."
               </p>
               <footer className="text-sm text-deep-brown/60">— Three Days Off Community Insight</footer>
             </div>
 
-            <h2 className="text-heading mt-12 mb-6">Cultural Wisdom and Future Possibilities</h2>
+            <h2 className="text-heading mt-12 mb-6">Research Applications and Future Possibilities</h2>
 
             <p className="mb-6">
-              Collective pause practices may represent an emerging cultural adaptation to the hyper-stimulation of modern life. Communities that regularly engage in synchronized contemplative practices often demonstrate:
+              Collective preparation practices may represent an emerging cultural adaptation to the hyper-stimulation of modern life. Communities that regularly engage in synchronized preparation practices often demonstrate:
             </p>
 
             <ul className="mb-6 space-y-3">
@@ -139,10 +139,10 @@ export default function CollectivePauseResearchPost() {
               <li><strong>Greater Resilience:</strong> Pause-practicing communities show enhanced ability to navigate challenges together</li>
             </ul>
 
-            <h2 className="text-heading mt-12 mb-6">The Global Contemplative Network</h2>
+            <h2 className="text-heading mt-12 mb-6">The Global Practice Network</h2>
 
             <p className="mb-6">
-              The global Three Days Off community naturally forms interconnected clusters that resemble mycelial networks in nature. These contemplative communities often report enhanced collective benefits:
+              The global Three Days Off community naturally forms interconnected clusters that resemble mycelial networks in nature. These practice communities often report enhanced collective benefits:
             </p>
 
             <blockquote className="border-l-4 border-sage-green pl-6 italic text-lg my-8 text-deep-brown/80">
@@ -192,30 +192,30 @@ export default function CollectivePauseResearchPost() {
             <h2 className="text-heading mt-12 mb-6">Rhythms of Engagement and Restoration</h2>
 
             <p className="mb-6">
-              The emerging organizational philosophy of alternating intensive engagement with contemplative restoration reflects ancient wisdom about sustainable human rhythms. Organizations experimenting with this approach find that regular periods of collective pause actually enhance the effectiveness of active work periods.
+              The emerging organizational philosophy of alternating intensive engagement with intentional restoration reflects ancient wisdom about sustainable human rhythms. Organizations experimenting with this approach find that regular periods of collective pause actually enhance the effectiveness of active work periods.
             </p>
 
             <p className="mb-6">
-              Communities and organizations implementing contemplative rhythms often discover that the restoration phases create coherence benefits that amplify creativity and effectiveness during engagement phases, resulting in higher overall satisfaction and output.
+              Communities and organizations implementing preparation rhythms often discover that the restoration phases create network benefits that amplify creativity and effectiveness during engagement phases, resulting in higher overall satisfaction and output.
             </p>
 
             <h2 className="text-heading mt-12 mb-6">Implications for Cultural Evolution</h2>
 
             <p className="mb-6">
-              As humanity navigates increasingly complex global challenges requiring unprecedented coordination and collaboration, collective pause practices may offer essential tools for cultural evolution. Widespread adoption of synchronized contemplative practices could:
+              As humanity navigates increasingly complex global challenges requiring unprecedented coordination and collaboration, collective preparation practices may offer essential tools for cultural evolution. Widespread adoption of synchronized preparation practices could:
             </p>
 
             <ul className="mb-6 space-y-3">
-              <li>Create cultural infrastructure for collective wisdom emergence</li>
+              <li>Create cultural infrastructure for collective insight emergence</li>
               <li>Reduce social polarization through enhanced empathy and perspective-taking</li>
-              <li>Increase global capacity for addressing existential risks through enhanced cooperation</li>
+              <li>Increase global capacity for addressing complex challenges through enhanced cooperation</li>
               <li>Foster resilience in the face of accelerating technological and environmental change</li>
             </ul>
 
             <div className="bg-deep-brown text-warm-cream p-8 rounded-lg my-12">
-              <h3 className="text-lg font-semibold mb-4 text-center">Contemplative Insight</h3>
+              <h3 className="text-lg font-semibold mb-4 text-center">Research Insight</h3>
               <p className="text-center">
-                Collective pause practices represent more than stress reduction—they're ancient technologies for collective wisdom, empathy, and resilience. As these practices return to global culture, they may create the social infrastructure necessary for humanity to navigate complexity with presence rather than reactivity.
+                Collective preparation practices represent more than stress reduction—they're research-backed approaches to collective insight, empathy, and resilience. As these practices return to global culture, they may create the social infrastructure necessary for humanity to navigate complexity with presence rather than reactivity.
               </p>
             </div>
 
@@ -223,13 +223,13 @@ export default function CollectivePauseResearchPost() {
 
             <div className="text-sm text-deep-brown/60">
               <p className="mb-2">
-                <strong>Wisdom Sources:</strong> Contemplative traditions worldwide, Three Days Off community insights, emerging research in social neuroscience and collective behavior, cultural anthropology, and contemporary meditation communities.
+                <strong>Research Sources:</strong> Preparation traditions worldwide, Three Days Off community insights, emerging research in social neuroscience and collective behavior, cultural anthropology, and contemporary meditation communities.
               </p>
               <p className="mb-2">
-                <strong>Approach:</strong> Synthesis of ancient contemplative wisdom with modern understanding of human social behavior, nervous system regulation, and collective intelligence.
+                <strong>Approach:</strong> Synthesis of ancient preparation wisdom with modern understanding of human social behavior, nervous system regulation, and collective intelligence.
               </p>
               <p>
-                <strong>Community:</strong> Insights gathered from Three Days Off practitioners, contemplative communities, and wisdom traditions that have practiced collective pause for centuries.
+                <strong>Community:</strong> Insights gathered from Three Days Off practitioners, practice communities, and traditions that have practiced collective preparation for centuries.
               </p>
             </div>
 
@@ -243,21 +243,21 @@ export default function CollectivePauseResearchPost() {
             className="mt-16 text-center"
           >
             <div className="bg-warm-white p-8 rounded-lg">
-              <h3 className="text-heading mb-4">Experience Collective Coherence</h3>
+              <h3 className="text-heading mb-4">Experience Collective Practice</h3>
               <p className="text-lg mb-6 text-deep-brown/80">
-                Join the global breathing network and contribute to the largest collective pause research project in human history.
+                Join the global practice network and contribute to the largest collective preparation research project in human history.
               </p>
-              <Link 
+              <Link
                 href="/pledge"
                 className="btn-primary mr-4"
               >
                 Join the Global Network
               </Link>
-              <Link 
+              <Link
                 href="/venues"
                 className="btn-secondary"
               >
-                Create a Sanctuary Space
+                Create a Practice Space
               </Link>
             </div>
           </motion.div>
@@ -273,11 +273,11 @@ export default function CollectivePauseResearchPost() {
             <div className="grid md:grid-cols-2 gap-8">
               <Link href="/blog/first-time-practitioner" className="block p-6 bg-warm-white rounded-lg hover:shadow-lg transition-shadow">
                 <h4 className="font-semibold mb-2">First-Time Practitioner Study</h4>
-                <p className="text-deep-brown/70">Ethnographic research on transformation patterns in beginning practitioners.</p>
+                <p className="text-deep-brown/70">Research on transformation patterns in beginning practitioners.</p>
               </Link>
               <Link href="/blog/three-days-on-intensity" className="block p-6 bg-warm-white rounded-lg hover:shadow-lg transition-shadow">
-                <h4 className="font-semibold mb-2">When Intensity Becomes Prayer</h4>
-                <p className="text-deep-brown/70">Research on the contemplative benefits of sustained high-performance states.</p>
+                <h4 className="font-semibold mb-2">When Intensity Builds Capacity</h4>
+                <p className="text-deep-brown/70">Research on the benefits of sustained high-performance states.</p>
               </Link>
             </div>
           </motion.div>
