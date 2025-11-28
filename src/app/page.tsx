@@ -9,21 +9,20 @@ import ContemplativeVideoPlayer from '@/components/ContemplativeVideoPlayer'
 
 export default function HomePage() {
   const [mounted, setMounted] = useState(false)
-  const [currentPledges, setCurrentPledges] = useState(1247)
-  const [currentVenues, setCurrentVenues] = useState(89)
+  const [currentPledges, setCurrentPledges] = useState(0) // Start from zero
+  const [currentVenues, setCurrentVenues] = useState(0) // Start from zero
 
   useEffect(() => {
     setMounted(true)
-    
-    // Simulate real-time counter updates
-    const interval = setInterval(() => {
-      setCurrentPledges(prev => prev + Math.floor(Math.random() * 3))
-      if (Math.random() > 0.7) {
-        setCurrentVenues(prev => prev + 1)
-      }
-    }, 30000) // Update every 30 seconds
 
-    return () => clearInterval(interval)
+    // TODO: Replace with real Supabase counts
+    // const fetchCounts = async () => {
+    //   const { data: stats } = await supabase.from('pledge_stats').select('*').single()
+    //   setCurrentPledges(stats.individual_count)
+    //   setCurrentVenues(stats.venue_count)
+    // }
+    // fetchCounts()
+
   }, [])
 
   if (!mounted) {
