@@ -98,18 +98,16 @@ export default function HomePage() {
                 className="flex flex-col sm:flex-row gap-8 justify-center items-stretch mb-16"
               >
                 <JoinBreathingButton
-                  type="individual"
-                  onCommit={() => {
+                  onJoin={() => {
                     window.location.href = '/pledge'
                   }}
                   className="flex-1 max-w-sm"
                 >
                   Begin Your Practice
-                </ContemplativeCommitButton>
+                </JoinBreathingButton>
 
                 <JoinBreathingButton
-                  type="venue"
-                  onCommit={() => {
+                  onJoin={() => {
                     window.location.href = '/venues/register'
                   }}
                   className="flex-1 max-w-sm"
