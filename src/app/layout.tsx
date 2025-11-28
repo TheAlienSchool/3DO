@@ -1,12 +1,9 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ 
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-inter'
-})
+// Use system fonts for reliable deployment
+// Inter font will load via Google Fonts CDN at runtime (see globals.css)
+const fontClassName = 'font-sans'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://ThreeDaysOff.com'),
@@ -60,7 +57,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={inter.variable}>
+    <html lang="en">
       <head>
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -69,8 +66,12 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#F5F1E8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* Load Inter font from Google Fonts CDN at runtime */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
       </head>
-      <body className={`${inter.className} selection-styling antialiased`}>
+      <body className={`${fontClassName} selection-styling antialiased`}>
         <a href="#main-content" className="skip-link">
           Skip to main content
         </a>

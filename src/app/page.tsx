@@ -98,8 +98,7 @@ export default function HomePage() {
                 className="flex flex-col sm:flex-row gap-8 justify-center items-stretch mb-16"
               >
                 <JoinBreathingButton
-                  type="individual"
-                  onCommit={() => {
+                  onJoin={() => {
                     window.location.href = '/pledge'
                   }}
                   className="flex-1 max-w-sm"
@@ -108,8 +107,7 @@ export default function HomePage() {
                 </JoinBreathingButton>
 
                 <JoinBreathingButton
-                  type="venue"
-                  onCommit={() => {
+                  onJoin={() => {
                     window.location.href = '/venues/register'
                   }}
                   className="flex-1 max-w-sm"
@@ -141,7 +139,7 @@ export default function HomePage() {
                         poster="/images/festival-stillness-poster.jpg"
                         title="Three Days Off: Preparation Practice"
                         description="Thousands preparing for presence together across the globe"
-                        analytics="practice-introduction"
+                        analytics="educational-focus"
                         className="w-full h-full"
                       />
                     </div>
