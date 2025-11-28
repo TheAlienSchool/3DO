@@ -139,7 +139,7 @@ export default function HomePage() {
                         poster="/images/festival-stillness-poster.jpg"
                         title="Three Days Off: Preparation Practice"
                         description="Thousands preparing for presence together across the globe"
-                        analytics="practice-introduction"
+                        analytics="educational-focus"
                         className="w-full h-full"
                       />
                     </div>
