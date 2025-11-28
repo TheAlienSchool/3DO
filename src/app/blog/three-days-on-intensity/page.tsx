@@ -7,11 +7,11 @@ import Navigation from '@/components/Navigation'
 
 export default function ThreeDaysOnIntensityPost() {
   return (
-    <div className="min-h-screen bg-gradient-contemplative">
+    <div className="min-h-screen bg-gradient-preparation">
       <Navigation />
       
       <main className="pt-20">
-        <article className="container-contemplative breathing-space max-w-4xl mx-auto">
+        <article className="container-preparation breathing-space max-w-4xl mx-auto">
           
           {/* Article Header */}
           <motion.header
@@ -26,13 +26,13 @@ export default function ThreeDaysOnIntensityPost() {
               </Link>
             </div>
             <h1 className="text-display mb-6">
-              When Intensity Becomes Prayer
+              When Intensity Builds Capacity
             </h1>
             <p className="text-xl text-deep-brown/70 mb-4">
-              Understanding the Sacred Path of Three Days On
+              Understanding the Research-Backed Path of Three Days On
             </p>
             <div className="text-sm text-deep-brown/60">
-              Three Days Off Community • August 2025 • Practice Wisdom
+              Three Days Off Community • August 2025 • Practice Insights
             </div>
           </motion.header>
 
@@ -46,7 +46,7 @@ export default function ThreeDaysOnIntensityPost() {
             
             {/* Opening */}
             <div className="text-xl leading-relaxed text-deep-brown/80 mb-8 border-l-4 border-sage-green pl-6">
-              "There are times when your soul calls for complete engagement, when rest would feel like betrayal of purpose. Three Days On honors the sacred intensity that serves life rather than depletes it."
+              "There are times when your intuition calls for complete engagement, when rest would feel like betrayal of purpose. Three Days On honors the intentional intensity that serves life rather than depletes it."
             </div>
 
             <p className="text-lg leading-relaxed mb-6">
@@ -56,7 +56,7 @@ export default function ThreeDaysOnIntensityPost() {
             <h2 className="text-heading mt-12 mb-6">The Sacred Geometry of Intensity</h2>
 
             <p className="mb-6">
-              Just as Three Days Off employs mathematical principles of restoration, Three Days On follows its own sacred geometry. The triangle of ENGAGE • AMPLIFY • TRANSCEND creates sustainable structure for high-intensity periods that enhance rather than exhaust life force.
+              Just as Three Days Off employs mathematical principles of restoration, Three Days On follows its own intentional geometry. The triangle of ENGAGE • AMPLIFY • TRANSCEND creates sustainable structure for high-intensity periods that enhance rather than exhaust life force.
             </p>
 
             <div className="bg-warm-white p-6 rounded-lg my-8">
@@ -80,7 +80,7 @@ export default function ThreeDaysOnIntensityPost() {
             </p>
 
             <blockquote className="border-l-4 border-sage-green pl-6 italic text-lg my-8 text-deep-brown/80">
-              "When my daughter was born premature, those three days in the NICU became the most intense prayer of my life. Every breath was sacred attention. Every moment was both urgency and presence. I had never been so exhausted or so alive."
+              "When my daughter was born premature, those three days in the NICU became the most intense practice of my life. Every breath was intentional attention. Every moment was both urgency and presence. I had never been so exhausted or so alive."
               <footer className="text-base text-deep-brown/60 mt-2">— Community Participant</footer>
             </blockquote>
 
@@ -176,28 +176,28 @@ export default function ThreeDaysOnIntensityPost() {
             </p>
 
             <p className="mb-6">
-              Some seasons call for deep rest and restoration. Others call for passionate engagement and creative fire. Wisdom lies in recognizing which approach serves the present moment and having the courage to honor what your soul actually needs rather than what productivity culture demands.
+              Some seasons call for deep rest and restoration. Others call for passionate engagement and creative fire. Wisdom lies in recognizing which approach serves the present moment and having the courage to honor what your intuition actually needs rather than what productivity culture demands.
             </p>
 
             <div className="bg-sage-green/10 p-8 rounded-lg my-12">
               <h3 className="text-lg font-semibold mb-4 text-center">Integration Practice</h3>
               <p className="text-center">
-                Notice your current life rhythm. Are you in a season that calls for restorative pause or conscious intensity? Both paths can become prayer when approached with presence and purpose.
+                Notice your current life rhythm. Are you in a season that calls for restorative pause or conscious intensity? Both paths can become practice when approached with presence and purpose.
               </p>
             </div>
 
             <h2 className="text-heading mt-12 mb-6">When Intensity Becomes Spiritual Practice</h2>
 
             <p className="mb-6">
-              The highest expression of Three Days On transforms intense effort into contemplative practice. Work becomes worship. Challenge becomes opportunity for spiritual development. Pressure becomes invitation to discover strength and wisdom beyond ordinary capacity.
+              The highest expression of Three Days On transforms intense effort into preparation practice. Work becomes worship. Challenge becomes opportunity for spiritual development. Pressure becomes invitation to discover strength and wisdom beyond ordinary capacity.
             </p>
 
             <p className="mb-6">
-              This transforms the relationship to difficulty itself. Rather than avoiding challenge or pushing through mindlessly, sacred intensity teaches engaging fully while remaining present to the spiritual dimensions of demanding circumstances.
+              This transforms the relationship to difficulty itself. Rather than avoiding challenge or pushing through mindlessly, intentional intensity teaches engaging fully while remaining present to the spiritual dimensions of demanding circumstances.
             </p>
 
             <p className="mb-6">
-              Whether your calling involves creative breakthrough, physical achievement, service to others, learning mastery, organizational development, or healing work, Three Days On provides a framework for bringing contemplative awareness to high-performance periods.
+              Whether your calling involves creative breakthrough, physical achievement, service to others, learning mastery, organizational development, or healing work, Three Days On provides a framework for bringing preparation awareness to high-performance periods.
             </p>
 
             <p className="mb-6">
@@ -266,7 +266,7 @@ export default function ThreeDaysOnIntensityPost() {
 
       {/* Footer */}
       <footer className="bg-soft-gray py-12 mt-16">
-        <div className="container-contemplative text-center">
+        <div className="container-preparation text-center">
           <p className="text-deep-brown/70">
             A practice from <strong>TheAlienSchool.com</strong> • Created by <strong>Kamau Zuberi Akabueze</strong>
           </p>
