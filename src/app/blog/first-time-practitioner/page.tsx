@@ -7,11 +7,11 @@ import Navigation from '@/components/Navigation'
 
 export default function FirstTimePractitionerPost() {
   return (
-    <div className="min-h-screen bg-gradient-contemplative">
+    <div className="min-h-screen bg-gradient-preparation">
       <Navigation />
       
       <main className="pt-20">
-        <article className="container-contemplative breathing-space max-w-4xl mx-auto">
+        <article className="container-preparation breathing-space max-w-4xl mx-auto">
           
           {/* Article Header */}
           <motion.header
@@ -124,7 +124,7 @@ export default function FirstTimePractitionerPost() {
             <h2 className="text-heading mt-12 mb-6">Implications for Future-Casting Legacy Design</h2>
 
             <p className="mb-6">
-              Looking toward the next century, Three Days Off represents more than individual practice—it's a cultural technology for collective nervous system regulation. Our research suggests that widespread adoption of contemplative pause practices could:
+              Looking toward the next century, Three Days Off represents more than individual practice—it's a cultural technology for collective nervous system regulation. Our research suggests that widespread adoption of preparation pause practices could:
             </p>
 
             <ul className="mb-6 space-y-3">
@@ -142,7 +142,7 @@ export default function FirstTimePractitionerPost() {
             <h2 className="text-heading mt-12 mb-6">The Paradox of Effortless Effort</h2>
 
             <p className="mb-6">
-              Perhaps the most significant finding from our research involves what participants consistently described as "effortless effort"—the discovery that profound change requires less forcing and more allowing. This aligns with both ancient contemplative wisdom and cutting-edge complexity science.
+              Perhaps the most significant finding from our research involves what participants consistently described as "effortless effort"—the discovery that profound change requires less forcing and more allowing. This aligns with both ancient preparation wisdom and cutting-edge complexity science.
             </p>
 
             <p className="mb-6">
@@ -174,7 +174,7 @@ export default function FirstTimePractitionerPost() {
 
             <div className="text-sm text-deep-brown/60">
               <p className="mb-2">
-                <strong>About the Researchers:</strong> Dr. Amara Patel is a cultural anthropologist specializing in contemplative practices and social transformation. Luna Park focuses on future-casting legacy design and the intersection of individual practice with collective change.
+                <strong>About the Researchers:</strong> Dr. Amara Patel is a cultural anthropologist specializing in preparation practices and social transformation. Luna Park focuses on future-casting legacy design and the intersection of individual practice with collective change.
               </p>
               <p>
                 <strong>Methodology:</strong> This research combined ethnographic observation, biometric measurement, and longitudinal follow-up across six continents. Full methodology available upon request.
@@ -221,11 +221,11 @@ export default function FirstTimePractitionerPost() {
             <div className="grid md:grid-cols-2 gap-8">
               <Link href="/blog/collective-pause-research" className="block p-6 bg-warm-white rounded-lg hover:shadow-lg transition-shadow">
                 <h4 className="font-semibold mb-2">The Science of Collective Pause</h4>
-                <p className="text-deep-brown/70">Research reveals the neurological and social benefits of synchronized contemplative practice.</p>
+                <p className="text-deep-brown/70">Research reveals the neurological and social benefits of synchronized preparation practice.</p>
               </Link>
               <Link href="/blog/creating-sanctuary-spaces" className="block p-6 bg-warm-white rounded-lg hover:shadow-lg transition-shadow">
                 <h4 className="font-semibold mb-2">Creating Sanctuary in Small Spaces</h4>
-                <p className="text-deep-brown/70">Practical guidance for establishing contemplative practice in any environment.</p>
+                <p className="text-deep-brown/70">Practical guidance for establishing preparation practice in any environment.</p>
               </Link>
             </div>
           </motion.div>
@@ -235,7 +235,7 @@ export default function FirstTimePractitionerPost() {
 
       {/* Footer */}
       <footer className="bg-soft-gray py-12 mt-16">
-        <div className="container-contemplative text-center">
+        <div className="container-preparation text-center">
           <p className="text-deep-brown/70">
             A practice from <strong>TheAlienSchool.com</strong> • Created by <strong>Kamau Zuberi Akabueze</strong>
           </p>

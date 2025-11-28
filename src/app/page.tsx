@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import Navigation from '@/components/Navigation'
-import BreathingNetwork, { ContemplativeCommitButton } from '@/components/BreathingNetwork'
+import BreathingNetwork, { JoinBreathingButton } from '@/components/BreathingNetwork'
 import ContemplativeVideoPlayer from '@/components/ContemplativeVideoPlayer'
 
 export default function HomePage() {
@@ -97,7 +97,7 @@ export default function HomePage() {
                 transition={{ duration: 0.8, delay: 0.6 }}
                 className="flex flex-col sm:flex-row gap-8 justify-center items-stretch mb-16"
               >
-                <ContemplativeCommitButton
+                <JoinBreathingButton
                   type="individual"
                   onCommit={() => {
                     window.location.href = '/pledge'
@@ -107,7 +107,7 @@ export default function HomePage() {
                   Begin Your Practice
                 </ContemplativeCommitButton>
 
-                <ContemplativeCommitButton
+                <JoinBreathingButton
                   type="venue"
                   onCommit={() => {
                     window.location.href = '/venues/register'
