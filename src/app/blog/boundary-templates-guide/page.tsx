@@ -7,11 +7,11 @@ import Navigation from '@/components/Navigation'
 
 export default function BoundaryTemplatesGuidePost() {
   return (
-    <div className="min-h-screen bg-gradient-contemplative">
+    <div className="min-h-screen bg-gradient-preparation">
       <Navigation />
       
       <main className="pt-20">
-        <article className="container-contemplative breathing-space max-w-4xl mx-auto">
+        <article className="container-preparation breathing-space max-w-4xl mx-auto">
           
           {/* Article Header */}
           <motion.header
@@ -29,10 +29,10 @@ export default function BoundaryTemplatesGuidePost() {
               The Art of Loving Boundaries
             </h1>
             <p className="text-xl text-deep-brown/70 mb-4">
-              Templates for Compassionate Communication During Contemplative Practice
+              Templates for Compassionate Communication During Preparation Practice
             </p>
             <div className="text-sm text-deep-brown/60">
-              Three Days Off Community • August 2025 • Practice Wisdom
+              Three Days Off Community • August 2025 • Practice Guidance
             </div>
           </motion.header>
 
@@ -46,17 +46,17 @@ export default function BoundaryTemplatesGuidePost() {
             
             {/* Opening */}
             <div className="text-xl leading-relaxed text-deep-brown/80 mb-8 border-l-4 border-sage-green pl-6">
-              "Boundaries are how love takes care of love. When we create space for contemplative practice, we create space for our most generous selves to emerge."
+              "Boundaries are how love takes care of love. When we create space for preparation practice, we create space for our most generous selves to emerge."
             </div>
 
             <p className="text-lg leading-relaxed mb-6">
-              Three Days Off requires gentle yet clear communication with the people in your life who may wonder where you've gone. Rather than disappearing without explanation or feeling guilty about taking contemplative time, loving boundaries allow you to honor both your practice and your relationships.
+              Three Days Off requires gentle yet clear communication with the people in your life who may wonder where you've gone. Rather than disappearing without explanation or feeling guilty about taking preparation time, loving boundaries allow you to honor both your practice and your relationships.
             </p>
 
-            <h2 className="text-heading mt-12 mb-6">The Sacred Geometry of Healthy Boundaries</h2>
+            <h2 className="text-heading mt-12 mb-6">The Structure of Healthy Boundaries</h2>
 
             <p className="mb-6">
-              Just as Three Days Off employs mathematical principles of balance and proportion, healthy boundaries follow their own sacred geometry. They create containers that hold both individual autonomy and relational connection, allowing space for personal practice while maintaining loving availability for genuine needs.
+              Just as Three Days Off employs mathematical principles of balance and proportion, healthy boundaries follow their own structural framework. They create containers that hold both individual autonomy and relational connection, allowing space for personal practice while maintaining loving availability for genuine needs.
             </p>
 
             <div className="bg-warm-white p-6 rounded-lg my-8">
@@ -72,7 +72,7 @@ export default function BoundaryTemplatesGuidePost() {
             <h2 className="text-heading mt-12 mb-6">Mad-Libs Style Boundary Templates</h2>
 
             <p className="mb-6">
-              These templates provide starting points for communicating your contemplative practice needs across different relationship types. Customize them with your own language and circumstances.
+              These templates provide starting points for communicating your preparation practice needs across different relationship types. Customize them with your own language and circumstances.
             </p>
 
             <h3 className="text-lg font-semibold mt-8 mb-4">For Family Members</h3>
@@ -80,12 +80,12 @@ export default function BoundaryTemplatesGuidePost() {
             <div className="bg-sage-green/10 p-6 rounded-lg my-6">
               <p className="mb-4"><strong>Basic Template:</strong></p>
               <p className="italic mb-4">
-                "I'm taking [TIME PERIOD] for [CONTEMPLATIVE PRACTICE DESCRIPTION] starting [DATE]. During this time, I'll be [AVAILABILITY LEVEL] but will respond to [EMERGENCY CRITERIA]. I'm doing this to [PERSONAL BENEFIT] so I can [RELATIONSHIP BENEFIT]. I love you and appreciate your support of this practice."
+                "I'm taking [TIME PERIOD] for [PREPARATION PRACTICE DESCRIPTION] starting [DATE]. During this time, I'll be [AVAILABILITY LEVEL] but will respond to [EMERGENCY CRITERIA]. I'm doing this to [PERSONAL BENEFIT] so I can [RELATIONSHIP BENEFIT]. I love you and appreciate your support of this practice."
               </p>
-              
+
               <p className="mb-2"><strong>Example:</strong></p>
               <p className="text-sm">
-                "I'm taking three days for conscious pause and reflection starting August 30th. During this time, I'll be minimally available by text but will respond to genuine emergencies or urgent family needs. I'm doing this to restore my energy and presence so I can be more patient and creative with our family time. I love you and appreciate your support of this practice."
+                "I'm taking three days for intentional pause and reflection starting August 30th. During this time, I'll be minimally available by text but will respond to genuine emergencies or urgent family needs. I'm doing this to restore my energy and presence so I can be more patient and creative with our family time. I love you and appreciate your support of this practice."
               </p>
             </div>
 
@@ -99,7 +99,7 @@ export default function BoundaryTemplatesGuidePost() {
               
               <p className="mb-2"><strong>Example:</strong></p>
               <p className="text-sm">
-                "I'm planning a three-day contemplative pause for Labor Day weekend and would love your thoughts on how to make this work for both of us. During this time, I'm hoping to reduce digital distractions and spend time in reflection while still being available for our Saturday morning coffee ritual and any plans you're excited about. How can we structure this so you feel supported and I can get the restoration I need?"
+                "I'm planning a three-day preparation pause for Labor Day weekend and would love your thoughts on how to make this work for both of us. During this time, I'm hoping to reduce digital distractions and spend time in reflection while still being available for our Saturday morning coffee ritual and any plans you're excited about. How can we structure this so you feel supported and I can get the restoration I need?"
               </p>
             </div>
 
@@ -127,7 +127,7 @@ export default function BoundaryTemplatesGuidePost() {
               
               <p className="mb-2"><strong>Example:</strong></p>
               <p className="text-sm">
-                "Hey friend! I'm taking the long weekend for some contemplative space and will be pretty quiet on social media and texting. I'm excited to reset my energy and reflect on some life stuff, and will be back to normal chatting on Tuesday. Thanks for understanding, and I'd love to grab coffee next week to catch up when I'm back!"
+                "Hey friend! I'm taking the long weekend for some preparation space and will be pretty quiet on social media and texting. I'm excited to reset my energy and reflect on some life stuff, and will be back to normal chatting on Tuesday. Thanks for understanding, and I'd love to grab coffee next week to catch up when I'm back!"
               </p>
             </div>
 
@@ -143,7 +143,7 @@ export default function BoundaryTemplatesGuidePost() {
             </p>
 
             <blockquote className="border-l-4 border-sage-green pl-6 italic text-lg my-8 text-deep-brown/80">
-              "I told my kids we were having 'quiet weekend' where we'd do gentle activities but skip the usual scheduled chaos. They ended up loving the slower pace, and I got contemplative time while still being present for them."
+              "I told my kids we were having 'quiet weekend' where we'd do gentle activities but skip the usual scheduled chaos. They ended up loving the slower pace, and I got preparation time while still being present for them."
               <footer className="text-base text-deep-brown/60 mt-2">— Community Participant</footer>
             </blockquote>
 
@@ -155,7 +155,7 @@ export default function BoundaryTemplatesGuidePost() {
             <div className="bg-warm-white p-6 rounded-lg my-6">
               <h4 className="font-semibold mb-3">Modified Practice Options:</h4>
               <ul className="space-y-2 text-sm">
-                <li>• Designated contemplative hours within regular schedule</li>
+                <li>• Designated preparation hours within regular schedule</li>
                 <li>• Social media boundaries while maintaining work communication</li>
                 <li>• Mindful engagement with necessary activities</li>
                 <li>• Contemplative approach to required work or caregiving</li>
@@ -164,7 +164,7 @@ export default function BoundaryTemplatesGuidePost() {
 
             <h3 className="text-lg font-semibold mt-8 mb-4">For Skeptical or Unsupportive Relationships</h3>
             <p className="mb-6">
-              When people in your life question or criticize contemplative practices, focus on benefits they'll recognize rather than philosophical explanations they may resist.
+              When people in your life question or criticize preparation practices, focus on benefits they'll recognize rather than philosophical explanations they may resist.
             </p>
 
             <div className="bg-sage-green/10 p-6 rounded-lg my-6">
@@ -192,7 +192,7 @@ export default function BoundaryTemplatesGuidePost() {
 
             <h3 className="text-lg font-semibold mt-8 mb-4">Emergency Protocol</h3>
             <p className="mb-6">
-              True emergencies require immediate availability, but many "urgent" requests are actually preferences dressed up as needs. Create clear criteria for what constitutes genuine emergency worthy of interrupting contemplative practice.
+              True emergencies require immediate availability, but many "urgent" requests are actually preferences dressed up as needs. Create clear criteria for what constitutes genuine emergency worthy of interrupting preparation practice.
             </p>
 
             <div className="bg-warm-white p-6 rounded-lg my-8">
@@ -208,23 +208,23 @@ export default function BoundaryTemplatesGuidePost() {
             <h2 className="text-heading mt-12 mb-6">Integration and Follow-Up</h2>
 
             <p className="mb-6">
-              After your contemplative practice period, follow up with the people who supported your boundaries. Express gratitude, share appropriate benefits you experienced, and discuss how to integrate contemplative practices into ongoing life rhythm.
+              After your preparation practice period, follow up with the people who supported your boundaries. Express gratitude, share appropriate benefits you experienced, and discuss how to integrate preparation practices into ongoing life rhythm.
             </p>
 
             <h3 className="text-lg font-semibold mt-8 mb-4">Post-Practice Communication</h3>
             <p className="mb-6">
-              Thank people for respecting your boundaries and share how the practice served your ability to show up for relationships and responsibilities. This builds understanding and support for future contemplative practices.
+              Thank people for respecting your boundaries and share how the practice served your ability to show up for relationships and responsibilities. This builds understanding and support for future preparation practices.
             </p>
 
             <blockquote className="border-l-4 border-sage-green pl-6 italic text-lg my-8 text-deep-brown/80">
-              "After my three days off, I was so much more present for family dinner conversations. My partner noticed immediately and has been incredibly supportive of regular contemplative time ever since."
+              "After my three days off, I was so much more present for family dinner conversations. My partner noticed immediately and has been incredibly supportive of regular preparation time ever since."
               <footer className="text-base text-deep-brown/60 mt-2">— Community Participant</footer>
             </blockquote>
 
             <h2 className="text-heading mt-12 mb-6">Building Long-Term Boundary Skills</h2>
 
             <p className="mb-6">
-              Three Days Off provides practice in boundary-setting that serves contemplative development throughout the year. The skills you develop communicating about this practice transfer to other areas of life where loving boundaries serve both individual well-being and relationship health.
+              Three Days Off provides practice in boundary-setting that serves preparation development throughout the year. The skills you develop communicating about this practice transfer to other areas of life where loving boundaries serve both individual well-being and relationship health.
             </p>
 
             <p className="mb-6">
@@ -232,9 +232,9 @@ export default function BoundaryTemplatesGuidePost() {
             </p>
 
             <div className="bg-deep-brown text-warm-cream p-8 rounded-lg my-12">
-              <h3 className="text-lg font-semibold mb-4 text-center">Boundary Affirmation</h3>
+              <h3 className="text-lg font-semibold mb-4 text-center">Boundary Reminder</h3>
               <p className="text-center">
-                "My contemplative practice serves my capacity to love and contribute. When I honor my need for spiritual nourishment, I honor the relationships and responsibilities that matter most to me."
+                "My preparation practice serves my capacity to love and contribute. When I honor my need for restoration and renewal, I honor the relationships and responsibilities that matter most to me."
               </p>
             </div>
 
@@ -285,12 +285,12 @@ export default function BoundaryTemplatesGuidePost() {
             <h3 className="text-heading mb-8 text-center">Related Practices</h3>
             <div className="grid md:grid-cols-2 gap-8">
               <Link href="/blog/creating-sanctuary-spaces" className="block p-6 bg-warm-white rounded-lg hover:shadow-lg transition-shadow">
-                <h4 className="font-semibold mb-2">Creating Sanctuary Spaces</h4>
-                <p className="text-deep-brown/70">Designing physical and emotional containers that support contemplative practice.</p>
+                <h4 className="font-semibold mb-2">Creating Practice Spaces</h4>
+                <p className="text-deep-brown/70">Designing physical and emotional containers that support preparation practice.</p>
               </Link>
               <Link href="/blog/first-time-practitioner" className="block p-6 bg-warm-white rounded-lg hover:shadow-lg transition-shadow">
                 <h4 className="font-semibold mb-2">Beginning Your Practice</h4>
-                <p className="text-deep-brown/70">Guidance for establishing contemplative practice within existing life circumstances.</p>
+                <p className="text-deep-brown/70">Guidance for establishing preparation practice within existing life circumstances.</p>
               </Link>
             </div>
           </motion.div>
@@ -300,7 +300,7 @@ export default function BoundaryTemplatesGuidePost() {
 
       {/* Footer */}
       <footer className="bg-soft-gray py-12 mt-16">
-        <div className="container-contemplative text-center">
+        <div className="container-preparation text-center">
           <p className="text-deep-brown/70">
             A practice from <strong>TheAlienSchool.com</strong> • Created by <strong>Kamau Zuberi Akabueze</strong>
           </p>
