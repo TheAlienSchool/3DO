@@ -26,8 +26,8 @@ export default function PreparingPage() {
                   THREESOME WITH THE SELF
                 </h1>
                 <p className="text-xl md:text-2xl font-light text-deep-brown/80 mb-12 max-w-4xl mx-auto leading-relaxed">
-                  Three Days Off is for everyone. Whether you have abundant time or just stolen moments, 
-                  whether you're new to stillness or a seasoned practitioner—your practice is yours to design.
+                  Three Days Off is for everyone. Whether you have abundant time or just stolen moments,
+                  whether you're new to preparation practice or experienced—design your own approach.
                 </p>
               </motion.div>
             </div>
@@ -45,10 +45,10 @@ export default function PreparingPage() {
                 viewport={{ once: true }}
                 className="text-center mb-12"
               >
-                <h2 className="text-display mb-6">Preparing Your Inner Landscape</h2>
+                <h2 className="text-display mb-6">Preparing for Your Practice</h2>
                 <p className="text-xl text-deep-brown/80 max-w-3xl mx-auto">
-                  While Three Days Off is a global festival, your experience begins with 
-                  personal preparation—creating space within for what wants to emerge.
+                  While Three Days Off is a global practice window, your experience begins with
+                  personal preparation—creating space for what matters to you.
                 </p>
               </motion.div>
 
@@ -74,9 +74,9 @@ export default function PreparingPage() {
                   The Conscious Pause: Beyond Burnout
                 </h3>
                 <p className="text-deep-brown/80 text-center mb-6">
-                  Before joining the global festival, cultivate your personal relationship 
-                  with conscious pause. This foundational practice prepares you to receive 
-                  the full benefits of collective contemplative experience.
+                  Before the global practice window, develop your personal relationship
+                  with intentional pause. This foundational practice prepares you to benefit
+                  from preparing alongside thousands of others.
                 </p>
                 
                 <div className="grid md:grid-cols-3 gap-6 text-center">
@@ -118,13 +118,13 @@ export default function PreparingPage() {
                   All Are Welcome Here
                 </h2>
                 <p className="text-lg leading-relaxed text-deep-brown/80 mb-6">
-                  This practice belongs to no one and everyone. Whether you're employed or unemployed, 
-                  seeking or finding, deep in self-care practices or hearing these words for the first time—
-                  there is a way for you to create space for what's already here.
+                  This practice belongs to no one and everyone. Whether you're employed or unemployed,
+                  seeking or finding, experienced in preparation practices or hearing about them for the first time—
+                  there's a way for you to build capacity with what you have.
                 </p>
                 <p className="text-lg leading-relaxed text-deep-brown/80">
-                  Three Days Off is not about having perfect conditions. It's about working with what you have, 
-                  where you are, with whatever time and space life offers you.
+                  Three Days Off works with real life, not perfect conditions. You practice with what you have,
+                  where you are, with whatever time and space your circumstances allow.
                 </p>
               </motion.div>
               
@@ -137,12 +137,12 @@ export default function PreparingPage() {
               >
                 <h3 className="text-heading mb-4 text-sage-green">Your Practice, Your Way</h3>
                 <ul className="space-y-3 text-deep-brown/80">
-                  <li>• <strong>Have 5 minutes?</strong> Perfect for conscious pause</li>
-                  <li>• <strong>Have 1 hour?</strong> Space for deeper listening</li>
-                  <li>• <strong>Have all weekend?</strong> Room for complete immersion</li>
-                  <li>• <strong>Have external pressures?</strong> Micro-practices work too</li>
-                  <li>• <strong>Never meditated?</strong> Simply sitting quietly counts</li>
-                  <li>• <strong>Experienced practitioner?</strong> Explore new depths</li>
+                  <li>• <strong>Have 5 minutes?</strong> Perfect for intentional pause</li>
+                  <li>• <strong>Have 1 hour?</strong> Space for PAUSE • BREATHE • OBSERVE</li>
+                  <li>• <strong>Have all weekend?</strong> Room for deep preparation</li>
+                  <li>• <strong>Have external pressures?</strong> Micro-practices build capacity too</li>
+                  <li>• <strong>Never practiced preparation?</strong> Simply sitting quietly counts</li>
+                  <li>• <strong>Experienced practitioner?</strong> Explore new applications</li>
                 </ul>
               </motion.div>
             </div>
@@ -220,13 +220,13 @@ export default function PreparingPage() {
                 <div className="w-12 h-12 bg-sage-green rounded-full mx-auto mb-6 flex items-center justify-center">
                   <span className="text-warm-cream font-bold">🤲</span>
                 </div>
-                <h3 className="text-heading text-center mb-4">Conscious Pause</h3>
+                <h3 className="text-heading text-center mb-4">Intentional Moments</h3>
                 <p className="text-deep-brown/80 mb-4">
-                  Maintain necessary activities while adding intentional stillness moments. 
+                  Maintain necessary activities while adding preparation moments.
                   Micro-practices throughout each day.
                 </p>
                 <p className="text-sm text-sage-green font-medium">
-                  Perfect for: Those facing external pressures, new to stillness practices, or in crisis situations
+                  Perfect for: Those facing external pressures, new to preparation practice, or in demanding situations
                 </p>
               </motion.div>
             </div>

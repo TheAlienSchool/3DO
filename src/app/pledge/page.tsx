@@ -51,25 +51,25 @@ export default function PledgePage() {
                   </div>
                   
                   <h1 className="text-hero mb-8">
-                    Welcome to the Global Festival
+                    You're Prepared to Practice
                   </h1>
-                  
+
                   <p className="text-xl md:text-2xl font-light text-deep-brown/80 mb-12 leading-relaxed">
-                    Your commitment creates ripples through the sacred geometry of collective consciousness. 
-                    You are now part of a global community choosing conscious pause.
+                    Your practice joins thousands preparing together across the globe.
+                    Welcome to a community that values preparation for what matters.
                   </p>
 
                   <div className="bg-sage-green/10 p-8 rounded-lg mb-8">
                     <h2 className="text-heading mb-4">Your Boundary Template</h2>
                     <div className="bg-warm-white p-6 rounded-lg text-left">
                       <p className="text-deep-brown/80 mb-4">
-                        "I'm participating in Three Days Off (August 30 - September 1) - a global practice 
-                        of conscious pause. During this time, I'll be stepping back from [usual activities] 
-                        to create space for stillness and reflection. This isn't about avoiding life, 
-                        but about approaching it with greater presence and intention."
+                        "I'm practicing Three Days Off (August 30 - September 1) - a preparation practice
+                        where mind, body, and spirit spend time together. During this time, I'll be stepping
+                        back from [usual activities] to build capacity for what matters to me. This practice
+                        prepares me for greater presence and clarity in daily life."
                       </p>
-                      <button 
-                        onClick={() => navigator.clipboard.writeText("I'm participating in Three Days Off (August 30 - September 1) - a global practice of conscious pause. During this time, I'll be stepping back from usual activities to create space for stillness and reflection. This isn't about avoiding life, but about approaching it with greater presence and intention.")}
+                      <button
+                        onClick={() => navigator.clipboard.writeText("I'm practicing Three Days Off (August 30 - September 1) - a preparation practice where mind, body, and spirit spend time together. During this time, I'll be stepping back from usual activities to build capacity for what matters to me. This practice prepares me for greater presence and clarity in daily life.")}
                         className="btn-contemplative px-4 py-2 text-sm"
                       >
                         Copy Template
@@ -79,13 +79,13 @@ export default function PledgePage() {
 
                   <div className="grid md:grid-cols-2 gap-6 mb-8">
                     <div className="bg-warm-white p-6 rounded-lg">
-                      <h3 className="font-semibold mb-3">Share Your Intention</h3>
+                      <h3 className="font-semibold mb-3">Share Your Practice</h3>
                       <p className="text-sm text-deep-brown/70 mb-4">
-                        Let others know you're part of the global pause
+                        Invite others to prepare with you
                       </p>
-                      <button 
+                      <button
                         onClick={() => {
-                          const text = `I'm joining Three Days Off - a global festival of stillness (Aug 30 - Sep 1). What would change if you gave yourself permission to pause? Learn more at ThreeDaysOff.com`
+                          const text = `I'm practicing Three Days Off (Aug 30 - Sep 1) - a preparation practice for what matters. Join me at ThreeDaysOff.com`
                           if (navigator.share) {
                             navigator.share({ text })
                           } else {
@@ -99,9 +99,9 @@ export default function PledgePage() {
                     </div>
 
                     <div className="bg-warm-white p-6 rounded-lg">
-                      <h3 className="font-semibold mb-3">Prepare for Your Experience</h3>
+                      <h3 className="font-semibold mb-3">Prepare for Your Practice</h3>
                       <p className="text-sm text-deep-brown/70 mb-4">
-                        Get ready for your contemplative journey
+                        Get ready for September 5-7
                       </p>
                       <Link href="/preparing" className="btn-secondary px-4 py-2 text-sm inline-block">
                         Preparation Guide
@@ -111,7 +111,7 @@ export default function PledgePage() {
 
                   <div className="text-center">
                     <Link href="/" className="text-sage-green hover:underline">
-                      ← Return to Festival Experience
+                      ← Return to Home
                     </Link>
                   </div>
                 </motion.div>
@@ -138,12 +138,12 @@ export default function PledgePage() {
                 transition={{ duration: 0.8 }}
               >
                 <h1 className="text-hero mb-8">
-                  Create Space for<br />
-                  What's Already Here
+                  Begin Your<br />
+                  Preparation Practice
                 </h1>
                 <p className="text-xl md:text-2xl font-light text-deep-brown/80 mb-12 max-w-4xl mx-auto leading-relaxed">
-                  Your pledge connects you to thousands practicing conscious pause simultaneously. 
-                  This isn't about perfect conditions—it's about intention and presence.
+                  Your practice connects you to thousands preparing together.
+                  Simple, practical, research-backed—preparation for what matters to you.
                 </p>
               </motion.div>
             </div>
@@ -161,9 +161,9 @@ export default function PledgePage() {
                 viewport={{ once: true }}
                 className="text-center mb-12"
               >
-                <h2 className="text-display mb-6">Your Sacred Commitment</h2>
+                <h2 className="text-display mb-6">Your Practice Details</h2>
                 <p className="text-xl text-deep-brown/80">
-                  Simple information to connect you with the global contemplative community.
+                  Simple information to connect you with thousands preparing together.
                 </p>
               </motion.div>
 
@@ -273,9 +273,8 @@ export default function PledgePage() {
                   {/* Privacy Note */}
                   <div className="bg-warm-white p-4 rounded-lg">
                     <p className="text-xs text-deep-brown/60">
-                      <strong>Privacy Promise:</strong> We store email separately from pledge data, never share personal information, 
-                      and you can request deletion anytime. Your data serves the collective understanding of global 
-                      contemplative practice, nothing more.
+                      <strong>Privacy Promise:</strong> We store email separately from practice data, never share personal information,
+                      and you can request deletion anytime. Your data helps us understand global participation patterns, nothing more.
                     </p>
                   </div>
 
@@ -284,7 +283,7 @@ export default function PledgePage() {
                     type="submit"
                     className="w-full btn-contemplative py-4 font-medium tracking-wide"
                   >
-                    Join the Global Festival of Stillness
+                    Begin Preparing
                   </button>
                 </div>
               </motion.form>
@@ -303,12 +302,12 @@ export default function PledgePage() {
                 viewport={{ once: true }}
               >
                 <h2 className="text-display mb-8">
-                  You're Joining Something Beautiful
+                  You're Joining Thousands Preparing Together
                 </h2>
                 <p className="text-xl leading-relaxed mb-8 text-deep-brown/80">
-                  Each pledge adds to the sacred geometry of global consciousness. Your commitment 
-                  to pause creates permission for others to do the same. Together, we're demonstrating 
-                  that another way of being together is possible.
+                  Each person who practices Three Days Off strengthens the whole. Your preparation
+                  creates capacity for others to discover this practice. Together, we're building
+                  a community that values time-awareness and intentional preparation.
                 </p>
                 
                 <div className="grid md:grid-cols-3 gap-6">
@@ -316,9 +315,9 @@ export default function PledgePage() {
                     <div className="w-12 h-12 bg-contemplative-gold rounded-full mx-auto mb-4 flex items-center justify-center">
                       <span className="text-warm-cream font-bold">🌍</span>
                     </div>
-                    <h3 className="font-semibold mb-2">Global Community</h3>
+                    <h3 className="font-semibold mb-2">Global Practice</h3>
                     <p className="text-sm text-deep-brown/70">
-                      Practitioners in dozens of countries, all choosing conscious pause
+                      People in dozens of countries preparing together
                     </p>
                   </div>
 
@@ -326,9 +325,9 @@ export default function PledgePage() {
                     <div className="w-12 h-12 bg-intention-purple rounded-full mx-auto mb-4 flex items-center justify-center">
                       <span className="text-warm-cream font-bold">🤝</span>
                     </div>
-                    <h3 className="font-semibold mb-2">Shared Intention</h3>
+                    <h3 className="font-semibold mb-2">Shared Timing</h3>
                     <p className="text-sm text-deep-brown/70">
-                      Individual practice within collective contemplative timing
+                      Individual practice within collective preparation window
                     </p>
                   </div>
 
@@ -336,9 +335,9 @@ export default function PledgePage() {
                     <div className="w-12 h-12 bg-success-harmony rounded-full mx-auto mb-4 flex items-center justify-center">
                       <span className="text-warm-cream font-bold">🌱</span>
                     </div>
-                    <h3 className="font-semibold mb-2">Cultural Shift</h3>
+                    <h3 className="font-semibold mb-2">Research-Backed</h3>
                     <p className="text-sm text-deep-brown/70">
-                      Demonstrating that rest can be revolutionary
+                      HeartMath, neuroscience, and workplace studies validate this approach
                     </p>
                   </div>
                 </div>

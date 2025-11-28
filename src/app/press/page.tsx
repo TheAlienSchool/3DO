@@ -25,8 +25,8 @@ export default function PressPage() {
                   FOR THREE DAYS OFF
                 </h1>
                 <p className="text-xl md:text-2xl font-light text-deep-brown/80 mb-12 max-w-4xl mx-auto leading-relaxed">
-                  Everything you need to tell the story of a global movement toward conscious pause, 
-                  contemplative practice, and the recognition that stillness is service to the world.
+                  Everything you need to tell the story of a global preparation practice—
+                  research-backed, practically applicable, building capacity for what matters.
                 </p>
                 <p className="text-lg text-sage-green font-medium">
                   Press inquiries: <a href="mailto:Press@ThreeDaysOff.com" className="hover:underline">Press@ThreeDaysOff.com</a>
@@ -49,8 +49,8 @@ export default function PressPage() {
               >
                 <h2 className="text-display mb-6 three-dots">The Story</h2>
                 <p className="text-xl text-deep-brown/80 leading-relaxed">
-                  Three Days Off represents a new expression in how humans engage with rest, reflection, 
-                  and conscious living in an accelerated world.
+                  Three Days Off represents a new approach to how people prepare for what matters—
+                  rest, reflection, and intentional time-awareness in an accelerated world.
                 </p>
               </motion.div>
 
@@ -64,21 +64,20 @@ export default function PressPage() {
                   <h3 className="text-heading mb-6">Key Messages for Media</h3>
                   <div className="space-y-6">
                     <div>
-                      <h4 className="font-semibold text-sage-green mb-2">The Global Experiment</h4>
+                      <h4 className="font-semibold text-sage-green mb-2">The Global Practice</h4>
                       <p className="text-deep-brown/80">
-                        When thousands of people practice conscious pause simultaneously, something 
-                        shifts in the collective consciousness. This isn't just individual self-care—
-                        it's a global experiment in what becomes possible when humans remember how 
-                        to rest together.
+                        When thousands prepare together in a shared time window, research suggests
+                        network effects emerge. This goes beyond individual self-care—it's a global
+                        demonstration of what becomes possible when people prioritize intentional preparation.
                       </p>
                     </div>
                     <div>
                       <h4 className="font-semibold text-sage-green mb-2">Beyond Digital Detox</h4>
                       <p className="text-deep-brown/80">
-                        Three Days Off isn't about rejecting technology or retreating from the world. 
-                        It's about creating conscious relationship with stimulation, developing agency 
-                        over attention, and discovering what emerges when mind, body, and spirit 
-                        have space to collaborate.
+                        Three Days Off builds on research about time-awareness and preparation.
+                        It's about developing intentional relationship with demands, building agency
+                        over attention, and creating conditions where mind, body, and spirit
+                        can align with what matters.
                       </p>
                     </div>
                     <div>
@@ -131,8 +130,8 @@ export default function PressPage() {
               >
                 <h2 className="text-display mb-6">About the Creator</h2>
                 <p className="text-xl text-deep-brown/80">
-                  Kamau Zuberi Akabueze brings together contemplative wisdom, creative practice, 
-                  and consciousness technology in service of human flourishing.
+                  Kamau Zuberi Akabueze bridges preparation practices, creative work,
+                  and research-backed tools to build human capacity.
                 </p>
               </motion.div>
 

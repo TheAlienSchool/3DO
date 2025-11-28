@@ -25,8 +25,8 @@ export default function HowItWorksPage() {
                   ACTUALLY WORKS
                 </h1>
                 <p className="text-xl md:text-2xl font-light text-deep-brown/80 mb-12 max-w-4xl mx-auto leading-relaxed">
-                  Welcome to an exploration of consciousness technology—the science, wisdom, 
-                  and art behind why intentional stillness creates profound transformation.
+                  The science, research, and real-world application behind preparation practice—
+                  why intentional time-awareness builds measurable capacity for what matters.
                 </p>
               </motion.div>
             </div>
@@ -44,11 +44,11 @@ export default function HowItWorksPage() {
                 viewport={{ once: true }}
                 className="text-center mb-16"
               >
-                <h2 className="text-display mb-6 three-dots">The Science of Stillness</h2>
+                <h2 className="text-display mb-6 three-dots">The Research Foundation</h2>
                 <p className="text-xl text-deep-brown/80 leading-relaxed">
-                  Three Days Off isn't mystical wishful thinking—it's a practice validated by neuroscience, 
-                  psychology, and global health research. Here's what actually happens when you create 
-                  space for mind, body, and spirit to spend time together.
+                  Three Days Off builds on decades of neuroscience, workplace psychology, and health research.
+                  Here's what measurably happens when mind, body, and spirit spend intentional time together—
+                  validated by HeartMath Institute, JAMA Psychiatry, WHO studies, and workplace performance data.
                 </p>
               </motion.div>
 
@@ -119,14 +119,14 @@ export default function HowItWorksPage() {
                   viewport={{ once: true }}
                   className="bg-sage-green/10 p-8 rounded-lg"
                 >
-                  <h3 className="text-heading mb-4 text-sage-green">Consciousness Integration</h3>
+                  <h3 className="text-heading mb-4 text-sage-green">Self-Awareness Development</h3>
                   <p className="text-deep-brown/80 mb-4">
-                    <strong>Self-Awareness:</strong> Frontiers in Psychology research shows self-directed 
-                    pause practices increase emotional intelligence and decision-making clarity by creating 
+                    <strong>Emotional Intelligence:</strong> Frontiers in Psychology research shows self-directed
+                    pause practices increase emotional intelligence and decision-making clarity by creating
                     space between stimulus and response.
                   </p>
                   <p className="text-deep-brown/80">
-                    <strong>Agency Development:</strong> When you practice choosing stillness over reactivity, 
+                    <strong>Intentional Action:</strong> When you practice choosing pause over reactivity,
                     you strengthen neural pathways associated with intentional action rather than automatic response.
                   </p>
                 </motion.div>
@@ -147,9 +147,9 @@ export default function HowItWorksPage() {
             >
               <h2 className="text-display mb-6">The PAUSE • BREATHE • OBSERVE Framework</h2>
               <p className="text-xl text-deep-brown/80 max-w-3xl mx-auto">
-                Three Days Off operates on a simple yet profound three-step process that anyone can adapt 
-                to their circumstances. This isn't about perfect execution—it's about conscious engagement 
-                with each element as feels right for you.
+                Three Days Off operates on a simple three-step process that anyone can adapt
+                to their circumstances. This framework builds capacity through practical engagement
+                with each element—adapt it to fit your life and what you're preparing for.
               </p>
             </motion.div>
 
@@ -252,11 +252,11 @@ export default function HowItWorksPage() {
                 viewport={{ once: true }}
                 className="text-center mb-16"
               >
-                <h2 className="text-display mb-6">Ancient Wisdom, Modern Application</h2>
+                <h2 className="text-display mb-6">Historical Practices, Modern Research</h2>
                 <p className="text-xl text-warm-cream/90 leading-relaxed">
-                  Three Days Off draws from a rich heritage of contemplative practices while adapting 
-                  to contemporary life. You're joining a lineage of humans who understood that 
-                  intentional pause creates space for wisdom to emerge.
+                  Three Days Off draws from global preparation practices while grounding them in
+                  contemporary research. Cultures worldwide have developed time-awareness practices—
+                  now neuroscience reveals why they work.
                 </p>
               </motion.div>
 
@@ -277,8 +277,8 @@ export default function HowItWorksPage() {
                     and cyclical rest practices. As Tricia Hersey teaches, rest becomes resistance and restoration.
                   </p>
                   <p className="text-warm-cream/80">
-                    <strong>Ubuntu Philosophy:</strong> "I am because we are"—individual stillness 
-                    strengthens collective consciousness. Your practice serves the whole.
+                    <strong>Ubuntu Philosophy:</strong> "I am because we are"—individual preparation
+                    strengthens community capacity. Your practice creates space for others to practice too.
                   </p>
                 </motion.div>
 
@@ -290,16 +290,16 @@ export default function HowItWorksPage() {
                 >
                   <h3 className="text-heading mb-4">Contemplative Practices</h3>
                   <p className="text-warm-cream/80 mb-4">
-                    <strong>Buddhist Retreats:</strong> Vipassana and mindfulness traditions use 
-                    withdrawal and observation as paths to insight and liberation.
+                    <strong>Buddhist Retreats:</strong> Vipassana traditions use structured time-awareness
+                    and observation as preparation for insight and clarity.
                   </p>
                   <p className="text-warm-cream/80 mb-4">
-                    <strong>Yogic Sabbaticals:</strong> Pratyahara (withdrawal of senses) creates 
-                    space for deeper states of consciousness and self-integration.
+                    <strong>Yogic Practices:</strong> Pratyahara (sensory withdrawal) creates
+                    space for integration and self-awareness development.
                   </p>
                   <p className="text-warm-cream/80">
-                    <strong>Sabbath Traditions:</strong> Weekly practices of rest and reflection 
-                    across multiple spiritual traditions recognize rhythm as sacred technology.
+                    <strong>Sabbath Traditions:</strong> Weekly practices of rest and reflection
+                    across multiple cultures recognize rhythm as essential to human capacity.
                   </p>
                 </motion.div>
               </div>
@@ -352,8 +352,8 @@ export default function HowItWorksPage() {
             >
               <h2 className="text-display mb-6 three-dots">What Actually Happens Day by Day</h2>
               <p className="text-xl text-deep-brown/80 max-w-3xl mx-auto">
-                While everyone's experience unfolds uniquely, there are recognizable patterns to how 
-                consciousness shifts when given space to reorganize itself naturally.
+                While everyone's experience unfolds uniquely, research reveals recognizable patterns
+                in how the nervous system, attention, and decision-making capacity shift during intentional preparation time.
               </p>
             </motion.div>
 
@@ -453,10 +453,10 @@ export default function HowItWorksPage() {
                 viewport={{ once: true }}
                 className="text-center mb-12"
               >
-                <h2 className="text-display mb-6">Why This Works for Every Human Being</h2>
+                <h2 className="text-display mb-6">Why This Works for Everyone</h2>
                 <p className="text-xl text-deep-brown/80">
-                  Three Days Off doesn't depend on beliefs, spiritual background, or perfect conditions. 
-                  It works because it honors universal human needs that transcend cultural differences.
+                  Three Days Off builds on universal human biology and needs—research-validated patterns
+                  that transcend cultural differences, beliefs, or circumstances.
                 </p>
               </motion.div>
 
@@ -537,20 +537,20 @@ export default function HowItWorksPage() {
                 viewport={{ once: true }}
               >
                 <h2 className="text-display mb-8">
-                  Beyond Personal Transformation
+                  Beyond Individual Benefits
                 </h2>
                 <p className="text-xl leading-relaxed mb-8 text-deep-brown/80">
-                  When thousands of people practice conscious pause simultaneously, something shifts 
-                  in the collective field. Your individual stillness contributes to a global 
-                  experiment in what becomes possible when humans remember how to rest together.
+                  When thousands prepare together, research suggests network effects emerge.
+                  Your individual practice contributes to a global demonstration that intentional
+                  time-awareness creates measurable capacity—for individuals and communities.
                 </p>
                 <div className="bg-warm-white/80 p-8 rounded-lg mb-8">
-                  <h3 className="text-heading mb-4">Recognition Ripples</h3>
+                  <h3 className="text-heading mb-4">Community Effects</h3>
                   <p className="text-deep-brown/80 leading-relaxed">
-                    Every person who practices Three Days Off creates what we call "recognition ripples"—
-                    subtle shifts in their presence and energy that others notice and respond to. 
-                    Your stillness gives others permission to find their own pause. Your rest 
-                    becomes a gift to a world that desperately needs examples of another way.
+                    People who practice Three Days Off report shifts in how they show up—more present,
+                    less reactive, clearer about priorities. Others notice. Your preparation creates
+                    permission for others to prepare too. Your practice models what becomes possible
+                    through intentional time-awareness.
                   </p>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-6 justify-center">

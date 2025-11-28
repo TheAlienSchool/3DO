@@ -51,12 +51,12 @@ export default function HomePage() {
                 className="max-w-4xl"
               >
                 <h1 className="text-hero mb-8">
-                  WHAT WOULD CHANGE<br />
-                  IF YOU GAVE YOURSELF<br />
-                  PERMISSION TO PAUSE?
+                  THREE DAYS OFF<br />
+                  PREPARES YOU<br />
+                  FOR WHAT MATTERS
                 </h1>
-                
-                <motion.p 
+
+                <motion.p
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8, delay: 0.2 }}
@@ -67,7 +67,7 @@ export default function HomePage() {
                 </motion.p>
               </motion.div>
 
-              {/* Sacred Breathing Network - Consciousness-Serving Technology */}
+              {/* Live Practice Network */}
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -75,22 +75,22 @@ export default function HomePage() {
                 className="mb-16"
               >
                 <BreathingNetwork />
-                
-                {/* Sacred Community Stats */}
+
+                {/* Live Community Stats */}
                 <div className="mt-6 text-center">
                   <p className="text-lg md:text-xl font-medium text-deep-brown mb-2">
-                    <span className="font-bold text-2xl md:text-3xl text-sage-green">{currentPledges.toLocaleString()}</span> Recognition Ripples
+                    <span className="font-bold text-2xl md:text-3xl text-sage-green">{currentPledges.toLocaleString()}</span> People Preparing
                   </p>
                   <p className="text-lg md:text-xl font-medium text-deep-brown">
-                    <span className="font-bold text-2xl md:text-3xl text-sage-green">{currentVenues.toLocaleString()}</span> Sanctuary Spaces
+                    <span className="font-bold text-2xl md:text-3xl text-sage-green">{currentVenues.toLocaleString()}</span> Practice Spaces
                   </p>
                   <p className="text-sm text-deep-brown/70 mt-4">
-                    Breathing together in sacred geometry • Creating space for what wants to emerge
+                    From solo parents to remote workers • Preparing for presence in real life
                   </p>
                 </div>
               </motion.div>
 
-              {/* Sacred Commitment Gateways - Consciousness-Serving Interaction */}
+              {/* Practice Entry Points */}
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -100,27 +100,25 @@ export default function HomePage() {
                 <ContemplativeCommitButton
                   type="individual"
                   onCommit={() => {
-                    // Sacred commitment to individual practice
                     window.location.href = '/pledge'
                   }}
                   className="flex-1 max-w-sm"
                 >
-                  Create Space for What&apos;s Already Here
+                  Begin Your Practice
                 </ContemplativeCommitButton>
-                
+
                 <ContemplativeCommitButton
                   type="venue"
                   onCommit={() => {
-                    // Sacred commitment to venue partnership
                     window.location.href = '/venues/register'
                   }}
                   className="flex-1 max-w-sm"
                 >
-                  Offer a Sanctuary Space
+                  Offer a Practice Space
                 </ContemplativeCommitButton>
               </motion.div>
 
-              {/* Festival of Stillness - Quick Start Video Section */}
+              {/* Introduction Video Section */}
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -129,10 +127,10 @@ export default function HomePage() {
               >
                 <div className="max-w-4xl mx-auto">
                   <div className="text-center mb-8">
-                    <h2 className="text-display mb-4">Welcome to the Festival</h2>
+                    <h2 className="text-display mb-4">How Three Days Off Works</h2>
                     <p className="text-xl text-deep-brown/80 max-w-3xl mx-auto">
-                      Discover Three Days Off as a global celebration of stillness—a festival 
-                      where the main event is conscious pause.
+                      Thousands prepare together—a global practice of time awareness
+                      that builds capacity for what matters most.
                     </p>
                   </div>
                   
@@ -141,9 +139,9 @@ export default function HomePage() {
                       <ContemplativeVideoPlayer
                         src="/videos/THREE_DAYS_OFF__A_Festival_of_Stillness.mp4"
                         poster="/images/festival-stillness-poster.jpg"
-                        title="Three Days Off: A Festival of Stillness"
-                        description="Experience the vision of thousands practicing conscious pause together"
-                        analytics="cultural-engagement"
+                        title="Three Days Off: Preparation Practice"
+                        description="Thousands preparing for presence together across the globe"
+                        analytics="practice-introduction"
                         className="w-full h-full"
                       />
                     </div>
@@ -153,26 +151,26 @@ export default function HomePage() {
                         <div className="w-12 h-12 bg-contemplative-gold rounded-full mx-auto mb-3 flex items-center justify-center">
                           <span className="text-warm-cream font-bold">🌍</span>
                         </div>
-                        <p className="text-sm text-deep-brown/70">Global Celebration</p>
+                        <p className="text-sm text-deep-brown/70">Global Practice</p>
                       </div>
                       <div>
                         <div className="w-12 h-12 bg-intention-purple rounded-full mx-auto mb-3 flex items-center justify-center">
                           <span className="text-warm-cream font-bold">🎭</span>
                         </div>
-                        <p className="text-sm text-deep-brown/70">Cultural Experience</p>
+                        <p className="text-sm text-deep-brown/70">Real-Life Application</p>
                       </div>
                       <div>
                         <div className="w-12 h-12 bg-success-harmony rounded-full mx-auto mb-3 flex items-center justify-center">
                           <span className="text-warm-cream font-bold">🤝</span>
                         </div>
-                        <p className="text-sm text-deep-brown/70">Community Connection</p>
+                        <p className="text-sm text-deep-brown/70">Shared Preparation</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </motion.div>
 
-              {/* Sacred Invitation - Consciousness-Serving Guidance */}
+              {/* Practice Invitation */}
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -180,11 +178,11 @@ export default function HomePage() {
                 className="flex flex-col items-center"
               >
                 <p className="text-lg text-sage-green font-medium mb-6">
-                  What wants to emerge—your place in the sacred geometry awaits
+                  Preparation opens possibilities—your practice strengthens the whole
                 </p>
                 <p className="text-sm text-deep-brown/60 max-w-md">
-                  Each commitment creates a ripple through the network. Each breath deepens the collective practice. 
-                  Your participation is both individual freedom and community service.
+                  People prepare for custody transitions, solo travel, major presentations, heartbreak recovery,
+                  and creative breakthroughs. Your practice builds capacity for what matters to you.
                 </p>
               </motion.div>
             </div>
@@ -202,12 +200,12 @@ export default function HomePage() {
                 viewport={{ once: true, margin: "-100px" }}
               >
                 <h2 className="text-display mb-8 three-dots">
-                  Not a retreat from the world, but a gift to it
+                  Preparation creates presence
                 </h2>
                 <p className="text-xl leading-relaxed text-deep-brown/80 mb-12">
-                  Three Days Off is an invitation to discover what happens when mind, body, 
-                  and spirit choose to spend time together without the usual distractions. 
-                  A threesome with yourself—simple, profound, and always available.
+                  Three Days Off invites you to discover what opens when mind, body,
+                  and spirit spend time together. A threesome with yourself—simple,
+                  practical, and always available.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
                   <div>
@@ -215,21 +213,21 @@ export default function HomePage() {
                       <span className="text-warm-cream font-bold">•</span>
                     </div>
                     <h3 className="font-semibold text-deep-brown mb-2">Pause</h3>
-                    <p className="text-deep-brown/70">When mind, body, and spirit stop running</p>
+                    <p className="text-deep-brown/70">Creating intentional space between demands</p>
                   </div>
                   <div>
                     <div className="w-12 h-12 bg-sage-green rounded-full mx-auto mb-4 flex items-center justify-center">
                       <span className="text-warm-cream font-bold">•</span>
                     </div>
                     <h3 className="font-semibold text-deep-brown mb-2">Breathe</h3>
-                    <p className="text-deep-brown/70">The conversation between three</p>
+                    <p className="text-deep-brown/70">Mind, body, and spirit in conversation</p>
                   </div>
                   <div>
                     <div className="w-12 h-12 bg-sage-green rounded-full mx-auto mb-4 flex items-center justify-center">
                       <span className="text-warm-cream font-bold">•</span>
                     </div>
                     <h3 className="font-semibold text-deep-brown mb-2">Observe</h3>
-                    <p className="text-deep-brown/70">Seeing through three sets of eyes</p>
+                    <p className="text-deep-brown/70">Recognizing patterns and possibilities</p>
                   </div>
                 </div>
               </motion.div>
@@ -248,25 +246,25 @@ export default function HomePage() {
                 viewport={{ once: true, margin: "-100px" }}
               >
                 <h2 className="text-display mb-8">
-                  Your threesome with yourself is always available
+                  This practice is always available to you
                 </h2>
                 <p className="text-xl leading-relaxed mb-12 text-warm-cream/90">
-                  Labor Day weekend becomes an opportunity to remember that mind, body, and spirit 
-                  are always present, always offering their wisdom. This practice costs nothing 
-                  and offers everything.
+                  Labor Day weekend becomes an opportunity to practice—mind, body, and spirit
+                  preparing together for what matters. This practice requires only intention
+                  and opens countless possibilities.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                  <Link 
-                    href="/pledge" 
+                  <Link
+                    href="/pledge"
                     className="bg-warm-cream text-deep-brown px-8 py-4 rounded-full font-medium tracking-wide hover:bg-sage-green hover:text-warm-cream transition-all duration-300"
                   >
                     Begin Your Practice
                   </Link>
-                  <Link 
-                    href="/how-it-works" 
+                  <Link
+                    href="/how-it-works"
                     className="border-2 border-warm-cream text-warm-cream px-8 py-4 rounded-full font-medium tracking-wide hover:bg-warm-cream hover:text-deep-brown transition-all duration-300"
                   >
-                    What Wants to Emerge?
+                    How It Works
                   </Link>
                 </div>
               </motion.div>

@@ -21,12 +21,12 @@ export default function VenuesPage() {
                 transition={{ duration: 0.8 }}
               >
                 <h1 className="text-hero mb-8">
-                  SANCTUARY SPACES<br />
+                  PRACTICE SPACES<br />
                   FOR THREE DAYS OFF
                 </h1>
                 <p className="text-xl md:text-2xl font-light text-deep-brown/80 mb-12 max-w-4xl mx-auto leading-relaxed">
-                  We invite venues, organizations, and communities to become sanctuary spaces—places where 
-                  people can practice Three Days Off together while honoring their own individual rhythms.
+                  We invite venues, organizations, and communities to become practice spaces—places where
+                  people can prepare together using the Three Days Off framework.
                 </p>
               </motion.div>
             </div>
@@ -44,11 +44,11 @@ export default function VenuesPage() {
                 viewport={{ once: true }}
                 className="text-center mb-16"
               >
-                <h2 className="text-display mb-6 three-dots">An Invitation to Create Space</h2>
+                <h2 className="text-display mb-6 three-dots">An Invitation to Host Practice</h2>
                 <p className="text-xl text-deep-brown/80 leading-relaxed">
-                  Three Days Off becomes more powerful when practiced in community. We're seeking venues that 
-                  understand the profound value of collective stillness and want to offer their space as 
-                  a container for this global practice.
+                  Three Days Off strengthens when people prepare together. We're seeking venues that
+                  recognize the value of shared preparation practice and want to host this framework
+                  for their communities.
                 </p>
               </motion.div>
 
@@ -59,16 +59,16 @@ export default function VenuesPage() {
                   transition={{ duration: 0.8 }}
                   viewport={{ once: true }}
                 >
-                  <h3 className="text-heading mb-6">What Makes a Sanctuary Space?</h3>
+                  <h3 className="text-heading mb-6">What Makes a Practice Space?</h3>
                   <p className="text-deep-brown/80 mb-6 leading-relaxed">
-                    A Three Days Off venue isn't about providing entertainment or instruction. It's about 
-                    creating conditions where people can practice conscious pause, mindful breathing, and 
-                    observant stillness—either in guided community sessions or through self-directed practice.
+                    A Three Days Off venue creates conditions where people can use the PAUSE • BREATHE • OBSERVE
+                    framework together—either in facilitated sessions or through self-directed practice.
+                    This preparation practice builds capacity for what matters to each person.
                   </p>
                   <p className="text-deep-brown/80 leading-relaxed">
-                    You might be a meditation center, library, community center, bookstore, art gallery, 
-                    coworking space, yoga studio, or any place that values contemplative practice and 
-                    community wellbeing.
+                    You might be a meditation center, library, community center, bookstore, art gallery,
+                    coworking space, yoga studio, or any place that values intentional preparation and
+                    community capacity-building.
                   </p>
                 </motion.div>
                 
@@ -83,7 +83,7 @@ export default function VenuesPage() {
                   <ul className="space-y-3 text-deep-brown/80">
                     <li>• <strong>Global Recognition:</strong> Listed on ThreeDaysOff.com venue directory</li>
                     <li>• <strong>Marketing Toolkit:</strong> Professional assets and promotional materials</li>
-                    <li>• <strong>Community Building:</strong> Attract conscious, mindful community members</li>
+                    <li>• <strong>Community Building:</strong> Attract people who value intentional preparation</li>
                     <li>• <strong>Flexible Programming:</strong> Adapt to your space and audience needs</li>
                     <li>• <strong>No Cost Participation:</strong> Partnership is free—this is about service</li>
                     <li>• <strong>Ongoing Support:</strong> Access to facilitator resources and guidance</li>
@@ -106,9 +106,8 @@ export default function VenuesPage() {
             >
               <h2 className="text-display mb-6">Programming Approaches</h2>
               <p className="text-xl text-deep-brown/80 max-w-3xl mx-auto">
-                Three Days Off venues can offer various types of programming, from structured group sessions 
-                to simply providing quiet space for individual practice. Choose what feels aligned with 
-                your community and capacity.
+                Three Days Off venues can offer various types of programming, from structured group sessions
+                to providing space for individual practice. Choose what works for your community and capacity.
               </p>
             </motion.div>
 
@@ -147,8 +146,8 @@ export default function VenuesPage() {
                 </div>
                 <h3 className="text-heading text-center mb-4">Open Practice Space</h3>
                 <p className="text-deep-brown/80 mb-4">
-                  Provide quiet, supportive environment where people can practice Three Days Off 
-                  individually while being in community presence.
+                  Provide quiet, supportive environment where people can practice Three Days Off
+                  individually while sharing space with others.
                 </p>
                 <div className="text-sm text-sage-green font-medium">
                   <p><strong>Includes:</strong> Space setup guides, ambient materials, gentle guidance resources</p>
@@ -411,10 +410,10 @@ export default function VenuesPage() {
                 viewport={{ once: true }}
                 className="text-center mb-12"
               >
-                <h2 className="text-display mb-6">Becoming a Sanctuary Space</h2>
+                <h2 className="text-display mb-6">Becoming a Practice Space</h2>
                 <p className="text-xl text-deep-brown/80">
-                  The process is intentionally simple—we believe in reducing barriers to creating 
-                  contemplative community spaces.
+                  The process is intentionally simple—we reduce barriers to creating
+                  preparation practice spaces for communities.
                 </p>
               </motion.div>
 
@@ -457,8 +456,8 @@ export default function VenuesPage() {
                   <div>
                     <h3 className="text-heading mb-3">Connect with Our Team</h3>
                     <p className="text-deep-brown/80">
-                      Brief conversation with our venue support team to explore programming options, 
-                      answer questions, and ensure Three Days Off feels aligned with your community's needs.
+                      Brief conversation with our venue support team to explore programming options,
+                      answer questions, and ensure Three Days Off works for your community's needs.
                     </p>
                   </div>
                 </motion.div>
@@ -500,19 +499,19 @@ export default function VenuesPage() {
                 viewport={{ once: true }}
               >
                 <h2 className="text-display mb-8">
-                  Ready to Create Sanctuary?
+                  Ready to Host Practice?
                 </h2>
                 <p className="text-xl leading-relaxed mb-8 text-deep-brown/80">
-                  Join a growing network of venues creating space for collective contemplative practice. 
-                  Together, we're demonstrating that another way of being together is possible—one that 
-                  honors both individual wisdom and community support.
+                  Join a growing network of venues offering Three Days Off practice spaces.
+                  Together, we're demonstrating what becomes possible when communities prioritize
+                  intentional preparation—honoring both individual practice and collective timing.
                 </p>
                 <div className="bg-warm-white p-8 rounded-lg mb-8">
-                  <h3 className="text-heading mb-4">Gratitude for Your Consideration</h3>
+                  <h3 className="text-heading mb-4">Thank You for Considering</h3>
                   <p className="text-deep-brown/80 leading-relaxed">
-                    Whether you join as a venue partner or simply hold space for this work in your community, 
-                    we honor your contribution to creating a more contemplative world. Your willingness to 
-                    consider this invitation is already a gift to the collective practice of conscious pause.
+                    Whether you join as a venue partner or simply explore this framework for your community,
+                    we appreciate your interest in preparation practice. Your consideration strengthens
+                    the network of spaces where people can build capacity for what matters.
                   </p>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-6 justify-center">
