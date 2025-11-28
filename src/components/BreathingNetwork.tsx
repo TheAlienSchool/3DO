@@ -28,12 +28,71 @@ const BreathingNetwork: React.FC = () => {
     setMounted(true)
     startBreathingRhythm()
 
-    // TODO: Connect to Supabase Realtime here
-    // const channel = supabase.channel('breathing-network')...
+    // Supabase Realtime Presence Integration
+    let presenceChannel: any = null
+    const sessionId = crypto.randomUUID()
+
+    const connectToSupabase = async () => {
+      const { supabase, isSupabaseConfigured } = await import('@/lib/supabase')
+
+      if (!isSupabaseConfigured()) {
+        console.log('🌊 Running in development mode - using local state only')
+        return
+      }
+
+      presenceChannel = supabase.channel('breathing-room', {
+        config: {
+          presence: {
+            key: sessionId
+          }
+        }
+      })
+
+      // Listen for presence changes
+      presenceChannel.on('presence', { event: 'sync' }, () => {
+        const state = presenceChannel.presenceState()
+        const onlineUsers = Object.values(state).flat()
+
+        // Convert presence data to WaveParticle format
+        const waveParticles: WaveParticle[] = onlineUsers.map((user: any) => ({
+          id: user.id,
+          type: user.type || 'individual',
+          x: user.x,
+          amplitude: user.amplitude,
+          timestamp: new Date(user.joined_at),
+          location: user.location,
+          isNew: false
+        }))
+
+        setParticipants(waveParticles)
+      })
+
+      // Subscribe and track presence
+      presenceChannel.subscribe(async (status: string) => {
+        if (status === 'SUBSCRIBED') {
+          console.log('🌊 Connected to breathing room')
+
+          // Join the wave with random position
+          await presenceChannel.track({
+            id: sessionId,
+            type: 'individual',
+            x: Math.random() * 100,
+            amplitude: 0.5 + Math.random() * 0.5,
+            joined_at: new Date().toISOString(),
+            location: undefined // Optional: could add geolocation
+          })
+        }
+      })
+    }
+
+    connectToSupabase()
 
     return () => {
       if (animationRef.current) {
         cancelAnimationFrame(animationRef.current)
+      }
+      if (presenceChannel) {
+        presenceChannel.unsubscribe()
       }
     }
   }, [])

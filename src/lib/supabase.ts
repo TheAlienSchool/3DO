@@ -1,15 +1,12 @@
 import { createClient } from '@supabase/supabase-js'
 
 // Initialize Supabase client
-// Add your credentials to .env.local:
-// NEXT_PUBLIC_SUPABASE_URL=https://xxxxx.supabase.co
-// NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGci...
-
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || ''
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://zehgqixuwkymdltqipiq.supabase.co'
 const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || ''
 
-if (!supabaseUrl || !supabaseAnonKey) {
-  console.warn('Supabase credentials not found. Running in development mode.')
+if (!supabaseAnonKey) {
+  console.warn('⚠️ NEXT_PUBLIC_SUPABASE_ANON_KEY not found. Add to .env.local')
+  console.warn('Running in development mode without realtime sync.')
 }
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey, {
@@ -28,4 +25,9 @@ export interface PresenceParticipant {
   amplitude: number
   joined_at: string
   location?: string
+}
+
+// Check if Supabase is configured
+export const isSupabaseConfigured = () => {
+  return !!(supabaseUrl && supabaseAnonKey)
 }
