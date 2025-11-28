@@ -105,7 +105,7 @@ export default function HomePage() {
                   className="flex-1 max-w-sm"
                 >
                   Begin Your Practice
-                </ContemplativeCommitButton>
+                </JoinBreathingButton>
 
                 <JoinBreathingButton
                   type="venue"
@@ -115,7 +115,7 @@ export default function HomePage() {
                   className="flex-1 max-w-sm"
                 >
                   Offer a Practice Space
-                </ContemplativeCommitButton>
+                </JoinBreathingButton>
               </motion.div>
 
               {/* Introduction Video Section */}
