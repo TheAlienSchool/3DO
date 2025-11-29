@@ -463,7 +463,7 @@ export default function PreparingPage() {
                 viewport={{ once: true }}
               >
                 <h2 className="text-display mb-8">
-                  Beyond August 30-September 1
+                  Beyond September 5-7
                 </h2>
                 <p className="text-xl leading-relaxed mb-8 text-warm-cream/90">
                   The global Three Days Off happens annually, but your personal practice can happen anytime. 

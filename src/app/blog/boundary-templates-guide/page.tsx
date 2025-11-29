@@ -85,7 +85,7 @@ export default function BoundaryTemplatesGuidePost() {
 
               <p className="mb-2"><strong>Example:</strong></p>
               <p className="text-sm">
-                "I'm taking three days for intentional pause and reflection starting August 30th. During this time, I'll be minimally available by text but will respond to genuine emergencies or urgent family needs. I'm doing this to restore my energy and presence so I can be more patient and creative with our family time. I love you and appreciate your support of this practice."
+                "I'm taking three days for intentional pause and reflection starting September 5th. During this time, I'll be minimally available by text but will respond to genuine emergencies or urgent family needs. I'm doing this to restore my energy and presence so I can be more patient and creative with our family time. I love you and appreciate your support of this practice."
               </p>
             </div>
 

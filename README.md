@@ -1,6 +1,6 @@
 # Three Days Off Website
 
-A contemplative digital experience designed by **Quiet Warrior Productions** for the global pause movement happening August 30 - September 1, 2025.
+A contemplative digital experience designed by **Quiet Warrior Productions** for the global pause movement happening September 5 - September 7, 2026.
 
 ## 🎯 Project Overview
 

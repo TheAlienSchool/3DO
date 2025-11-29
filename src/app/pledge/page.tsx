@@ -85,7 +85,7 @@ export default function PledgePage() {
                       </p>
                       <button
                         onClick={() => {
-                          const text = `I'm practicing Three Days Off (Aug 30 - Sep 1) - a preparation practice for what matters. Join me at ThreeDaysOff.com`
+                          const text = `I'm practicing Three Days Off (Sep 5 - Sep 7) - a preparation practice for what matters. Join me at ThreeDaysOff.com`
                           if (navigator.share) {
                             navigator.share({ text })
                           } else {
