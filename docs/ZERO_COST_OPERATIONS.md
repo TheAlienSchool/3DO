@@ -234,87 +234,163 @@ await resend.emails.send({
 
 ## 3. Video Content Hosting
 
-### Strategy: Supabase Storage + CDN
+### Strategy: YouTube Embedding (Recommended)
 
 **Free Tier Limits:**
-- Supabase Storage: 1GB free
-- Bandwidth: 2GB/month free
-- Netlify LFS: 1GB free (alternative)
+- YouTube: Unlimited storage, bandwidth, playback
+- No video length limits
+- No subscription required
 
-### Option A: Supabase Storage (Recommended)
+### Option A: YouTube (Recommended - Start Here)
 
 **Setup:**
 
-1. **Enable Supabase Storage:**
-   - Go to https://app.supabase.com/project/zehgqixuwkymdltqipiq/storage/buckets
-   - Create bucket: `videos` (public)
+1. **Create YouTube Account** (if you don't have one):
+   - Go to https://youtube.com
+   - Sign in or create account
 
 2. **Upload Video:**
-   ```bash
-   # Install Supabase CLI
-   npm install -g supabase
+   - Click profile icon → "Create a video"
+   - Upload your video file
+   - Set visibility to "Unlisted" (only people with link can view)
+   - Get the video ID from URL: `https://youtube.com/watch?v=VIDEO_ID`
 
-   # Upload via dashboard or CLI
-   # Dashboard: Storage → videos → Upload file
-   ```
-
-3. **Get Public URL:**
-   ```
-   https://zehgqixuwkymdltqipiq.supabase.co/storage/v1/object/public/videos/THREE_DAYS_OFF__A_Festival_of_Stillness.mp4
+3. **Embed in Component:**
+   ```typescript
+   <iframe
+     width="100%"
+     height="100%"
+     src="https://www.youtube.com/embed/VIDEO_ID"
+     title="Three Days Off: Preparation Practice"
+     frameBorder="0"
+     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowFullScreen
+   />
    ```
 
 4. **Update Components:**
    ```typescript
    <ContemplativeVideoPlayer
-     src="https://zehgqixuwkymdltqipiq.supabase.co/storage/v1/object/public/videos/THREE_DAYS_OFF__A_Festival_of_Stillness.mp4"
-     poster="https://zehgqixuwkymdltqipiq.supabase.co/storage/v1/object/public/images/festival-stillness-poster.jpg"
+     src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+     title="Three Days Off: Preparation Practice"
+     description="Thousands preparing for presence together across the globe"
    />
    ```
 
-### Option B: Netlify Large Media (Alternative)
+**Why YouTube:**
+- ✅ Unlimited bandwidth (never pay overages)
+- ✅ Professional video quality options (auto-adaptive)
+- ✅ Built-in analytics (view counts, watch time)
+- ✅ No storage size limits
+- ✅ Fast CDN globally
+- ✅ One-time setup, no maintenance
 
-If videos exceed 1GB:
+### Option B: Supabase Storage (Backup for Non-Video Assets)
 
-1. **Enable Git LFS:**
-   ```bash
-   git lfs install
-   git lfs track "public/videos/*.mp4"
-   git add .gitattributes
-   ```
+For images, PDFs, and other smaller assets:
 
-2. **Enable Netlify Large Media:**
-   - Netlify dashboard → Site settings → Large Media
-   - Install Netlify CLI: `npm install -g netlify-cli`
-   - Run: `netlify lm:install`
+1. **Enable Supabase Storage:**
+   - Go to https://app.supabase.com/project/zehgqixuwkymdltqipiq/storage/buckets
+   - Create bucket: `media` (public)
 
-### Option C: YouTube (External, Always Free)
-
-If bandwidth becomes an issue:
-1. Upload to YouTube as unlisted
-2. Embed via iframe
-3. Zero hosting cost, unlimited bandwidth
+2. **Upload via dashboard:**
+   - Storage → media → Upload file
+   - Copy public URL for use in components
 
 ### Cost Analysis:
 
-**Current File Size:** `THREE_DAYS_OFF__A_Festival_of_Stillness.mp4`
-- Estimate: ~50-200MB (depending on length/quality)
+**YouTube:**
+- Cost: Free (always)
+- Bandwidth: Unlimited
+- Storage: Unlimited
+- Best for: Video content
 
-**Traffic Estimate:**
-- 1,000 page views/month
-- 20% watch video = 200 views
-- 100MB file × 200 = 20GB bandwidth
+**Supabase Storage:**
+- Cost: Free up to 2GB bandwidth/month
+- Best for: Images, documents, non-video files
+- Upgrade at: Heavy traffic (>10,000 visitors/month)
 
 **Verdict:**
-- Supabase free tier (2GB bandwidth) → Upgrade needed at scale
-- **Recommended:** Start with Supabase, move to YouTube embed if traffic grows
+- **Start with YouTube for all video content** - zero cost at any scale
+- Use Supabase Storage for images and supporting assets
 
 ---
 
-## 4. Complete Zero-Cost Stack Summary
+## 4. Link Sharing Guide
+
+When sharing links or resources for placement in the documentation, use this naming convention for clarity and optimal placement:
+
+### Naming Format
+
+```
+[SECTION]_[LOCATION]_[BRIEF_DESCRIPTION]
+```
+
+### Examples
+
+**Video Hosting Section:**
+- `VIDEO_SETUP_YOUTUBE_UPLOAD_TUTORIAL`
+- `VIDEO_ALT_SUPABASE_STORAGE_OPTION`
+- `VIDEO_COMPARISON_BANDWIDTH_ANALYSIS`
+
+**Email Infrastructure Section:**
+- `EMAIL_SETUP_RESEND_ACCOUNT_CREATION`
+- `EMAIL_TEMPLATE_WELCOME_EMAIL_EXAMPLE`
+- `EMAIL_MONITORING_DASHBOARD_SCREENSHOT`
+
+**Venue Applications Section:**
+- `VENUES_FORM_HTML_TEMPLATE`
+- `VENUES_ADMIN_REVIEW_WORKFLOW_DIAGRAM`
+- `VENUES_APPROVAL_EMAIL_SAMPLE`
+
+### Placement Guidelines
+
+1. **Research/Reference Links**
+   - Place at top of relevant section
+   - Prefix: `[RESEARCH]` or `[REFERENCE]`
+   - Example: `[RESEARCH]_YOUTUBE_EMBEDDING_BEST_PRACTICES`
+
+2. **Setup Instructions**
+   - Place under "Setup" subsection
+   - Prefix: `[SETUP]` or `[GUIDE]`
+   - Example: `[SETUP]_SUPABASE_DATABASE_CREATION_STEPS`
+
+3. **Templates/Examples**
+   - Place in code blocks or separate sections
+   - Prefix: `[TEMPLATE]` or `[EXAMPLE]`
+   - Example: `[TEMPLATE]_EMAIL_WELCOME_MESSAGE`
+
+4. **Comparisons/Analysis**
+   - Place in "Cost Analysis" or decision sections
+   - Prefix: `[COMPARISON]` or `[ANALYSIS]`
+   - Example: `[COMPARISON]_HOSTING_OPTIONS_COST_BREAKDOWN`
+
+### How to Share
+
+When you want to add a link or resource:
+
+1. **Provide the link or content**
+2. **Use the naming format** to indicate where it fits
+3. **Specify the section** (e.g., "Video Hosting" or "Email Infrastructure")
+4. **Add context** about why this resource is useful
+
+**Example format:**
+```
+Resource: [SETUP]_YOUTUBE_PRIVACY_SETTINGS_GUIDE
+Section: Video Content Hosting
+Link: [URL]
+Context: Shows how to set videos to "Unlisted" for optimal privacy control
+Placement: Under "Upload Video" step
+```
+
+---
+
+## 5. Complete Zero-Cost Stack Summary
 
 | Service | Purpose | Free Tier | When to Upgrade |
-|---------|---------|-----------|-----------------|
+|---------|---------|-----------|------------------|
 | **Netlify** | Website hosting | 100GB bandwidth/month | >100,000 visitors/month |
+| **YouTube** | Video hosting | Unlimited (always free) | Never (unless you want YouTube Premium features) |
 | **Supabase** | Database + Auth + Storage | 500MB DB, 1GB storage, 2GB bandwidth | >10,000 active users |
 | **Resend** | Email sending | 3,000 emails/month | >1,500 subscribers with bi-weekly emails |
 | **Netlify Forms** | Venue applications backup | 100 submissions/month | >100 venues/month |
@@ -344,10 +420,12 @@ If bandwidth becomes an issue:
 - [ ] Create approved venues directory page
 
 ### Video Hosting
-- [ ] Create `videos` bucket in Supabase Storage
-- [ ] Upload video file
-- [ ] Update component with public URL
+- [ ] Create YouTube account
+- [ ] Upload video as "Unlisted"
+- [ ] Get YouTube video ID
+- [ ] Update ContemplativeVideoPlayer component with YouTube embed URL
 - [ ] Test playback on deployed site
+- [ ] (Optional) Upload images/thumbnails to Supabase Storage
 
 ### Monitoring
 - [ ] Check Resend email logs weekly
