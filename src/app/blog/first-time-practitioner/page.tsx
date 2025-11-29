@@ -60,12 +60,12 @@ export default function FirstTimePractitionerPost() {
             </p>
 
             <p className="mb-6">
-              This belief system—that stillness equals stagnation, that pause signals weakness—permeates modern culture with particular intensity. Our research reveals this as a learned cultural pattern, particularly pronounced in urban professional environments where productivity metrics dominate human worth assessment.
+              This belief system::that stillness equals stagnation, that pause signals weakness::permeates modern culture with particular intensity. Our research reveals this as a learned cultural pattern, particularly pronounced in urban professional environments where productivity metrics dominate human worth assessment.
             </p>
 
             <blockquote className="border-l-4 border-sage-green pl-6 italic text-lg my-8 text-deep-brown/80">
               "Three Days Off revealed that my 'inability' to be still was actually a sophisticated nervous system protection strategy. Once I understood this, stillness became medicine instead of failure."
-              <footer className="text-base text-deep-brown/60 mt-2">— Maya Chen, Software Developer, Seoul</footer>
+              <footer className="text-base text-deep-brown/60 mt-2">:: Maya Chen, Software Developer, Seoul</footer>
             </blockquote>
 
             <h2 className="text-heading mt-12 mb-6">Sacred Geometry in Human Transformation</h2>
@@ -81,7 +81,7 @@ export default function FirstTimePractitionerPost() {
             </ul>
 
             <p className="mb-6">
-              The golden ratio appears even in temporal patterns. Participants typically experienced their first major shift at approximately 61.8% through Day One—precisely the φ (phi) proportion that governs natural harmony.
+              The golden ratio appears even in temporal patterns. Participants typically experienced their first major shift at approximately 61.8% through Day One::precisely the φ (phi) proportion that governs natural harmony.
             </p>
 
             <h2 className="text-heading mt-12 mb-6">The Neuroscience of Impossible Becoming Inevitable</h2>
@@ -108,7 +108,7 @@ export default function FirstTimePractitionerPost() {
 
             <h3 className="text-lg font-semibold mt-8 mb-4">Day One: "The Confrontation"</h3>
             <p className="mb-6">
-              Regardless of cultural background, participants faced what we term "the confrontation"—an encounter with the intensity of their own mental activity when external distractions removed. This universal experience suggests that constant stimulation has become a global coping mechanism for deeper discomfort.
+              Regardless of cultural background, participants faced what we term "the confrontation"::an encounter with the intensity of their own mental activity when external distractions removed. This universal experience suggests that constant stimulation has become a global coping mechanism for deeper discomfort.
             </p>
 
             <h3 className="text-lg font-semibold mt-8 mb-4">Day Two: "The Negotiation"</h3>
@@ -118,13 +118,13 @@ export default function FirstTimePractitionerPost() {
 
             <h3 className="text-lg font-semibold mt-8 mb-4">Day Three: "The Recognition"</h3>
             <p className="mb-6">
-              The final day brought recognition—not necessarily of profound insights, but of capacity. Participants recognized their ability to be with themselves, to find sustenance in stillness, and to access inner resources they had forgotten existed.
+              The final day brought recognition::not necessarily of profound insights, but of capacity. Participants recognized their ability to be with themselves, to find sustenance in stillness, and to access inner resources they had forgotten existed.
             </p>
 
             <h2 className="text-heading mt-12 mb-6">Implications for Future-Casting Legacy Design</h2>
 
             <p className="mb-6">
-              Looking toward the next century, Three Days Off represents more than individual practice—it's a cultural technology for collective nervous system regulation. Our research suggests that widespread adoption of preparation pause practices could:
+              Looking toward the next century, Three Days Off represents more than individual practice::it's a cultural technology for collective nervous system regulation. Our research suggests that widespread adoption of preparation pause practices could:
             </p>
 
             <ul className="mb-6 space-y-3">
@@ -135,18 +135,18 @@ export default function FirstTimePractitionerPost() {
             </ul>
 
             <blockquote className="border-l-4 border-sage-green pl-6 italic text-lg my-8 text-deep-brown/80">
-              "What if the solution to our collective overwhelm isn't more efficient productivity, but rather culturally sanctioned permission to pause? Three Days Off suggests this isn't just possible—it's inevitable."
-              <footer className="text-base text-deep-brown/60 mt-2">— Dr. Luna Park, Cultural Futures Institute</footer>
+              "What if the solution to our collective overwhelm isn't more efficient productivity, but rather culturally sanctioned permission to pause? Three Days Off suggests this isn't just possible::it's inevitable."
+              <footer className="text-base text-deep-brown/60 mt-2">:: Dr. Luna Park, Cultural Futures Institute</footer>
             </blockquote>
 
             <h2 className="text-heading mt-12 mb-6">The Paradox of Effortless Effort</h2>
 
             <p className="mb-6">
-              Perhaps the most significant finding from our research involves what participants consistently described as "effortless effort"—the discovery that profound change requires less forcing and more allowing. This aligns with both ancient preparation wisdom and cutting-edge complexity science.
+              Perhaps the most significant finding from our research involves what participants consistently described as "effortless effort"::the discovery that profound change requires less forcing and more allowing. This aligns with both ancient preparation wisdom and cutting-edge complexity science.
             </p>
 
             <p className="mb-6">
-              Marcus, a construction foreman from Detroit, captured this perfectly: "I spent forty years trying to build my way to peace. Turns out, peace was already there—I just needed to stop building long enough to notice."
+              Marcus, a construction foreman from Detroit, captured this perfectly: "I spent forty years trying to build my way to peace. Turns out, peace was already there::I just needed to stop building long enough to notice."
             </p>
 
             <h2 className="text-heading mt-12 mb-6">Recommendations for Future Practitioners</h2>
@@ -158,7 +158,7 @@ export default function FirstTimePractitionerPost() {
             <ol className="mb-6 space-y-3">
               <li><strong>1. Expect Resistance:</strong> Your initial discomfort is evidence the practice is working, creating space for something new to emerge.</li>
               <li><strong>2. Trust the Process:</strong> The sacred geometry of transformation operates on its own timeline, often beyond conscious control.</li>
-              <li><strong>3. Start Where You Are:</strong> Your current circumstances—regardless of complexity—are the perfect starting point.</li>
+              <li><strong>3. Start Where You Are:</strong> Your current circumstances::regardless of complexity::are the perfect starting point.</li>
               <li><strong>4. Welcome the Ordinary:</strong> Profound transformation often appears first as subtle shifts in everyday awareness.</li>
             </ol>
 
@@ -166,7 +166,7 @@ export default function FirstTimePractitionerPost() {
               <h3 className="text-lg font-semibold mb-4 text-center">Research Conclusion</h3>
               <p className="text-center italic">
                 "I never thought I could sit still" transforms into "I never thought stillness could hold so much." 
-                This shift represents more than personal development—it's cultural evolution toward a more sustainable way of being human in an accelerating world.
+                This shift represents more than personal development::it's cultural evolution toward a more sustainable way of being human in an accelerating world.
               </p>
             </div>
 

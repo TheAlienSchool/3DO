@@ -27,7 +27,7 @@ export default function PreparingPage() {
                 </h1>
                 <p className="text-xl md:text-2xl font-light text-deep-brown/80 mb-12 max-w-4xl mx-auto leading-relaxed">
                   Three Days Off is for everyone. Whether you have abundant time or just stolen moments,
-                  whether you're new to preparation practice or experienced—design your own approach.
+                  whether you're new to preparation practice or experienced :: design your own approach.
                 </p>
               </motion.div>
             </div>
@@ -48,7 +48,7 @@ export default function PreparingPage() {
                 <h2 className="text-display mb-6">Preparing for Your Practice</h2>
                 <p className="text-xl text-deep-brown/80 max-w-3xl mx-auto">
                   While Three Days Off is a global practice window, your experience begins with
-                  personal preparation—creating space for what matters to you.
+                  personal preparation :: creating space for what matters to you.
                 </p>
               </motion.div>
 
@@ -119,7 +119,7 @@ export default function PreparingPage() {
                 </h2>
                 <p className="text-lg leading-relaxed text-deep-brown/80 mb-6">
                   This practice belongs to no one and everyone. Whether you're employed or unemployed,
-                  seeking or finding, experienced in preparation practices or hearing about them for the first time—
+                  seeking or finding, experienced in preparation practices or hearing about them for the first time ::
                   there's a way for you to build capacity with what you have.
                 </p>
                 <p className="text-lg leading-relaxed text-deep-brown/80">
@@ -162,7 +162,7 @@ export default function PreparingPage() {
               <h2 className="text-display mb-6">Choose Your Approach</h2>
               <p className="text-xl text-deep-brown/80 max-w-3xl mx-auto">
                 There's no single "right" way to practice Three Days Off. Here are three approaches 
-                that participants have found meaningful—choose what resonates or create your own.
+                that participants have found meaningful :: choose what resonates or create your own.
               </p>
             </motion.div>
 
@@ -473,7 +473,7 @@ export default function PreparingPage() {
                   <h3 className="text-heading mb-4">Your Practice Belongs to You</h3>
                   <p className="text-warm-cream/80 leading-relaxed">
                     Whether you join the global practice or create your own timing, whether you sit in silence 
-                    for hours or breathe consciously for moments—your threesome with mind, body, and spirit 
+                    for hours or breathe consciously for moments :: your threesome with mind, body, and spirit 
                     is always available. Trust what emerges. Honor what feels right. Begin where you are.
                   </p>
                 </div>

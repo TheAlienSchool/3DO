@@ -46,7 +46,7 @@ export default function CollectivePauseResearchPost() {
             
             {/* Opening */}
             <div className="text-xl leading-relaxed text-deep-brown/80 mb-8 border-l-4 border-sage-green pl-6">
-              "When people practice preparation together, something measurable emerges—a shared network effect that supports each individual's capacity while creating collective benefit."
+              "When people practice preparation together, something measurable emerges::a shared network effect that supports each individual's capacity while creating collective benefit."
             </div>
 
             <p className="text-lg leading-relaxed mb-6">
@@ -56,7 +56,7 @@ export default function CollectivePauseResearchPost() {
             <h2 className="text-heading mt-12 mb-6">Network Patterns in Human Connection</h2>
 
             <p className="mb-6">
-              Three Days Off's practice network visualization draws inspiration from patterns observed in preparation communities throughout history. When groups practice together, they naturally organize in ways that reflect balanced geometric principles—triangular arrangements, circular formations, and proportional spacing that seems to emerge organically.
+              Three Days Off's practice network visualization draws inspiration from patterns observed in preparation communities throughout history. When groups practice together, they naturally organize in ways that reflect balanced geometric principles::triangular arrangements, circular formations, and proportional spacing that seems to emerge organically.
             </p>
 
             <div className="bg-warm-white p-6 rounded-lg my-8">
@@ -72,12 +72,12 @@ export default function CollectivePauseResearchPost() {
             <h2 className="text-heading mt-12 mb-6">Universal Patterns Across Cultures</h2>
 
             <p className="mb-6">
-              Across diverse cultural contexts—from traditional Indigenous ceremonies to modern meditation communities—similar patterns emerge when people practice preparation together. These universal tendencies suggest that collective practice taps into fundamental aspects of human social connection and shared nervous system regulation.
+              Across diverse cultural contexts::from traditional Indigenous ceremonies to modern meditation communities::similar patterns emerge when people practice preparation together. These universal tendencies suggest that collective practice taps into fundamental aspects of human social connection and shared nervous system regulation.
             </p>
 
             <blockquote className="border-l-4 border-sage-green pl-6 italic text-lg my-8 text-deep-brown/80">
               "When we practice together, I feel held by something larger while becoming more myself. It's like individual clarity increases because of the group presence, not despite it."
-              <footer className="text-base text-deep-brown/60 mt-2">— Three Days Off Community Member</footer>
+              <footer className="text-base text-deep-brown/60 mt-2">:: Three Days Off Community Member</footer>
             </blockquote>
 
             <h3 className="text-lg font-semibold mt-8 mb-4">Pattern 1: The Group Threshold</h3>
@@ -123,7 +123,7 @@ export default function CollectivePauseResearchPost() {
               <p className="mb-4">
                 "There's something about practicing together that creates a field of safety and presence. Individual nervous systems seem to regulate more easily when held by collective practice, creating space for deeper insight to emerge."
               </p>
-              <footer className="text-sm text-deep-brown/60">— Three Days Off Community Insight</footer>
+              <footer className="text-sm text-deep-brown/60">:: Three Days Off Community Insight</footer>
             </div>
 
             <h2 className="text-heading mt-12 mb-6">Research Applications and Future Possibilities</h2>
@@ -147,7 +147,7 @@ export default function CollectivePauseResearchPost() {
 
             <blockquote className="border-l-4 border-sage-green pl-6 italic text-lg my-8 text-deep-brown/80">
               "Sometimes when I'm practicing Three Days Off, I feel connected to this vast network of people around the world who are also choosing pause. It's like we're all breathing together across time zones."
-              <footer className="text-base text-deep-brown/60 mt-2">— Three Days Off Global Community Member</footer>
+              <footer className="text-base text-deep-brown/60 mt-2">:: Three Days Off Global Community Member</footer>
             </blockquote>
 
             <h3 className="text-lg font-semibold mt-8 mb-4">Local Community Effects</h3>
@@ -215,7 +215,7 @@ export default function CollectivePauseResearchPost() {
             <div className="bg-deep-brown text-warm-cream p-8 rounded-lg my-12">
               <h3 className="text-lg font-semibold mb-4 text-center">Research Insight</h3>
               <p className="text-center">
-                Collective preparation practices represent more than stress reduction—they're research-backed approaches to collective insight, empathy, and resilience. As these practices return to global culture, they may create the social infrastructure necessary for humanity to navigate complexity with presence rather than reactivity.
+                Collective preparation practices represent more than stress reduction::they're research-backed approaches to collective insight, empathy, and resilience. As these practices return to global culture, they may create the social infrastructure necessary for humanity to navigate complexity with presence rather than reactivity.
               </p>
             </div>
 

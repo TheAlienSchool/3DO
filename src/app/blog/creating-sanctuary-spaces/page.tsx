@@ -56,12 +56,12 @@ export default function CreatingPracticeSpacesPost() {
             <h2 className="text-heading mt-12 mb-6">The Sacred Geometry of Small Spaces</h2>
 
             <p className="mb-6">
-              Sacred geometry appears everywhere—including in the mindful arrangement of the smallest spaces. The golden ratio that guides Three Days Off's visual design can transform even a corner of a room into a preparation practice.
+              Sacred geometry appears everywhere::including in the mindful arrangement of the smallest spaces. The golden ratio that guides Three Days Off's visual design can transform even a corner of a room into a preparation practice.
             </p>
 
             <h3 className="text-lg font-semibold mt-8 mb-4">The Triangle Principle</h3>
             <p className="mb-6">
-              Create visual stability using triangular arrangements. Three objects—a candle, a plant, and a journal—positioned at golden ratio distances create natural focal points that support preparation attention.
+              Create visual stability using triangular arrangements. Three objects::a candle, a plant, and a journal::positioned at golden ratio distances create natural focal points that support preparation attention.
             </p>
 
             <div className="bg-warm-white p-6 rounded-lg my-8">
@@ -83,7 +83,7 @@ export default function CreatingPracticeSpacesPost() {
 
             <blockquote className="border-l-4 border-sage-green pl-6 italic text-lg my-8 text-deep-brown/80">
               "I live in a tiny studio, but every morning I roll out my yoga mat facing the window and suddenly I have a temple that spans from floor to sky."
-              <footer className="text-base text-deep-brown/60 mt-2">— Community Participant</footer>
+              <footer className="text-base text-deep-brown/60 mt-2">:: Community Participant</footer>
             </blockquote>
 
             <h3 className="text-lg font-semibold mt-8 mb-4">The Temporary Temple</h3>
@@ -138,7 +138,7 @@ export default function CreatingPracticeSpacesPost() {
 
             <h3 className="text-lg font-semibold mt-8 mb-4">Temporal Practice</h3>
             <p className="mb-6">
-              When space is limited, time becomes the container. A morning hour before others wake, a lunch break spent on a bench outside, fifteen minutes in a parked car before entering the house—these temporal sanctuaries can be as restorative as permanent physical spaces.
+              When space is limited, time becomes the container. A morning hour before others wake, a lunch break spent on a bench outside, fifteen minutes in a parked car before entering the house::these temporal sanctuaries can be as restorative as permanent physical spaces.
             </p>
 
             <h3 className="text-lg font-semibold mt-8 mb-4">Digital Boundary Practices</h3>
@@ -153,8 +153,8 @@ export default function CreatingPracticeSpacesPost() {
             </p>
 
             <blockquote className="border-l-4 border-sage-green pl-6 italic text-lg my-8 text-deep-brown/80">
-              "My practice is a library carrel where I go every Tuesday. I bring the same pen, sit in the same chair, and for two hours that corner of the library becomes my temple. The librarians know me now—they smile when I walk to 'my' spot."
-              <footer className="text-base text-deep-brown/60 mt-2">— Community Participant</footer>
+              "My practice is a library carrel where I go every Tuesday. I bring the same pen, sit in the same chair, and for two hours that corner of the library becomes my temple. The librarians know me now::they smile when I walk to 'my' spot."
+              <footer className="text-base text-deep-brown/60 mt-2">:: Community Participant</footer>
             </blockquote>
 
             <h3 className="text-lg font-semibold mt-8 mb-4">Free Practice Resources</h3>
@@ -188,7 +188,7 @@ export default function CreatingPracticeSpacesPost() {
             <h2 className="text-heading mt-12 mb-6">Practice as Spiritual Practice</h2>
 
             <p className="mb-6">
-              Creating preparation space becomes its own form of meditation. The mindful arrangement of objects, the careful attention to light and energy, the daily renewal of preparation intention—all of these activities deepen the practice they support.
+              Creating preparation space becomes its own form of meditation. The mindful arrangement of objects, the careful attention to light and energy, the daily renewal of preparation intention::all of these activities deepen the practice they support.
             </p>
 
             <p className="mb-6">

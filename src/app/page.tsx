@@ -9,21 +9,20 @@ import ContemplativeVideoPlayer from '@/components/ContemplativeVideoPlayer'
 
 export default function HomePage() {
   const [mounted, setMounted] = useState(false)
-  const [currentPledges, setCurrentPledges] = useState(1247)
-  const [currentVenues, setCurrentVenues] = useState(89)
+  const [currentPledges, setCurrentPledges] = useState(0) // Start from zero
+  const [currentVenues, setCurrentVenues] = useState(0) // Start from zero
 
   useEffect(() => {
     setMounted(true)
-    
-    // Simulate real-time counter updates
-    const interval = setInterval(() => {
-      setCurrentPledges(prev => prev + Math.floor(Math.random() * 3))
-      if (Math.random() > 0.7) {
-        setCurrentVenues(prev => prev + 1)
-      }
-    }, 30000) // Update every 30 seconds
 
-    return () => clearInterval(interval)
+    // TODO: Replace with real Supabase counts
+    // const fetchCounts = async () => {
+    //   const { data: stats } = await supabase.from('pledge_stats').select('*').single()
+    //   setCurrentPledges(stats.individual_count)
+    //   setCurrentVenues(stats.venue_count)
+    // }
+    // fetchCounts()
+
   }, [])
 
   if (!mounted) {
@@ -127,7 +126,7 @@ export default function HomePage() {
                   <div className="text-center mb-8">
                     <h2 className="text-display mb-4">How Three Days Off Works</h2>
                     <p className="text-xl text-deep-brown/80 max-w-3xl mx-auto">
-                      Thousands prepare together—a global practice of time awareness
+                      Thousands prepare together :: a global practice of time awareness
                       that builds capacity for what matters most.
                     </p>
                   </div>
@@ -176,7 +175,7 @@ export default function HomePage() {
                 className="flex flex-col items-center"
               >
                 <p className="text-lg text-sage-green font-medium mb-6">
-                  Preparation opens possibilities—your practice strengthens the whole
+                  Preparation opens possibilities :: your practice strengthens the whole
                 </p>
                 <p className="text-sm text-deep-brown/60 max-w-md">
                   People prepare for custody transitions, solo travel, major presentations, heartbreak recovery,
@@ -202,7 +201,7 @@ export default function HomePage() {
                 </h2>
                 <p className="text-xl leading-relaxed text-deep-brown/80 mb-12">
                   Three Days Off invites you to discover what opens when mind, body,
-                  and spirit spend time together. A threesome with yourself—simple,
+                  and spirit spend time together. A threesome with yourself :: simple,
                   practical, and always available.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
@@ -247,7 +246,7 @@ export default function HomePage() {
                   This practice is always available to you
                 </h2>
                 <p className="text-xl leading-relaxed mb-12 text-warm-cream/90">
-                  Labor Day weekend becomes an opportunity to practice—mind, body, and spirit
+                  Labor Day weekend becomes an opportunity to practice :: mind, body, and spirit
                   preparing together for what matters. This practice requires only intention
                   and opens countless possibilities.
                 </p>

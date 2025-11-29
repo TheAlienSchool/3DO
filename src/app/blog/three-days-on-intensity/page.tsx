@@ -50,7 +50,7 @@ export default function ThreeDaysOnIntensityPost() {
             </div>
 
             <p className="text-lg leading-relaxed mb-6">
-              While Three Days Off invites pause and restoration, the complementary practice of Three Days On recognizes that some moments in life call for conscious intensity. This is the path of the artist approaching deadline with creative fire, the athlete in peak training, the healer serving crisis, the parent navigating family emergency—times when stepping back would serve neither wisdom nor love.
+              While Three Days Off invites pause and restoration, the complementary practice of Three Days On recognizes that some moments in life call for conscious intensity. This is the path of the artist approaching deadline with creative fire, the athlete in peak training, the healer serving crisis, the parent navigating family emergency::times when stepping back would serve neither wisdom nor love.
             </p>
 
             <h2 className="text-heading mt-12 mb-6">The Sacred Geometry of Intensity</h2>
@@ -81,7 +81,7 @@ export default function ThreeDaysOnIntensityPost() {
 
             <blockquote className="border-l-4 border-sage-green pl-6 italic text-lg my-8 text-deep-brown/80">
               "When my daughter was born premature, those three days in the NICU became the most intense practice of my life. Every breath was intentional attention. Every moment was both urgency and presence. I had never been so exhausted or so alive."
-              <footer className="text-base text-deep-brown/60 mt-2">— Community Participant</footer>
+              <footer className="text-base text-deep-brown/60 mt-2">:: Community Participant</footer>
             </blockquote>
 
             <h3 className="text-lg font-semibold mt-8 mb-4">Distinguishing from Burnout Culture</h3>
@@ -161,12 +161,12 @@ export default function ThreeDaysOnIntensityPost() {
             <h2 className="text-heading mt-12 mb-6">The Science of Beneficial Stress</h2>
 
             <p className="mb-6">
-              Sacred intensity engages what researchers call "hormetic response"—stress that strengthens rather than weakens systems. Like exercise that builds muscle or fasting that enhances cellular renewal, conscious intensity can expand capacity when approached with wisdom.
+              Sacred intensity engages what researchers call "hormetic response"::stress that strengthens rather than weakens systems. Like exercise that builds muscle or fasting that enhances cellular renewal, conscious intensity can expand capacity when approached with wisdom.
             </p>
 
             <blockquote className="border-l-4 border-sage-green pl-6 italic text-lg my-8 text-deep-brown/80">
               "The three days I spent finishing my thesis felt like climbing a mountain made of words. Each day required everything I had, but each day also revealed capabilities I never knew I possessed. By the third day, I was writing beyond my normal mind."
-              <footer className="text-base text-deep-brown/60 mt-2">— Community Participant</footer>
+              <footer className="text-base text-deep-brown/60 mt-2">:: Community Participant</footer>
             </blockquote>
 
             <h2 className="text-heading mt-12 mb-6">Honor All Paths</h2>
