@@ -586,7 +586,7 @@ export default function HowItWorksPage() {
               </span>
             </div>
             <p className="text-deep-brown/70 mb-6">
-              A practice from <strong>TheAlienSchool.com</strong> • Created by <strong>Kamau Zuberi Akabueze</strong>
+              A practice from <strong><a href="https://thealienschool.com" target="_blank" rel="noopener noreferrer" className="hover:text-sage-green transition-colors">TheAlienSchool.com</a></strong> • Created by <strong>Kamau Zuberi Akabueze</strong>
             </p>
             <div className="flex flex-wrap justify-center gap-6 text-sm">
               <Link href="/preparing" className="nav-link">Preparing</Link>

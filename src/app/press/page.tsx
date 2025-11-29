@@ -102,7 +102,7 @@ export default function PressPage() {
                   <ul className="space-y-3 text-deep-brown/80">
                     <li>• <strong>Launch Date:</strong> August 15, 2025</li>
                     <li>• <strong>Global Practice:</strong> August 30 - September 1, 2025</li>
-                    <li>• <strong>Founder:</strong> Kamau Zuberi Akabueze, Creator of TheAlienSchool.com</li>
+                    <li>• <strong>Founder:</strong> Kamau Zuberi Akabueze, Creator of <a href="https://thealienschool.com" target="_blank" rel="noopener noreferrer" className="text-sage-green hover:underline">TheAlienSchool.com</a></li>
                     <li>• <strong>Inspiration:</strong> Stefan Sagmeister's 7:1 sabbatical model</li>
                     <li>• <strong>Participation:</strong> Free, voluntary, globally accessible</li>
                     <li>• <strong>Website:</strong> ThreeDaysOff.com</li>
@@ -145,9 +145,9 @@ export default function PressPage() {
                 >
                   <h3 className="text-heading mb-4">Kamau Zuberi Akabueze</h3>
                   <p className="text-deep-brown/80 mb-4 leading-relaxed">
-                    Creator of TheAlienSchool.com and founder of Three Days Off, Kamau brings a unique 
-                    perspective that bridges ancient contemplative wisdom with contemporary applications. 
-                    His work explores what he calls "consciousness technology" :: practical approaches to 
+                    Creator of <a href="https://thealienschool.com" target="_blank" rel="noopener noreferrer" className="text-sage-green hover:underline">TheAlienSchool.com</a> and founder of Three Days Off, Kamau brings a unique
+                    perspective that bridges ancient contemplative wisdom with contemporary applications.
+                    His work explores what he calls "consciousness technology" :: practical approaches to
                     awareness that honor both individual transformation and collective wellbeing.
                   </p>
                   <p className="text-deep-brown/80 mb-4 leading-relaxed">
@@ -192,9 +192,13 @@ export default function PressPage() {
                       </p>
                     </div>
                     <div>
-                      <h5 className="font-semibold text-sage-green">TheAlienSchool.com</h5>
+                      <h5 className="font-semibold text-sage-green">
+                        <a href="https://thealienschool.com" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                          TheAlienSchool.com
+                        </a>
+                      </h5>
                       <p className="text-deep-brown/70">
-                        Platform for creative guidance and consciousness development, emphasizing 
+                        Platform for creative guidance and consciousness development, emphasizing
                         "advocates for the alienated."
                       </p>
                     </div>
@@ -565,7 +569,7 @@ export default function PressPage() {
               </span>
             </div>
             <p className="text-deep-brown/70 mb-6">
-              A practice from <strong>TheAlienSchool.com</strong> • Created by <strong>Kamau Zuberi Akabueze</strong>
+              A practice from <strong><a href="https://thealienschool.com" target="_blank" rel="noopener noreferrer" className="hover:text-sage-green transition-colors">TheAlienSchool.com</a></strong> • Created by <strong>Kamau Zuberi Akabueze</strong>
             </p>
             <div className="flex flex-wrap justify-center gap-6 text-sm">
               <Link href="/how-it-works" className="nav-link">How It Works</Link>
