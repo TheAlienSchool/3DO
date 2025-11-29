@@ -463,7 +463,7 @@ export default function PreparingPage() {
                 viewport={{ once: true }}
               >
                 <h2 className="text-display mb-8">
-                  Beyond August 30-September 1
+                  Beyond September 5-7
                 </h2>
                 <p className="text-xl leading-relaxed mb-8 text-warm-cream/90">
                   The global Three Days Off happens annually, but your personal practice can happen anytime. 
@@ -510,7 +510,7 @@ export default function PreparingPage() {
               </span>
             </div>
             <p className="text-deep-brown/70 mb-6">
-              A practice from <strong>TheAlienSchool.com</strong> • Created by <strong>Kamau Zuberi Akabueze</strong>
+              A practice from <strong><a href="https://thealienschool.com" target="_blank" rel="noopener noreferrer" className="hover:text-sage-green transition-colors">TheAlienSchool.com</a></strong> • Created by <strong>Kamau Zuberi Akabueze</strong>
             </p>
             <div className="flex flex-wrap justify-center gap-6 text-sm">
               <Link href="/how-it-works" className="nav-link">How It Works</Link>

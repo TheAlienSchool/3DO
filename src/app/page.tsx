@@ -6,6 +6,8 @@ import { motion } from 'framer-motion'
 import Navigation from '@/components/Navigation'
 import BreathingNetwork, { JoinBreathingButton } from '@/components/BreathingNetwork'
 import ContemplativeVideoPlayer from '@/components/ContemplativeVideoPlayer'
+import Tooltip from '@/components/Tooltip'
+import LanternLighthouseAnimation from '@/components/LanternLighthouseAnimation'
 
 export default function HomePage() {
   const [mounted, setMounted] = useState(false)
@@ -223,49 +225,93 @@ export default function HomePage() {
 
                 {/* Transformation Grid */}
                 <div className="grid md:grid-cols-2 gap-6 text-left mb-8">
-                  <div className="bg-warm-white p-6 rounded-lg hover:shadow-md transition-shadow">
-                    <div className="flex items-start gap-3">
-                      <span className="text-2xl">💻</span>
+                  <Tooltip
+                    content={
                       <div>
-                        <h3 className="font-semibold text-deep-brown mb-2">Digital Fatigue</h3>
-                        <p className="text-sm text-deep-brown/70 mb-2">The constant input, notification overload, screen exhaustion</p>
-                        <p className="text-sm text-sage-green font-medium">→ Psychological Renewal & reduced cognitive load</p>
+                        <p className="font-semibold mb-2">Research Evidence:</p>
+                        <p className="text-xs mb-2">• JAMA Psychiatry: 46% reduction in anxiety with mindfulness practices</p>
+                        <p className="text-xs mb-2">• Digital Detox Studies: Significant improvement in sleep quality and focus</p>
+                        <p className="text-xs">• Cognitive Load Theory: Reduced multitasking improves working memory</p>
+                      </div>
+                    }
+                  >
+                    <div className="bg-warm-white p-6 rounded-lg hover:shadow-lg hover:scale-105 transition-all cursor-help">
+                      <div className="flex items-start gap-3">
+                        <span className="text-2xl">💻</span>
+                        <div>
+                          <h3 className="font-semibold text-deep-brown mb-2">Digital Fatigue</h3>
+                          <p className="text-sm text-deep-brown/70 mb-2">The constant input, notification overload, screen exhaustion</p>
+                          <p className="text-sm text-sage-green font-medium">→ Psychological Renewal & reduced cognitive load</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  </Tooltip>
 
-                  <div className="bg-warm-white p-6 rounded-lg hover:shadow-md transition-shadow">
-                    <div className="flex items-start gap-3">
-                      <span className="text-2xl">🧩</span>
+                  <Tooltip
+                    content={
                       <div>
-                        <h3 className="font-semibold text-deep-brown mb-2">Fragmented Attention</h3>
-                        <p className="text-sm text-deep-brown/70 mb-2">Scattered focus, perpetual distraction, mental dispersion</p>
-                        <p className="text-sm text-sage-green font-medium">→ Integrated Awareness & coherent presence</p>
+                        <p className="font-semibold mb-2">Research Evidence:</p>
+                        <p className="text-xs mb-2">• Default Mode Network: Restored through intentional pause practices</p>
+                        <p className="text-xs mb-2">• Attention Restoration Theory: Nature of mind requires coherent focus periods</p>
+                        <p className="text-xs">• Flow State Research: Integration creates sustained peak performance</p>
+                      </div>
+                    }
+                  >
+                    <div className="bg-warm-white p-6 rounded-lg hover:shadow-lg hover:scale-105 transition-all cursor-help">
+                      <div className="flex items-start gap-3">
+                        <span className="text-2xl">🧩</span>
+                        <div>
+                          <h3 className="font-semibold text-deep-brown mb-2">Fragmented Attention</h3>
+                          <p className="text-sm text-deep-brown/70 mb-2">Scattered focus, perpetual distraction, mental dispersion</p>
+                          <p className="text-sm text-sage-green font-medium">→ Integrated Awareness & coherent presence</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  </Tooltip>
 
-                  <div className="bg-warm-white p-6 rounded-lg hover:shadow-md transition-shadow">
-                    <div className="flex items-start gap-3">
-                      <span className="text-2xl">🔥</span>
+                  <Tooltip
+                    content={
                       <div>
-                        <h3 className="font-semibold text-deep-brown mb-2">Burnout</h3>
-                        <p className="text-sm text-deep-brown/70 mb-2">Exhaustion, overwhelm, depleted creative capacity</p>
-                        <p className="text-sm text-sage-green font-medium">→ Genius Activation through integration</p>
+                        <p className="font-semibold mb-2">Research Evidence:</p>
+                        <p className="text-xs mb-2">• WHO: Burnout now classified as occupational phenomenon affecting productivity</p>
+                        <p className="text-xs mb-2">• Creativity Studies: Rest periods essential for creative breakthroughs</p>
+                        <p className="text-xs">• Neuroplasticity: Integration practices enhance capacity for complex problem-solving</p>
+                      </div>
+                    }
+                  >
+                    <div className="bg-warm-white p-6 rounded-lg hover:shadow-lg hover:scale-105 transition-all cursor-help">
+                      <div className="flex items-start gap-3">
+                        <span className="text-2xl">🔥</span>
+                        <div>
+                          <h3 className="font-semibold text-deep-brown mb-2">Burnout</h3>
+                          <p className="text-sm text-deep-brown/70 mb-2">Exhaustion, overwhelm, depleted creative capacity</p>
+                          <p className="text-sm text-sage-green font-medium">→ Genius Activation through integration</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  </Tooltip>
 
-                  <div className="bg-warm-white p-6 rounded-lg hover:shadow-md transition-shadow">
-                    <div className="flex items-start gap-3">
-                      <span className="text-2xl">🏝️</span>
+                  <Tooltip
+                    content={
                       <div>
-                        <h3 className="font-semibold text-deep-brown mb-2">Isolation</h3>
-                        <p className="text-sm text-deep-brown/70 mb-2">Disconnection, loneliness, fragmented community</p>
-                        <p className="text-sm text-sage-green font-medium">→ Collective Coherence & network presence</p>
+                        <p className="font-semibold mb-2">Research Evidence:</p>
+                        <p className="text-xs mb-2">• Social Coherence Theory: Group practices create measurable synchronization</p>
+                        <p className="text-xs mb-2">• HeartMath Institute: Collective coherence enhances individual capacity</p>
+                        <p className="text-xs">• Network Effects: Shared intention amplifies individual transformation</p>
+                      </div>
+                    }
+                  >
+                    <div className="bg-warm-white p-6 rounded-lg hover:shadow-lg hover:scale-105 transition-all cursor-help">
+                      <div className="flex items-start gap-3">
+                        <span className="text-2xl">🏝️</span>
+                        <div>
+                          <h3 className="font-semibold text-deep-brown mb-2">Isolation</h3>
+                          <p className="text-sm text-deep-brown/70 mb-2">Disconnection, loneliness, fragmented community</p>
+                          <p className="text-sm text-sage-green font-medium">→ Collective Coherence & network presence</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  </Tooltip>
                 </div>
 
                 <p className="text-sm text-deep-brown/60 italic">
@@ -355,13 +401,16 @@ export default function HomePage() {
                 </div>
 
                 {/* Integration Result */}
-                <div className="bg-gradient-to-r from-sage-green to-contemplative-gold p-8 rounded-lg text-warm-cream max-w-2xl mx-auto">
-                  <div className="text-3xl mb-4">⚡</div>
-                  <h3 className="text-2xl font-semibold mb-4">Integrated Choice</h3>
-                  <p className="text-warm-cream/90">
-                    Decisions emerge from the confluence of Mind (clarity), Body (somatic knowing),
-                    and Spirit (wisdom)—choices that serve your whole self rather than impulse.
-                  </p>
+                <div className="relative bg-gradient-to-br from-deep-brown via-sage-green to-deep-brown p-8 rounded-lg text-warm-cream max-w-2xl mx-auto overflow-hidden">
+                  <div className="absolute inset-0 bg-deep-brown/40"></div>
+                  <div className="relative z-10">
+                    <div className="text-3xl mb-4">⚡</div>
+                    <h3 className="text-2xl font-semibold mb-4">Integrated Choice</h3>
+                    <p className="text-warm-cream">
+                      Decisions emerge from the confluence of Mind (clarity), Body (somatic knowing),
+                      and Spirit (wisdom)—choices that serve your whole self rather than impulse.
+                    </p>
+                  </div>
                 </div>
               </motion.div>
             </div>
@@ -382,9 +431,12 @@ export default function HomePage() {
                 <h2 className="text-display mb-6 three-dots">
                   From Personal Clarity to Collective Coherence
                 </h2>
-                <p className="text-xl text-deep-brown/80">
+                <p className="text-xl text-deep-brown/80 mb-12">
                   Your personal practice creates collective capacity
                 </p>
+
+                {/* Animated Transformation Visualization */}
+                <LanternLighthouseAnimation />
               </motion.div>
 
               <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -620,7 +672,7 @@ export default function HomePage() {
               </span>
             </div>
             <p className="text-deep-brown/70 mb-6">
-              A practice from <strong>TheAlienSchool.com</strong> • Created by <strong>Kamau Zuberi Akabueze</strong>
+              A practice from <strong><a href="https://thealienschool.com" target="_blank" rel="noopener noreferrer" className="hover:text-sage-green transition-colors">TheAlienSchool.com</a></strong> • Created by <strong>Kamau Zuberi Akabueze</strong>
             </p>
 
             {/* Complementary Practice */}

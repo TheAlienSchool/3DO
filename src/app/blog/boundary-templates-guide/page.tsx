@@ -85,7 +85,7 @@ export default function BoundaryTemplatesGuidePost() {
 
               <p className="mb-2"><strong>Example:</strong></p>
               <p className="text-sm">
-                "I'm taking three days for intentional pause and reflection starting August 30th. During this time, I'll be minimally available by text but will respond to genuine emergencies or urgent family needs. I'm doing this to restore my energy and presence so I can be more patient and creative with our family time. I love you and appreciate your support of this practice."
+                "I'm taking three days for intentional pause and reflection starting September 5th. During this time, I'll be minimally available by text but will respond to genuine emergencies or urgent family needs. I'm doing this to restore my energy and presence so I can be more patient and creative with our family time. I love you and appreciate your support of this practice."
               </p>
             </div>
 
@@ -302,7 +302,7 @@ export default function BoundaryTemplatesGuidePost() {
       <footer className="bg-soft-gray py-12 mt-16">
         <div className="container-preparation text-center">
           <p className="text-deep-brown/70">
-            A practice from <strong>TheAlienSchool.com</strong> • Created by <strong>Kamau Zuberi Akabueze</strong>
+            A practice from <strong><a href="https://thealienschool.com" target="_blank" rel="noopener noreferrer" className="hover:text-sage-green transition-colors">TheAlienSchool.com</a></strong> • Created by <strong>Kamau Zuberi Akabueze</strong>
           </p>
         </div>
       </footer>

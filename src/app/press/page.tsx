@@ -48,9 +48,14 @@ export default function PressPage() {
                 className="text-center mb-16"
               >
                 <h2 className="text-display mb-6 three-dots">The Story</h2>
-                <p className="text-xl text-deep-brown/80 leading-relaxed">
-                  Three Days Off represents a new approach to how people prepare for what matters ::
-                  rest, reflection, and intentional time-awareness in an accelerated world.
+                <p className="text-xl text-deep-brown/80 leading-relaxed mb-6">
+                  Three Days Off is maximum internal restoration and the development of genius ::
+                  a research-backed framework that trains Mind, Body, and Spirit to work together
+                  for breakthrough capacity.
+                </p>
+                <p className="text-lg text-deep-brown/70 leading-relaxed">
+                  When thousands practice together in a shared time window, network effects emerge.
+                  This goes beyond individual self-care—it's a global demonstration of collective coherence.
                 </p>
               </motion.div>
 
@@ -64,28 +69,30 @@ export default function PressPage() {
                   <h3 className="text-heading mb-6">Key Messages for Media</h3>
                   <div className="space-y-6">
                     <div>
-                      <h4 className="font-semibold text-sage-green mb-2">The Global Practice</h4>
+                      <h4 className="font-semibold text-sage-green mb-2">The Integration Engine</h4>
                       <p className="text-deep-brown/80">
-                        When thousands prepare together in a shared time window, research suggests
-                        network effects emerge. This goes beyond individual self-care :: it's a global
-                        demonstration of what becomes possible when people prioritize intentional preparation.
+                        Most practices train one aspect—meditation for mind, yoga for body, ritual for spirit.
+                        Three Days Off trains their collaboration. When Mind, Body, and Spirit work together,
+                        you don't just rest. You develop genius—the capacity for integrated choice, creative
+                        breakthrough, and sustained presence.
                       </p>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-sage-green mb-2">Beyond Digital Detox</h4>
+                      <h4 className="font-semibold text-sage-green mb-2">From Burden to Breakthrough</h4>
                       <p className="text-deep-brown/80">
-                        Three Days Off builds on research about time-awareness and preparation.
-                        It's about developing intentional relationship with demands, building agency
-                        over attention, and creating conditions where mind, body, and spirit
-                        can align with what matters.
+                        The practice addresses what people are actually carrying :: digital fatigue, fragmented
+                        attention, burnout, isolation. Through intentional pause, these transform into psychological
+                        renewal, integrated awareness, genius activation, and collective coherence. Research shows
+                        measurable improvements in anxiety (46% reduction), Heart Rate Variability, and creative capacity.
                       </p>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-sage-green mb-2">Scientific Foundation</h4>
+                      <h4 className="font-semibold text-sage-green mb-2">Lantern to Lighthouse</h4>
                       <p className="text-deep-brown/80">
-                        Research from institutions like HeartMath Institute, Stanford, and WHO validates 
-                        the profound benefits of structured retreat practices. Three Days Off translates 
-                        this science into an accessible format for contemporary life.
+                        Individual practice creates collective capacity. When you bring undivided attention to your
+                        own integration (the Lantern), you become clear. Your clarity creates orientation for others
+                        (the Lighthouse). When thousands practice together (the Network), research suggests measurable
+                        coherence emerges—a sales funnel with nothing to sell, accessible to anyone who needs it.
                       </p>
                     </div>
                   </div>
@@ -101,8 +108,8 @@ export default function PressPage() {
                   <h4 className="text-heading mb-4 text-sage-green">Quick Facts</h4>
                   <ul className="space-y-3 text-deep-brown/80">
                     <li>• <strong>Launch Date:</strong> August 15, 2025</li>
-                    <li>• <strong>Global Practice:</strong> August 30 - September 1, 2025</li>
-                    <li>• <strong>Founder:</strong> Kamau Zuberi Akabueze, Creator of TheAlienSchool.com</li>
+                    <li>• <strong>Global Practice:</strong> September 5 - September 7, 2026</li>
+                    <li>• <strong>Founder:</strong> Kamau Zuberi Akabueze, Creator of <a href="https://thealienschool.com" target="_blank" rel="noopener noreferrer" className="text-sage-green hover:underline">TheAlienSchool.com</a></li>
                     <li>• <strong>Inspiration:</strong> Stefan Sagmeister's 7:1 sabbatical model</li>
                     <li>• <strong>Participation:</strong> Free, voluntary, globally accessible</li>
                     <li>• <strong>Website:</strong> ThreeDaysOff.com</li>
@@ -145,9 +152,9 @@ export default function PressPage() {
                 >
                   <h3 className="text-heading mb-4">Kamau Zuberi Akabueze</h3>
                   <p className="text-deep-brown/80 mb-4 leading-relaxed">
-                    Creator of TheAlienSchool.com and founder of Three Days Off, Kamau brings a unique 
-                    perspective that bridges ancient contemplative wisdom with contemporary applications. 
-                    His work explores what he calls "consciousness technology" :: practical approaches to 
+                    Creator of <a href="https://thealienschool.com" target="_blank" rel="noopener noreferrer" className="text-sage-green hover:underline">TheAlienSchool.com</a> and founder of Three Days Off, Kamau brings a unique
+                    perspective that bridges ancient contemplative wisdom with contemporary applications.
+                    His work explores what he calls "consciousness technology" :: practical approaches to
                     awareness that honor both individual transformation and collective wellbeing.
                   </p>
                   <p className="text-deep-brown/80 mb-4 leading-relaxed">
@@ -192,9 +199,13 @@ export default function PressPage() {
                       </p>
                     </div>
                     <div>
-                      <h5 className="font-semibold text-sage-green">TheAlienSchool.com</h5>
+                      <h5 className="font-semibold text-sage-green">
+                        <a href="https://thealienschool.com" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                          TheAlienSchool.com
+                        </a>
+                      </h5>
                       <p className="text-deep-brown/70">
-                        Platform for creative guidance and consciousness development, emphasizing 
+                        Platform for creative guidance and consciousness development, emphasizing
                         "advocates for the alienated."
                       </p>
                     </div>
@@ -277,8 +288,8 @@ export default function PressPage() {
                       </div>
                     </div>
                   </div>
-                  <Link href="/venues" className="mt-6 inline-block bg-sage-green text-warm-cream px-6 py-3 rounded-full font-medium hover:bg-warm-cream hover:text-deep-brown transition-all duration-300">
-                    Access 3DO Media Center
+                  <Link href="/volunteer" className="mt-6 inline-block bg-sage-green text-warm-cream px-6 py-3 rounded-full font-medium hover:bg-warm-cream hover:text-deep-brown transition-all duration-300">
+                    Volunteer :: Help Build Media Center
                   </Link>
                 </motion.div>
 
@@ -321,8 +332,8 @@ export default function PressPage() {
                       </div>
                     </div>
                   </div>
-                  <Link href="/venues" className="mt-6 inline-block bg-sage-green text-warm-cream px-6 py-3 rounded-full font-medium hover:bg-warm-cream hover:text-deep-brown transition-all duration-300">
-                    Access Content Library
+                  <Link href="/volunteer" className="mt-6 inline-block bg-sage-green text-warm-cream px-6 py-3 rounded-full font-medium hover:bg-warm-cream hover:text-deep-brown transition-all duration-300">
+                    Volunteer :: Help Build Content Library
                   </Link>
                 </motion.div>
               </div>
@@ -341,7 +352,7 @@ export default function PressPage() {
                   background research, founder bio, high-res images, and usage guidelines.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Link href="/venues" className="bg-warm-cream text-deep-brown px-8 py-4 rounded-full font-medium tracking-wide hover:bg-sage-green hover:text-warm-cream transition-all duration-300">
+                  <Link href="/volunteer" className="bg-warm-cream text-deep-brown px-8 py-4 rounded-full font-medium tracking-wide hover:bg-sage-green hover:text-warm-cream transition-all duration-300">
                     Access 3DO Media Center
                   </Link>
                   <a href="mailto:Creative@ThreeDaysOff.com" className="border-2 border-warm-cream text-warm-cream px-8 py-4 rounded-full font-medium tracking-wide hover:bg-warm-cream hover:text-deep-brown transition-all duration-300">
@@ -565,7 +576,7 @@ export default function PressPage() {
               </span>
             </div>
             <p className="text-deep-brown/70 mb-6">
-              A practice from <strong>TheAlienSchool.com</strong> • Created by <strong>Kamau Zuberi Akabueze</strong>
+              A practice from <strong><a href="https://thealienschool.com" target="_blank" rel="noopener noreferrer" className="hover:text-sage-green transition-colors">TheAlienSchool.com</a></strong> • Created by <strong>Kamau Zuberi Akabueze</strong>
             </p>
             <div className="flex flex-wrap justify-center gap-6 text-sm">
               <Link href="/how-it-works" className="nav-link">How It Works</Link>

@@ -232,10 +232,10 @@ export default function VenuesPage() {
                     </div>
                   </div>
                   <button 
-                    onClick={() => window.open('https://drive.google.com/drive/folders/space-transformation-assets', '_blank')}
+                    onClick={() => window.location.href = '/volunteer'}
                     className="mt-4 w-full btn-contemplative px-4 py-2 rounded-full text-sm font-medium"
                   >
-                    Browse Space Assets
+                    Volunteer :: Help Build Space Assets
                   </button>
                 </motion.div>
 
@@ -266,7 +266,7 @@ export default function VenuesPage() {
                     onClick={() => window.open('https://drive.google.com/drive/folders/event-creation-resources', '_blank')}
                     className="mt-4 w-full btn-contemplative px-4 py-2 rounded-full text-sm font-medium"
                   >
-                    Browse Event Resources
+                    Volunteer :: Help Build Event Resources
                   </button>
                 </motion.div>
 
@@ -297,7 +297,7 @@ export default function VenuesPage() {
                     onClick={() => window.open('https://drive.google.com/drive/folders/digital-integration-tools', '_blank')}
                     className="mt-4 w-full btn-contemplative px-4 py-2 rounded-full text-sm font-medium"
                   >
-                    Browse Digital Assets
+                    Volunteer :: Help Build Digital Assets
                   </button>
                 </motion.div>
 
@@ -328,7 +328,7 @@ export default function VenuesPage() {
                     onClick={() => window.open('https://drive.google.com/drive/folders/programming-resources', '_blank')}
                     className="mt-4 w-full btn-contemplative px-4 py-2 rounded-full text-sm font-medium"
                   >
-                    Browse Programming Kit
+                    Volunteer :: Help Build Programming Kit
                   </button>
                 </motion.div>
 
@@ -359,7 +359,7 @@ export default function VenuesPage() {
                     onClick={() => window.open('https://drive.google.com/drive/folders/community-engagement', '_blank')}
                     className="mt-4 w-full btn-contemplative px-4 py-2 rounded-full text-sm font-medium"
                   >
-                    Browse Community Resources
+                    Volunteer :: Help Build Community Resources
                   </button>
                 </motion.div>
               </div>
@@ -382,7 +382,7 @@ export default function VenuesPage() {
                     onClick={() => window.open('https://drive.google.com/drive/folders/3do-complete-content-library', '_blank')}
                     className="btn-contemplative px-8 py-4 rounded-full font-medium tracking-wide"
                   >
-                    Access Content Library
+                    Volunteer :: Help Build Content Library
                   </button>
                   <a 
                     href="mailto:Creative@ThreeDaysOff.com?subject=Custom Asset Request&body=Hello! I'd like to request custom assets for my Three Days Off venue. Please include details about your venue and specific asset needs."
@@ -525,7 +525,7 @@ export default function VenuesPage() {
                     onClick={() => window.scrollTo({ top: 200, behavior: 'smooth' })}
                     className="border-2 border-sage-green text-sage-green px-8 py-4 rounded-full font-medium tracking-wide hover:bg-sage-green hover:text-warm-cream transition-all duration-300"
                   >
-                    Explore Media Center ↑
+                    Volunteer :: Help Build Media Center
                   </button>
                 </div>
               </motion.div>
@@ -547,7 +547,7 @@ export default function VenuesPage() {
               </span>
             </div>
             <p className="text-deep-brown/70 mb-6">
-              A practice from <strong>TheAlienSchool.com</strong> • Created by <strong>Kamau Zuberi Akabueze</strong>
+              A practice from <strong><a href="https://thealienschool.com" target="_blank" rel="noopener noreferrer" className="hover:text-sage-green transition-colors">TheAlienSchool.com</a></strong> • Created by <strong>Kamau Zuberi Akabueze</strong>
             </p>
             <div className="flex flex-wrap justify-center gap-6 text-sm">
               <Link href="/how-it-works" className="nav-link">How It Works</Link>

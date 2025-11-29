@@ -268,7 +268,7 @@ export default function ThreeDaysOnIntensityPost() {
       <footer className="bg-soft-gray py-12 mt-16">
         <div className="container-preparation text-center">
           <p className="text-deep-brown/70">
-            A practice from <strong>TheAlienSchool.com</strong> • Created by <strong>Kamau Zuberi Akabueze</strong>
+            A practice from <strong><a href="https://thealienschool.com" target="_blank" rel="noopener noreferrer" className="hover:text-sage-green transition-colors">TheAlienSchool.com</a></strong> • Created by <strong>Kamau Zuberi Akabueze</strong>
           </p>
         </div>
       </footer>

@@ -85,7 +85,7 @@ export default function PledgePage() {
                       </p>
                       <button
                         onClick={() => {
-                          const text = `I'm practicing Three Days Off (Aug 30 - Sep 1) - a preparation practice for what matters. Join me at ThreeDaysOff.com`
+                          const text = `I'm practicing Three Days Off (Sep 5 - Sep 7) - a preparation practice for what matters. Join me at ThreeDaysOff.com`
                           if (navigator.share) {
                             navigator.share({ text })
                           } else {
@@ -360,7 +360,7 @@ export default function PledgePage() {
               </span>
             </div>
             <p className="text-deep-brown/70 mb-6">
-              A practice from <strong>TheAlienSchool.com</strong> • Created by <strong>Kamau Zuberi Akabueze</strong>
+              A practice from <strong><a href="https://thealienschool.com" target="_blank" rel="noopener noreferrer" className="hover:text-sage-green transition-colors">TheAlienSchool.com</a></strong> • Created by <strong>Kamau Zuberi Akabueze</strong>
             </p>
             <div className="flex flex-wrap justify-center gap-6 text-sm">
               <Link href="/how-it-works" className="nav-link">How It Works</Link>
