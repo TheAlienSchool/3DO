@@ -126,7 +126,7 @@ export default function HomePage() {
                   <div className="text-center mb-8">
                     <h2 className="text-display mb-4">How Three Days Off Works</h2>
                     <p className="text-xl text-deep-brown/80 max-w-3xl mx-auto">
-                      Thousands prepare together—a global practice of time awareness
+                      Thousands prepare together :: a global practice of time awareness
                       that builds capacity for what matters most.
                     </p>
                   </div>
@@ -175,7 +175,7 @@ export default function HomePage() {
                 className="flex flex-col items-center"
               >
                 <p className="text-lg text-sage-green font-medium mb-6">
-                  Preparation opens possibilities—your practice strengthens the whole
+                  Preparation opens possibilities :: your practice strengthens the whole
                 </p>
                 <p className="text-sm text-deep-brown/60 max-w-md">
                   People prepare for custody transitions, solo travel, major presentations, heartbreak recovery,
@@ -201,7 +201,7 @@ export default function HomePage() {
                 </h2>
                 <p className="text-xl leading-relaxed text-deep-brown/80 mb-12">
                   Three Days Off invites you to discover what opens when mind, body,
-                  and spirit spend time together. A threesome with yourself—simple,
+                  and spirit spend time together. A threesome with yourself :: simple,
                   practical, and always available.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
@@ -246,7 +246,7 @@ export default function HomePage() {
                   This practice is always available to you
                 </h2>
                 <p className="text-xl leading-relaxed mb-12 text-warm-cream/90">
-                  Labor Day weekend becomes an opportunity to practice—mind, body, and spirit
+                  Labor Day weekend becomes an opportunity to practice :: mind, body, and spirit
                   preparing together for what matters. This practice requires only intention
                   and opens countless possibilities.
                 </p>

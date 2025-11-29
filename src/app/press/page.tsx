@@ -25,7 +25,7 @@ export default function PressPage() {
                   FOR THREE DAYS OFF
                 </h1>
                 <p className="text-xl md:text-2xl font-light text-deep-brown/80 mb-12 max-w-4xl mx-auto leading-relaxed">
-                  Everything you need to tell the story of a global preparation practice—
+                  Everything you need to tell the story of a global preparation practice ::
                   research-backed, practically applicable, building capacity for what matters.
                 </p>
                 <p className="text-lg text-sage-green font-medium">
@@ -49,7 +49,7 @@ export default function PressPage() {
               >
                 <h2 className="text-display mb-6 three-dots">The Story</h2>
                 <p className="text-xl text-deep-brown/80 leading-relaxed">
-                  Three Days Off represents a new approach to how people prepare for what matters—
+                  Three Days Off represents a new approach to how people prepare for what matters ::
                   rest, reflection, and intentional time-awareness in an accelerated world.
                 </p>
               </motion.div>
@@ -67,7 +67,7 @@ export default function PressPage() {
                       <h4 className="font-semibold text-sage-green mb-2">The Global Practice</h4>
                       <p className="text-deep-brown/80">
                         When thousands prepare together in a shared time window, research suggests
-                        network effects emerge. This goes beyond individual self-care—it's a global
+                        network effects emerge. This goes beyond individual self-care :: it's a global
                         demonstration of what becomes possible when people prioritize intentional preparation.
                       </p>
                     </div>
@@ -147,17 +147,17 @@ export default function PressPage() {
                   <p className="text-deep-brown/80 mb-4 leading-relaxed">
                     Creator of TheAlienSchool.com and founder of Three Days Off, Kamau brings a unique 
                     perspective that bridges ancient contemplative wisdom with contemporary applications. 
-                    His work explores what he calls "consciousness technology"—practical approaches to 
+                    His work explores what he calls "consciousness technology" :: practical approaches to 
                     awareness that honor both individual transformation and collective wellbeing.
                   </p>
                   <p className="text-deep-brown/80 mb-4 leading-relaxed">
                     Drawing inspiration from Stefan Sagmeister's sabbatical philosophy, Kamau developed 
-                    Three Days Off as a "quantum leap manifestation" of retreat practice—making the 
+                    Three Days Off as a "quantum leap manifestation" of retreat practice :: making the 
                     benefits of extended contemplative practice accessible within the constraints and 
                     rhythms of modern life.
                   </p>
                   <p className="text-deep-brown/80 mb-6 leading-relaxed">
-                    His approach emphasizes what he calls "Reflectionary Guidance"—creating conditions 
+                    His approach emphasizes what he calls "Reflectionary Guidance" :: creating conditions 
                     where individuals discover their own wisdom rather than receiving prescriptive 
                     instruction. This philosophy permeates all aspects of Three Days Off, honoring 
                     each person's unique path to stillness and insight.

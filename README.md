@@ -4,7 +4,7 @@ A contemplative digital experience designed by **Quiet Warrior Productions** for
 
 ## 🎯 Project Overview
 
-Three Days Off is a conversion instrument tuned for a worldwide exhale—designed to facilitate a 72-hour mini-sabbatical that returns participants to themselves during Labor Day weekend 2025.
+Three Days Off is a conversion instrument tuned for a worldwide exhale::designed to facilitate a 72-hour mini-sabbatical that returns participants to themselves during Labor Day weekend 2025.
 
 ### Design Philosophy
 - **Contemplative First**: Every interaction supports rather than fragments attention

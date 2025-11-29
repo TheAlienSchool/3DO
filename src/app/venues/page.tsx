@@ -25,7 +25,7 @@ export default function VenuesPage() {
                   FOR THREE DAYS OFF
                 </h1>
                 <p className="text-xl md:text-2xl font-light text-deep-brown/80 mb-12 max-w-4xl mx-auto leading-relaxed">
-                  We invite venues, organizations, and communities to become practice spaces—places where
+                  We invite venues, organizations, and communities to become practice spaces :: places where
                   people can prepare together using the Three Days Off framework.
                 </p>
               </motion.div>
@@ -62,7 +62,7 @@ export default function VenuesPage() {
                   <h3 className="text-heading mb-6">What Makes a Practice Space?</h3>
                   <p className="text-deep-brown/80 mb-6 leading-relaxed">
                     A Three Days Off venue creates conditions where people can use the PAUSE • BREATHE • OBSERVE
-                    framework together—either in facilitated sessions or through self-directed practice.
+                    framework together :: either in facilitated sessions or through self-directed practice.
                     This preparation practice builds capacity for what matters to each person.
                   </p>
                   <p className="text-deep-brown/80 leading-relaxed">
@@ -85,7 +85,7 @@ export default function VenuesPage() {
                     <li>• <strong>Marketing Toolkit:</strong> Professional assets and promotional materials</li>
                     <li>• <strong>Community Building:</strong> Attract people who value intentional preparation</li>
                     <li>• <strong>Flexible Programming:</strong> Adapt to your space and audience needs</li>
-                    <li>• <strong>No Cost Participation:</strong> Partnership is free—this is about service</li>
+                    <li>• <strong>No Cost Participation:</strong> Partnership is free :: this is about service</li>
                     <li>• <strong>Ongoing Support:</strong> Access to facilitator resources and guidance</li>
                   </ul>
                 </motion.div>
@@ -167,7 +167,7 @@ export default function VenuesPage() {
                 </div>
                 <h3 className="text-heading text-center mb-4">Flexible Programming</h3>
                 <p className="text-deep-brown/80 mb-4">
-                  Combine elements—perhaps opening with brief group centering, then individual practice, 
+                  Combine elements :: perhaps opening with brief group centering, then individual practice, 
                   followed by optional sharing or integration time.
                 </p>
                 <div className="text-sm text-sage-green font-medium">
@@ -412,7 +412,7 @@ export default function VenuesPage() {
               >
                 <h2 className="text-display mb-6">Becoming a Practice Space</h2>
                 <p className="text-xl text-deep-brown/80">
-                  The process is intentionally simple—we reduce barriers to creating
+                  The process is intentionally simple :: we reduce barriers to creating
                   preparation practice spaces for communities.
                 </p>
               </motion.div>
@@ -504,7 +504,7 @@ export default function VenuesPage() {
                 <p className="text-xl leading-relaxed mb-8 text-deep-brown/80">
                   Join a growing network of venues offering Three Days Off practice spaces.
                   Together, we're demonstrating what becomes possible when communities prioritize
-                  intentional preparation—honoring both individual practice and collective timing.
+                  intentional preparation :: honoring both individual practice and collective timing.
                 </p>
                 <div className="bg-warm-white p-8 rounded-lg mb-8">
                   <h3 className="text-heading mb-4">Thank You for Considering</h3>

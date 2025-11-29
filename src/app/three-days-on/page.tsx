@@ -63,7 +63,7 @@ export default function ThreeDaysOnPage() {
                   <p className="text-deep-brown/80 mb-6 leading-relaxed">
                     Three Days On recognizes that some nervous systems thrive through intensity,
                     not absence. Some find clarity in the grind, breakthrough in engagement, and
-                    presence through purposeful productivity. Your nervous system doesn't need rest—
+                    presence through purposeful productivity. Your nervous system doesn't need rest ::
                     it needs the right kind of challenge.
                   </p>
                   <p className="text-deep-brown/80 leading-relaxed">
@@ -107,7 +107,7 @@ export default function ThreeDaysOnPage() {
             >
               <h2 className="text-display mb-6">ENGAGE • AMPLIFY • TRANSCEND</h2>
               <p className="text-xl text-warm-cream/90 max-w-3xl mx-auto">
-                Three Days On follows its own research-backed framework—intentional acceleration
+                Three Days On follows its own research-backed framework :: intentional acceleration
                 that transforms intensity into insight, pressure into presence, and action into
                 breakthrough performance.
               </p>
@@ -128,7 +128,7 @@ export default function ThreeDaysOnPage() {
                 <h3 className="text-heading mb-4">ENGAGE</h3>
                 <p className="text-warm-cream/80 mb-6">
                   Dive fully into your chosen intensity. Whether creative project, physical challenge, 
-                  or service mission—commit completely without distraction or half-hearted effort.
+                  or service mission :: commit completely without distraction or half-hearted effort.
                 </p>
                 <div className="text-left">
                   <h4 className="font-semibold mb-2 text-warm-cream">What This Looks Like:</h4>
@@ -214,7 +214,7 @@ export default function ThreeDaysOnPage() {
               >
                 <h2 className="text-display mb-6">The Neuroscience of Beneficial Stress</h2>
                 <p className="text-xl text-deep-brown/80 leading-relaxed">
-                  Three Days On isn't about ignoring your well-being—it's about understanding that 
+                  Three Days On isn't about ignoring your well-being :: it's about understanding that 
                   some nervous systems thrive on conscious challenge and purpose-driven intensity.
                 </p>
               </motion.div>
@@ -315,7 +315,7 @@ export default function ThreeDaysOnPage() {
             >
               <h2 className="text-display mb-6">Three Days On Archetypes</h2>
               <p className="text-xl text-warm-cream/90">
-                Different expressions of the intentional intensity path—find yours and honor others.
+                Different expressions of the intentional intensity path :: find yours and honor others.
               </p>
             </motion.div>
 
@@ -330,7 +330,7 @@ export default function ThreeDaysOnPage() {
               >
                 <h3 className="text-heading mb-4">The Creator</h3>
                 <p className="text-warm-cream/80 mb-4">
-                  72 hours of intensive creative practice. Whether writing, music, visual art, or coding—
+                  72 hours of intensive creative practice. Whether writing, music, visual art, or coding ::
                   you disappear into the flow of making something that wants to exist.
                 </p>
                 <p className="text-sm text-warm-cream/60">
@@ -366,7 +366,7 @@ export default function ThreeDaysOnPage() {
               >
                 <h3 className="text-heading mb-4">The Servant</h3>
                 <p className="text-warm-cream/80 mb-4">
-                  Intensive service to others or causes. Three days of intentional contribution—whether
+                  Intensive service to others or causes. Three days of intentional contribution :: whether
                   volunteering, activism, caregiving, or community building with complete presence.
                 </p>
                 <p className="text-sm text-warm-cream/60">
@@ -385,7 +385,7 @@ export default function ThreeDaysOnPage() {
                 <h3 className="text-heading mb-4">The Scholar</h3>
                 <p className="text-warm-cream/80 mb-4">
                   Deep learning intensive. Three days of intentional study, research, and knowledge
-                  integration—whether academic, philosophical, or skill-based learning with full focus.
+                  integration :: whether academic, philosophical, or skill-based learning with full focus.
                 </p>
                 <p className="text-sm text-warm-cream/60">
                   Inquiry is your practice. Understanding is your goal. Knowledge is your gift.
@@ -402,7 +402,7 @@ export default function ThreeDaysOnPage() {
               >
                 <h3 className="text-heading mb-4">The Builder</h3>
                 <p className="text-warm-cream/80 mb-4">
-                  Three days of intentional construction—whether physical building, system design,
+                  Three days of intentional construction :: whether physical building, system design,
                   or bringing structure to ideas. Creating foundations for others to build upon.
                 </p>
                 <p className="text-sm text-warm-cream/60">
@@ -420,7 +420,7 @@ export default function ThreeDaysOnPage() {
               >
                 <h3 className="text-heading mb-4">The Healer</h3>
                 <p className="text-warm-cream/80 mb-4">
-                  Intensive healing practice—whether therapeutic work, energy healing, counseling,
+                  Intensive healing practice :: whether therapeutic work, energy healing, counseling,
                   or medical service. Three days of intentional attention to facilitating others' wholeness.
                 </p>
                 <p className="text-sm text-warm-cream/60">
@@ -537,14 +537,14 @@ export default function ThreeDaysOnPage() {
                 </h2>
                 <p className="text-xl leading-relaxed mb-8 text-warm-cream/90">
                   Three Days On and Three Days Off exist in perfect complementarity. Neither path
-                  is superior—both serve capacity-building in their own way. Some seasons
+                  is superior :: both serve capacity-building in their own way. Some seasons
                   call for stillness, others for intensity. Trust your inner knowing.
                 </p>
                 <div className="bg-warm-cream/10 p-8 rounded-lg mb-8">
                   <h3 className="text-heading mb-4">Honor All Paths</h3>
                   <p className="text-warm-cream/80 leading-relaxed">
                     Whether you choose Three Days Off, Three Days On, or cycle between both throughout
-                    the year—the goal is intentional choice. Your nervous system knows what it needs.
+                    the year :: the goal is intentional choice. Your nervous system knows what it needs.
                     Your intuition knows how you grow. Trust that knowing and act accordingly.
                   </p>
                 </div>

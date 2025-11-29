@@ -57,7 +57,7 @@ From: practice@threedaysoff.com
 
 Welcome to the practice.
 
-You've committed to September 5-7, 2026—three days preparing mind,
+You've committed to September 5-7, 2026::three days preparing mind,
 body, and spirit for what matters.
 
 What happens next:
@@ -67,7 +67,7 @@ What happens next:
 
 This practice is always available to you.
 
-—Three Days Off
+::Three Days Off
 ```
 
 **Monthly Practice Reminder:**
@@ -83,7 +83,7 @@ Your preparation creates presence.
 Practice spaces opening:
 [List of nearby venues if available]
 
-—Three Days Off
+::Three Days Off
 ```
 
 ### Cost Analysis:
@@ -218,7 +218,7 @@ await resend.emails.send({
 
     Participants preparing for September 5-7, 2026 can now find your space.
 
-    —Three Days Off
+    ::Three Days Off
   `
 })
 ```

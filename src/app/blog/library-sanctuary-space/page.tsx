@@ -70,7 +70,7 @@ export default function LibraryPracticeSpacePost() {
 
             <blockquote className="border-l-4 border-sage-green pl-6 italic text-lg my-8 text-deep-brown/80">
               "The moment we put up the Three Days Off practice space signs, something shifted. People who came for regular library activities started moving more slowly, speaking more quietly. The entire atmosphere became more preparation."
-              <footer className="text-base text-deep-brown/60 mt-2">— Maria Santos, Head Librarian</footer>
+              <footer className="text-base text-deep-brown/60 mt-2">:: Maria Santos, Head Librarian</footer>
             </blockquote>
 
             <h2 className="text-heading mt-12 mb-6">Creating Sacred Structure in Public Space</h2>
@@ -130,7 +130,7 @@ export default function LibraryPracticeSpacePost() {
 
             <blockquote className="border-l-4 border-sage-green pl-6 italic text-lg my-8 text-deep-brown/80">
               "A woman came in on Saturday of Three Days Off weekend looking very stressed. She sat in our preparation corner for about an hour, just breathing and looking out the window. When she left, she thanked me with tears in her eyes. She said she had been in crisis and stumbled upon our practice space just when she needed it most."
-              <footer className="text-base text-deep-brown/60 mt-2">— Maria Santos, Head Librarian</footer>
+              <footer className="text-base text-deep-brown/60 mt-2">:: Maria Santos, Head Librarian</footer>
             </blockquote>
 
             <h3 className="text-lg font-semibold mt-8 mb-4">Measurable Changes</h3>
@@ -166,7 +166,7 @@ export default function LibraryPracticeSpacePost() {
             <div className="bg-sage-green/10 p-8 rounded-lg my-12">
               <h3 className="text-lg font-semibold mb-4 text-center">Key Learning</h3>
               <p className="text-center">
-                "The most successful practice spaces enhance existing community strengths rather than imposing entirely new structures. Libraries already serve preparation functions—we just needed to tend those qualities more intentionally."
+                "The most successful practice spaces enhance existing community strengths rather than imposing entirely new structures. Libraries already serve preparation functions::we just needed to tend those qualities more intentionally."
               </p>
             </div>
 
@@ -210,8 +210,8 @@ export default function LibraryPracticeSpacePost() {
             </p>
 
             <blockquote className="border-l-4 border-sage-green pl-6 italic text-lg my-8 text-deep-brown/80">
-              "What we learned is that preparation practice isn't just individual self-care—it's community development. When people have access to practice space, the whole neighborhood becomes more peaceful, creative, and connected."
-              <footer className="text-base text-deep-brown/60 mt-2">— Maria Santos, Head Librarian</footer>
+              "What we learned is that preparation practice isn't just individual self-care::it's community development. When people have access to practice space, the whole neighborhood becomes more peaceful, creative, and connected."
+              <footer className="text-base text-deep-brown/60 mt-2">:: Maria Santos, Head Librarian</footer>
             </blockquote>
 
             <h2 className="text-heading mt-12 mb-6">How to Support Practice Space Development</h2>

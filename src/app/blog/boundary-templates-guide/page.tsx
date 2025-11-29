@@ -144,7 +144,7 @@ export default function BoundaryTemplatesGuidePost() {
 
             <blockquote className="border-l-4 border-sage-green pl-6 italic text-lg my-8 text-deep-brown/80">
               "I told my kids we were having 'quiet weekend' where we'd do gentle activities but skip the usual scheduled chaos. They ended up loving the slower pace, and I got preparation time while still being present for them."
-              <footer className="text-base text-deep-brown/60 mt-2">— Community Participant</footer>
+              <footer className="text-base text-deep-brown/60 mt-2">:: Community Participant</footer>
             </blockquote>
 
             <h3 className="text-lg font-semibold mt-8 mb-4">For Financial or Job Insecurity</h3>
@@ -218,7 +218,7 @@ export default function BoundaryTemplatesGuidePost() {
 
             <blockquote className="border-l-4 border-sage-green pl-6 italic text-lg my-8 text-deep-brown/80">
               "After my three days off, I was so much more present for family dinner conversations. My partner noticed immediately and has been incredibly supportive of regular preparation time ever since."
-              <footer className="text-base text-deep-brown/60 mt-2">— Community Participant</footer>
+              <footer className="text-base text-deep-brown/60 mt-2">:: Community Participant</footer>
             </blockquote>
 
             <h2 className="text-heading mt-12 mb-6">Building Long-Term Boundary Skills</h2>
