@@ -64,13 +64,13 @@ export default function PledgePage() {
                     <h2 className="text-heading mb-4">Your Boundary Template</h2>
                     <div className="bg-warm-white p-6 rounded-lg text-left">
                       <p className="text-deep-brown/80 mb-4">
-                        "I'm practicing Three Days Off (August 30 - September 1) - a preparation practice
+                        "I'm practicing Three Days Off (September 5-7, 2026) - a preparation practice
                         where mind, body, and spirit spend time together. During this time, I'll be stepping
                         back from [usual activities] to build capacity for what matters to me. This practice
                         prepares me for greater presence and clarity in daily life."
                       </p>
                       <button
-                        onClick={() => navigator.clipboard.writeText("I'm practicing Three Days Off (August 30 - September 1) - a preparation practice where mind, body, and spirit spend time together. During this time, I'll be stepping back from usual activities to build capacity for what matters to me. This practice prepares me for greater presence and clarity in daily life.")}
+                        onClick={() => navigator.clipboard.writeText("I'm practicing Three Days Off (September 5-7, 2026) - a preparation practice where mind, body, and spirit spend time together. During this time, I'll be stepping back from usual activities to build capacity for what matters to me. This practice prepares me for greater presence and clarity in daily life.")}
                         className="btn-contemplative px-4 py-2 text-sm"
                       >
                         Copy Template
