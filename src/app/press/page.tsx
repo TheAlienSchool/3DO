@@ -4,6 +4,7 @@ import React from 'react'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import Navigation from '@/components/Navigation'
+import Footer from '@/components/Footer'
 
 export default function PressPage() {
   return (
@@ -288,8 +289,8 @@ export default function PressPage() {
                       </div>
                     </div>
                   </div>
-                  <Link href="/volunteer" className="mt-6 inline-block bg-sage-green text-warm-cream px-6 py-3 rounded-full font-medium hover:bg-warm-cream hover:text-deep-brown transition-all duration-300">
-                    Volunteer :: Help Build Media Center
+                  <Link href="/press/media-center" className="mt-6 inline-block bg-sage-green text-warm-cream px-6 py-3 rounded-full font-medium hover:bg-warm-cream hover:text-deep-brown transition-all duration-300">
+                    Access Media Center
                   </Link>
                 </motion.div>
 
@@ -332,8 +333,8 @@ export default function PressPage() {
                       </div>
                     </div>
                   </div>
-                  <Link href="/volunteer" className="mt-6 inline-block bg-sage-green text-warm-cream px-6 py-3 rounded-full font-medium hover:bg-warm-cream hover:text-deep-brown transition-all duration-300">
-                    Volunteer :: Help Build Content Library
+                  <Link href="/resources/library" className="mt-6 inline-block bg-sage-green text-warm-cream px-6 py-3 rounded-full font-medium hover:bg-warm-cream hover:text-deep-brown transition-all duration-300">
+                    Access Content Library
                   </Link>
                 </motion.div>
               </div>
@@ -352,7 +353,7 @@ export default function PressPage() {
                   background research, founder bio, high-res images, and usage guidelines.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Link href="/volunteer" className="bg-warm-cream text-deep-brown px-8 py-4 rounded-full font-medium tracking-wide hover:bg-sage-green hover:text-warm-cream transition-all duration-300">
+                  <Link href="/press/media-center" className="bg-warm-cream text-deep-brown px-8 py-4 rounded-full font-medium tracking-wide hover:bg-sage-green hover:text-warm-cream transition-all duration-300">
                     Access 3DO Media Center
                   </Link>
                   <a href="mailto:Creative@ThreeDaysOff.com" className="border-2 border-warm-cream text-warm-cream px-8 py-4 rounded-full font-medium tracking-wide hover:bg-warm-cream hover:text-deep-brown transition-all duration-300">
@@ -563,30 +564,7 @@ export default function PressPage() {
         </section>
       </main>
 
-      {/* Footer */}
-      <footer className="bg-soft-gray py-12">
-        <div className="container-contemplative">
-          <div className="text-center">
-            <div className="flex items-center justify-center space-x-3 mb-6">
-              <div className="w-8 h-8 rounded-full bg-sage-green flex items-center justify-center">
-                <span className="text-warm-cream font-bold text-xs">3DO</span>
-              </div>
-              <span className="font-display font-bold text-lg text-deep-brown">
-                Three Days Off
-              </span>
-            </div>
-            <p className="text-deep-brown/70 mb-6">
-              A practice from <strong><a href="https://thealienschool.com" target="_blank" rel="noopener noreferrer" className="hover:text-sage-green transition-colors">TheAlienSchool.com</a></strong> • Created by <strong>Kamau Zuberi Akabueze</strong>
-            </p>
-            <div className="flex flex-wrap justify-center gap-6 text-sm">
-              <Link href="/how-it-works" className="nav-link">How It Works</Link>
-              <Link href="/preparing" className="nav-link">Preparing</Link>
-              <Link href="/venues" className="nav-link">Venues</Link>
-              <Link href="/blog" className="nav-link">Blog</Link>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   )
 }

@@ -4,6 +4,7 @@ import React from 'react'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import Navigation from '@/components/Navigation'
+import Footer from '@/components/Footer'
 
 export default function ThreeDaysOnPage() {
   return (
@@ -568,30 +569,7 @@ export default function ThreeDaysOnPage() {
         </section>
       </main>
 
-      {/* Footer */}
-      <footer className="bg-soft-gray py-12">
-        <div className="container-contemplative">
-          <div className="text-center">
-            <div className="flex items-center justify-center space-x-3 mb-6">
-              <div className="w-8 h-8 rounded-full bg-sage-green flex items-center justify-center">
-                <span className="text-warm-cream font-bold text-xs">3DO</span>
-              </div>
-              <span className="font-display font-bold text-lg text-deep-brown">
-                Three Days Off
-              </span>
-            </div>
-            <p className="text-deep-brown/70 mb-6">
-              A practice from <strong><a href="https://thealienschool.com" target="_blank" rel="noopener noreferrer" className="hover:text-sage-green transition-colors">TheAlienSchool.com</a></strong> • Created by <strong>Kamau Zuberi Akabueze</strong>
-            </p>
-            <div className="flex flex-wrap justify-center gap-6 text-sm">
-              <Link href="/how-it-works" className="nav-link">How It Works</Link>
-              <Link href="/preparing" className="nav-link">Preparing</Link>
-              <Link href="/venues" className="nav-link">Venues</Link>
-              <Link href="/press" className="nav-link">Press</Link>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   )
 }
