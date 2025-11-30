@@ -73,7 +73,8 @@ export default function PressPage() {
                       <h4 className="font-semibold text-sage-green mb-2">The Integration Engine</h4>
                       <p className="text-deep-brown/80">
                         Most practices train one aspect—meditation for mind, yoga for body, ritual for spirit.
-                        Three Days Off trains their collaboration. When Mind, Body, and Spirit work together,
+                        Three Days Off trains their collaboration, honoring lineages that understood integration
+                        millennia before neuroscience could measure it. When Mind, Body, and Spirit work together,
                         you don't just rest. You develop genius—the capacity for integrated choice, creative
                         breakthrough, and sustained presence.
                       </p>
@@ -114,13 +115,109 @@ export default function PressPage() {
                     <li>• <strong>Inspiration:</strong> Stefan Sagmeister's 7:1 sabbatical model</li>
                     <li>• <strong>Participation:</strong> Free, voluntary, globally accessible</li>
                     <li>• <strong>Website:</strong> ThreeDaysOff.com</li>
-                    <li>• <strong>Philosophy:</strong> "Threesome with mind, body, and spirit"</li>
+                    <li>• <strong>Philosophy:</strong> "Threesome with mind, body, and spirit" :: contemporary language for ancient integration</li>
                     <li>• <strong>Framework:</strong> PAUSE • BREATHE • OBSERVE</li>
+                    <li>• <strong>Lineages Honored:</strong> Buddhist mindfulness, contemplative Christianity, Indigenous ceremony, Sufi practice, yogic tradition <Link href="/press/context" className="text-sage-green hover:underline text-sm">→ See full context</Link></li>
                     <li>• <strong>Alternative:</strong> Three Days On for intensity practitioners</li>
                     <li>• <strong>Community:</strong> Venue partnerships, global participation</li>
                   </ul>
                 </motion.div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Context & Lineage Expandable */}
+        <section className="bg-warm-white border-t-2 border-sage-green/20">
+          <div className="container-contemplative breathing-space">
+            <div className="max-w-4xl mx-auto">
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8 }}
+                viewport={{ once: true }}
+              >
+                <details className="group">
+                  <summary className="cursor-pointer list-none">
+                    <div className="flex items-center justify-between bg-sage-green/10 p-6 rounded-lg hover:bg-sage-green/20 transition-colors">
+                      <div className="flex items-center gap-4">
+                        <span className="text-3xl">📜</span>
+                        <div>
+                          <h3 className="text-heading text-sage-green">Context & Lineage</h3>
+                          <p className="text-sm text-deep-brown/70 mt-1">
+                            What this practice honors :: Legacy, lineage, and lenticular vision
+                          </p>
+                        </div>
+                      </div>
+                      <span className="text-2xl text-sage-green group-open:rotate-180 transition-transform">
+                        ▼
+                      </span>
+                    </div>
+                  </summary>
+
+                  <div className="mt-6 p-8 bg-soft-gray/30 rounded-lg">
+                    <div className="prose prose-lg max-w-none">
+                      <p className="text-deep-brown/80 leading-relaxed mb-6">
+                        Three Days Off doesn't invent stillness :: it creates accessible structure for what
+                        human beings have always known. This practice honors contemplative lineages spanning
+                        millennia while addressing contemporary crisis.
+                      </p>
+
+                      <div className="grid md:grid-cols-2 gap-6 mb-6">
+                        <div className="bg-warm-white p-6 rounded-lg">
+                          <h4 className="font-semibold text-sage-green mb-3">Legacy</h4>
+                          <p className="text-sm text-deep-brown/80">
+                            Ancient wisdom understood that pause creates capacity, that Mind/Body/Spirit
+                            integration is the work, that collective practice amplifies individual clarity.
+                            Contemporary neuroscience now measures what contemplative masters always knew.
+                          </p>
+                        </div>
+
+                        <div className="bg-warm-white p-6 rounded-lg">
+                          <h4 className="font-semibold text-sage-green mb-3">Lineage</h4>
+                          <p className="text-sm text-deep-brown/80 mb-2">
+                            This practice stands on:
+                          </p>
+                          <ul className="text-xs text-deep-brown/70 space-y-1">
+                            <li>• Buddhist mindfulness (2,500 years)</li>
+                            <li>• Contemplative Christianity (2,000+ years)</li>
+                            <li>• Indigenous ceremony (millennia)</li>
+                            <li>• Sufi practice (1,400+ years)</li>
+                            <li>• Yogic tradition (5,000+ years)</li>
+                            <li>• Sabbatical research (contemporary)</li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div className="bg-warm-white p-6 rounded-lg mb-6">
+                        <h4 className="font-semibold text-sage-green mb-3">Lenticular Vision</h4>
+                        <p className="text-sm text-deep-brown/80 mb-3">
+                          Three Days Off holds paradox without requiring resolution :: seeing multiple
+                          truths simultaneously.
+                        </p>
+                        <div className="text-xs text-deep-brown/70 space-y-1">
+                          <p>• <strong>Off AND On:</strong> Stillness and intensity are both valid paths</p>
+                          <p>• <strong>Ancient AND Modern:</strong> Lineage wisdom validated by contemporary research</p>
+                          <p>• <strong>Individual AND Collective:</strong> Personal practice creates communal capacity</p>
+                          <p>• <strong>Pragmatic AND Sacred:</strong> Framework and mystery coexist</p>
+                        </div>
+                      </div>
+
+                      <div className="text-center">
+                        <Link
+                          href="/press/context"
+                          className="inline-block bg-sage-green text-warm-cream px-8 py-3 rounded-full font-medium hover:bg-deep-brown transition-all"
+                        >
+                          Explore Full Context & Lineage Page →
+                        </Link>
+                        <p className="text-xs text-deep-brown/60 mt-3">
+                          For spiritual, philosophical, and cultural coverage
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </details>
+              </motion.div>
             </div>
           </div>
         </section>
@@ -492,8 +589,37 @@ export default function PressPage() {
                     doing, stillness alongside action, presence alongside productivity.
                   </p>
                   <div className="text-sm text-deep-brown/70">
-                    <strong>Angles:</strong> Cultural trends, generational values, 
+                    <strong>Angles:</strong> Cultural trends, generational values,
                     lifestyle evolution, consciousness culture
+                  </div>
+                </motion.div>
+
+                {/* Spiritual Lineage */}
+                <motion.div
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8, delay: 0.7 }}
+                  viewport={{ once: true }}
+                  className="bg-sage-green/10 p-6 rounded-lg md:col-span-2"
+                >
+                  <h3 className="text-heading mb-4 text-sage-green">Spiritual Lineage & Cultural Context</h3>
+                  <p className="text-deep-brown/80 mb-4">
+                    Three Days Off as contemporary expression of cross-cultural contemplative wisdom ::
+                    How modern practice honors ancient teachers. Buddhist mindfulness, contemplative Christianity,
+                    Indigenous ceremony, Sufi practice, yogic tradition. Accessible structure for timeless technology.
+                    Cultural preservation through respectful adaptation.
+                  </p>
+                  <div className="flex items-center justify-between">
+                    <div className="text-sm text-deep-brown/70">
+                      <strong>Angles:</strong> Religion sections, spirituality coverage, interfaith publications,
+                      cultural anthropology, philosophy, consciousness studies
+                    </div>
+                    <Link
+                      href="/press/context"
+                      className="text-sage-green hover:underline font-medium text-sm whitespace-nowrap ml-4"
+                    >
+                      Full context →
+                    </Link>
                   </div>
                 </motion.div>
               </div>

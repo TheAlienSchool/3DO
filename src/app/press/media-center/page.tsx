@@ -641,6 +641,20 @@ export default function MediaCenterPage() {
                 </div>
               </div>
 
+              <div className="bg-sage-green/10 p-6 rounded-lg mb-8 text-left">
+                <h3 className="font-semibold text-sage-green mb-3">Looking for Philosophical Depth?</h3>
+                <p className="text-deep-brown/80 text-sm mb-3">
+                  For spiritual, philosophical, or cultural coverage, explore our **Context & Lineage** page ::
+                  legacy, lineage traditions (Buddhist, Christian, Indigenous, Sufi, yogic), and lenticular vision.
+                </p>
+                <Link
+                  href="/press/context"
+                  className="text-sage-green hover:underline font-medium text-sm"
+                >
+                  Explore Context & Lineage →
+                </Link>
+              </div>
+
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
                 <a
                   href="mailto:Press@ThreeDaysOff.com"
