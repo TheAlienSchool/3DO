@@ -75,7 +75,7 @@ export default function PressContextPage() {
                   </p>
                   <p className="text-deep-brown/80 leading-relaxed">
                     Three Days Off honors this legacy. We don't claim to have discovered anything new.
-                    We create **accessible structure** for ancient wisdom :: a 72-hour container that
+                    We create **accessible structure** for ancient wisdom—a 72-hour container that
                     makes contemplative practice available within the constraints and rhythms of modern life.
                   </p>
                 </motion.div>
@@ -94,8 +94,7 @@ export default function PressContextPage() {
                     awareness integrates all aspects of self.
                   </p>
                   <p className="text-deep-brown/80 leading-relaxed">
-                    Contemporary neuroscience now **measures** what ancient practices always **understood** ::
-                    that breathing patterns affect emotional regulation, that physical stillness creates
+                    Contemporary neuroscience now **measures** what ancient practices always **understood**—that breathing patterns affect emotional regulation, that physical stillness creates
                     mental clarity, that spiritual practice has physiological effects. The research validates
                     the legacy. It doesn't replace it.
                   </p>
@@ -116,8 +115,7 @@ export default function PressContextPage() {
                     that transcends individual experience.
                   </p>
                   <p className="text-deep-brown/80 leading-relaxed mt-4">
-                    Three Days Off explores this ancient understanding through contemporary coordination ::
-                    thousands practicing simultaneously across time zones, creating what research suggests
+                    Three Days Off explores this ancient understanding through contemporary coordination—thousands practicing simultaneously across time zones, creating what research suggests
                     might be measurable coherence. The technology is old. The scale is new.
                   </p>
                 </motion.div>
@@ -155,7 +153,7 @@ export default function PressContextPage() {
                 <div className="text-4xl mb-4">☸️</div>
                 <h3 className="text-heading mb-3">Buddhist Mindfulness</h3>
                 <p className="text-warm-cream/80 text-sm leading-relaxed mb-3">
-                  **2,500 years** of pause practice. Vipassana (insight meditation), shamatha
+                  **2,500 years** of pause practice—Vipassana (insight meditation), shamatha
                   (calm abiding), and mindfulness of breathing as core technologies for awareness
                   development and suffering reduction.
                 </p>
@@ -177,7 +175,7 @@ export default function PressContextPage() {
                 <h3 className="text-heading mb-3">Contemplative Christianity</h3>
                 <p className="text-warm-cream/80 text-sm leading-relaxed mb-3">
                   Desert Fathers and Mothers, Centering Prayer, Christian meditation, Sabbath
-                  observance :: **2,000+ years** of sacred rest as spiritual practice and divine
+                  observance—**2,000+ years** of sacred rest as spiritual practice and divine
                   communion through stillness.
                 </p>
                 <p className="text-xs text-warm-cream/60">
@@ -197,7 +195,7 @@ export default function PressContextPage() {
                 <div className="text-4xl mb-4">🌍</div>
                 <h3 className="text-heading mb-3">Indigenous Ceremony</h3>
                 <p className="text-warm-cream/80 text-sm leading-relaxed mb-3">
-                  **Millennia** of ceremonial practice across cultures :: Vision quests, sweat lodges,
+                  **Millennia** of ceremonial practice across cultures—vision quests, sweat lodges,
                   communal fasts, seasonal rituals. Time outside ordinary schedule for connection,
                   renewal, and collective healing.
                 </p>
@@ -218,8 +216,7 @@ export default function PressContextPage() {
                 <div className="text-4xl mb-4">☪️</div>
                 <h3 className="text-heading mb-3">Sufi Practice</h3>
                 <p className="text-warm-cream/80 text-sm leading-relaxed mb-3">
-                  **1,400+ years** of remembrance (dhikr), whirling meditation, and retreat (khalwa).
-                  Stillness as divine remembrance, movement as prayer, withdrawal for intensification
+                  **1,400+ years** of remembrance (dhikr), whirling meditation, and retreat (khalwa)—stillness as divine remembrance, movement as prayer, withdrawal for intensification
                   of presence.
                 </p>
                 <p className="text-xs text-warm-cream/60">
@@ -239,8 +236,8 @@ export default function PressContextPage() {
                 <div className="text-4xl mb-4">🕉️</div>
                 <h3 className="text-heading mb-3">Yogic Tradition</h3>
                 <p className="text-warm-cream/80 text-sm leading-relaxed mb-3">
-                  **5,000+ years** of practice. Pratyahara (sense withdrawal), pranayama (breath
-                  control), dhyana (meditation) :: systematic technologies for integrating body,
+                  **5,000+ years** of practice—Pratyahara (sense withdrawal), pranayama (breath
+                  control), dhyana (meditation)—systematic technologies for integrating body,
                   breath, and awareness.
                 </p>
                 <p className="text-xs text-warm-cream/60">
@@ -260,7 +257,7 @@ export default function PressContextPage() {
                 <div className="text-4xl mb-4">🎨</div>
                 <h3 className="text-heading mb-3">Contemporary Sabbatical</h3>
                 <p className="text-warm-cream/80 text-sm leading-relaxed mb-3">
-                  Stefan Sagmeister's **7:1 sabbatical model** :: documented evidence that extended
+                  Stefan Sagmeister's **7:1 sabbatical model**—documented evidence that extended
                   breaks produce breakthrough work. Modern validation of ancient wisdom adapted to
                   creative professional life.
                 </p>
@@ -280,8 +277,7 @@ export default function PressContextPage() {
             >
               <h3 className="text-heading mb-4">Respectful Adaptation</h3>
               <p className="text-warm-cream/90 leading-relaxed">
-                Three Days Off doesn't claim ownership of these lineages. We **honor without appropriating** ::
-                creating accessible structure inspired by cross-cultural wisdom while respecting the depth,
+                Three Days Off doesn't claim ownership of these lineages. We **honor without appropriating**—creating accessible structure inspired by cross-cultural wisdom while respecting the depth,
                 complexity, and sacred contexts from which these practices emerge. We invite people to explore
                 these traditions directly through their own teachers and communities.
               </p>
@@ -302,7 +298,7 @@ export default function PressContextPage() {
               >
                 <h2 className="text-display mb-6">Lenticular Vision</h2>
                 <p className="text-xl text-deep-brown/80 leading-relaxed">
-                  The ability to see multiple truths simultaneously :: how Three Days Off holds
+                  The ability to see multiple truths simultaneously—how Three Days Off holds
                   paradox without requiring resolution.
                 </p>
               </motion.div>
@@ -324,7 +320,7 @@ export default function PressContextPage() {
                   </p>
                   <p className="text-deep-brown/80 leading-relaxed">
                     The lenticular lens sees: Rest is not superior to action. Stillness is not better
-                    than movement. **Your practice belongs to you** :: honoring your nervous system's
+                    than movement. **Your practice belongs to you**—honoring your nervous system's
                     actual requirements rather than cultural narratives about what "wellness" should look like.
                   </p>
                 </motion.div>
@@ -344,9 +340,9 @@ export default function PressContextPage() {
                     masters always knew.
                   </p>
                   <p className="text-deep-brown/80 leading-relaxed">
-                    Three Days Off holds both: We cite JAMA studies AND honor Buddhist mindfulness.
+                    Three Days Off holds both—we cite JAMA studies AND honor Buddhist mindfulness.
                     We reference HeartMath data AND respect Sufi dhikr. Science and spirit aren't
-                    opposites—they're **complementary lenses** on the same human capacity for transformation.
+                    opposites; they're **complementary lenses** on the same human capacity for transformation.
                   </p>
                 </motion.div>
 
@@ -360,14 +356,14 @@ export default function PressContextPage() {
                 >
                   <h3 className="text-heading mb-4 text-sage-green">Individual Practice AND Collective Coherence</h3>
                   <p className="text-deep-brown/80 leading-relaxed mb-4">
-                    Your practice is **deeply personal** :: what you discover in stillness belongs to you alone.
-                    AND your practice **contributes to collective capacity** :: when thousands practice together,
+                    Your practice is **deeply personal**—what you discover in stillness belongs to you alone.
+                    AND your practice **contributes to collective capacity**—when thousands practice together,
                     research suggests measurable coherence emerges.
                   </p>
                   <p className="text-deep-brown/80 leading-relaxed">
                     The Lantern (personal clarity) AND the Lighthouse (collective orientation) AND the Network
                     (emergent coherence) all exist simultaneously. You're practicing for yourself **and** for
-                    the whole. Both are true.
+                    the whole—both are true.
                   </p>
                 </motion.div>
 
@@ -381,9 +377,8 @@ export default function PressContextPage() {
                 >
                   <h3 className="text-heading mb-4 text-sage-green">Pragmatic Structure AND Sacred Practice</h3>
                   <p className="text-deep-brown/80 leading-relaxed mb-4">
-                    Three Days Off provides **practical framework** :: PAUSE • BREATHE • OBSERVE, 72-hour
-                    container, research validation, workplace applicability. AND it honors **sacred dimensions** ::
-                    lineage wisdom, spiritual integration, collective ritual, mystery.
+                    Three Days Off provides **practical framework**—PAUSE • BREATHE • OBSERVE, 72-hour
+                    container, research validation, workplace applicability. AND it honors **sacred dimensions**—lineage wisdom, spiritual integration, collective ritual, mystery.
                   </p>
                   <p className="text-deep-brown/80 leading-relaxed">
                     You can engage with the practice as nervous system regulation OR as spiritual ceremony

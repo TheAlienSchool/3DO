@@ -75,7 +75,7 @@ export default function PressPage() {
                         Most practices train one aspect—meditation for mind, yoga for body, ritual for spirit.
                         Three Days Off trains their collaboration, honoring lineages that understood integration
                         millennia before neuroscience could measure it. When Mind, Body, and Spirit work together,
-                        you don't just rest. You develop genius—the capacity for integrated choice, creative
+                        you don't just rest—you develop genius, the capacity for integrated choice, creative
                         breakthrough, and sustained presence.
                       </p>
                     </div>
@@ -158,7 +158,7 @@ export default function PressPage() {
                   <div className="mt-6 p-8 bg-soft-gray/30 rounded-lg">
                     <div className="prose prose-lg max-w-none">
                       <p className="text-deep-brown/80 leading-relaxed mb-6">
-                        Three Days Off doesn't invent stillness :: it creates accessible structure for what
+                        Three Days Off doesn't invent stillness—it creates accessible structure for what
                         human beings have always known. This practice honors contemplative lineages spanning
                         millennia while addressing contemporary crisis.
                       </p>
@@ -192,7 +192,7 @@ export default function PressPage() {
                       <div className="bg-warm-white p-6 rounded-lg mb-6">
                         <h4 className="font-semibold text-sage-green mb-3">Lenticular Vision</h4>
                         <p className="text-sm text-deep-brown/80 mb-3">
-                          Three Days Off holds paradox without requiring resolution :: seeing multiple
+                          Three Days Off holds paradox without requiring resolution—seeing multiple
                           truths simultaneously.
                         </p>
                         <div className="text-xs text-deep-brown/70 space-y-1">
@@ -604,8 +604,7 @@ export default function PressPage() {
                 >
                   <h3 className="text-heading mb-4 text-sage-green">Spiritual Lineage & Cultural Context</h3>
                   <p className="text-deep-brown/80 mb-4">
-                    Three Days Off as contemporary expression of cross-cultural contemplative wisdom ::
-                    How modern practice honors ancient teachers. Buddhist mindfulness, contemplative Christianity,
+                    Three Days Off as contemporary expression of cross-cultural contemplative wisdom—how modern practice honors ancient teachers. Buddhist mindfulness, contemplative Christianity,
                     Indigenous ceremony, Sufi practice, yogic tradition. Accessible structure for timeless technology.
                     Cultural preservation through respectful adaptation.
                   </p>
