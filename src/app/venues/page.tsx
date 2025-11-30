@@ -4,6 +4,7 @@ import React from 'react'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import Navigation from '@/components/Navigation'
+import Footer from '@/components/Footer'
 
 export default function VenuesPage() {
   return (
@@ -378,12 +379,12 @@ export default function VenuesPage() {
                   and adapt any assets that serve your venue's Three Days Off experience.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <button 
-                    onClick={() => window.open('https://drive.google.com/drive/folders/3do-complete-content-library', '_blank')}
-                    className="btn-contemplative px-8 py-4 rounded-full font-medium tracking-wide"
+                  <Link
+                    href="/resources/library"
+                    className="btn-contemplative px-8 py-4 rounded-full font-medium tracking-wide inline-block"
                   >
-                    Volunteer :: Help Build Content Library
-                  </button>
+                    Access Content Library
+                  </Link>
                   <a 
                     href="mailto:Creative@ThreeDaysOff.com?subject=Custom Asset Request&body=Hello! I'd like to request custom assets for my Three Days Off venue. Please include details about your venue and specific asset needs."
                     className="border-2 border-warm-cream text-warm-cream px-8 py-4 rounded-full font-medium tracking-wide hover:bg-warm-cream hover:text-deep-brown transition-all duration-300"
@@ -534,30 +535,7 @@ export default function VenuesPage() {
         </section>
       </main>
 
-      {/* Footer */}
-      <footer className="bg-soft-gray py-12">
-        <div className="container-contemplative">
-          <div className="text-center">
-            <div className="flex items-center justify-center space-x-3 mb-6">
-              <div className="w-8 h-8 rounded-full bg-sage-green flex items-center justify-center">
-                <span className="text-warm-cream font-bold text-xs">3DO</span>
-              </div>
-              <span className="font-display font-bold text-lg text-deep-brown">
-                Three Days Off
-              </span>
-            </div>
-            <p className="text-deep-brown/70 mb-6">
-              A practice from <strong><a href="https://thealienschool.com" target="_blank" rel="noopener noreferrer" className="hover:text-sage-green transition-colors">TheAlienSchool.com</a></strong> • Created by <strong>Kamau Zuberi Akabueze</strong>
-            </p>
-            <div className="flex flex-wrap justify-center gap-6 text-sm">
-              <Link href="/how-it-works" className="nav-link">How It Works</Link>
-              <Link href="/preparing" className="nav-link">Preparing</Link>
-              <Link href="/press" className="nav-link">Press</Link>
-              <Link href="/privacy" className="nav-link">Privacy</Link>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   )
 }
