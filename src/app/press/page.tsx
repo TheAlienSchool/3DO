@@ -29,7 +29,7 @@ export default function PressPage() {
                   Everything you need to tell the story of a global preparation practice ::
                   research-backed, practically applicable, building capacity for what matters.
                 </p>
-                <p className="text-lg text-sage-green font-medium">
+                <p className="text-lg ocean-teal font-medium bg-warm-glow/30 py-3 px-8 rounded-full inline-block">
                   Press inquiries: <a href="mailto:Press@ThreeDaysOff.com" className="hover:underline">Press@ThreeDaysOff.com</a>
                 </p>
               </motion.div>

@@ -4,12 +4,29 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
+/* Accent Color Variables - Visual Vivacity Enhancement */
+:root {
+  --ocean-teal: color(display-p3 0.195 0.322 0.349);
+  --warm-glow: color(display-p3 0.999 0.996 0.858);
+
+  /* Fallback for browsers without Display P3 support */
+  --ocean-teal-fallback: rgb(50, 82, 89);
+  --warm-glow-fallback: rgb(255, 254, 219);
+}
+
+@supports not (color: color(display-p3 1 1 1)) {
+  :root {
+    --ocean-teal: var(--ocean-teal-fallback);
+    --warm-glow: var(--warm-glow-fallback);
+  }
+}
+
 /* Base styles with contemplative design principles */
 @layer base {
   html {
     scroll-behavior: smooth;
   }
-  
+
   body {
     background-color: #F5F1E8;
     color: #2C1810;
@@ -17,7 +34,7 @@
     font-feature-settings: 'kern' 1, 'liga' 1;
     text-rendering: optimizeLegibility;
   }
-  
+
   /* Ensure reduced motion is respected */
   @media (prefers-reduced-motion: reduce) {
     *,
@@ -118,7 +135,7 @@
   .bg-gradient-contemplative {
     background: linear-gradient(180deg, #F5F1E8 0%, #FEFCF8 100%);
   }
-  
+
   /* Adrian Franks Semiotics Enhancement - Approved Color Science Infusion */
   .contemplative-gold { color: #D4AF37; }
   .bg-contemplative-gold { background-color: #D4AF37; }
@@ -132,6 +149,25 @@
   .bg-gentle-warning { background-color: #F4A460; }
   .deep-focus { color: #2F4F4F; }
   .bg-deep-focus { background-color: #2F4F4F; }
+
+  /* Visual Vivacity Accent Colors - Ocean & Warmth */
+  .ocean-teal { color: var(--ocean-teal); }
+  .bg-ocean-teal { background-color: var(--ocean-teal); }
+  .warm-glow { color: var(--warm-glow); }
+  .bg-warm-glow { background-color: var(--warm-glow); }
+  .border-ocean-teal { border-color: var(--ocean-teal); }
+  .border-warm-glow { border-color: var(--warm-glow); }
+
+  /* Accent Color Combinations */
+  .accent-combo-1 {
+    color: var(--ocean-teal);
+    background-color: var(--warm-glow);
+  }
+
+  .accent-combo-2 {
+    color: var(--warm-glow);
+    background-color: var(--ocean-teal);
+  }
 
   /* Sacred Button Design - Consciousness-Serving Interaction Principles */
   .btn-primary {
