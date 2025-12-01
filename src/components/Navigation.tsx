@@ -28,9 +28,9 @@ const Navigation = () => {
   ]
 
   return (
-    <nav 
+    <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? 'bg-warm-cream/95 backdrop-blur-sm shadow-gentle' : 'bg-transparent'
+        scrolled ? 'bg-warm-cream/95 backdrop-blur-sm shadow-gentle border-b-2 border-ocean-teal/30' : 'bg-transparent'
       }`}
       role="navigation"
       aria-label="Main navigation"

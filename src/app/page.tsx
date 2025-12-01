@@ -73,7 +73,7 @@ export default function HomePage() {
                   className="text-lg text-deep-brown/70 mb-12"
                 >
                   A threesome with mind, body, and spirit<br />
-                  <span className="text-sage-green font-medium">September 5 - September 7, 2026</span>
+                  <span className="ocean-teal font-medium">September 5 - September 7, 2026</span>
                 </motion.p>
               </motion.div>
 
@@ -142,7 +142,7 @@ export default function HomePage() {
                     </p>
                   </div>
                   
-                  <div className="bg-sage-green/10 p-8 rounded-lg mb-8">
+                  <div className="bg-warm-glow/30 p-8 rounded-lg mb-8 border-l-4 border-ocean-teal">
                     <div className="aspect-video mb-6">
                       <ContemplativeVideoPlayer
                         src="/videos/THREE_DAYS_OFF__A_Festival_of_Stillness.mp4"
@@ -214,7 +214,7 @@ export default function HomePage() {
                   The unprocessed emails. The postponed conversations. The creative work waiting.
                   The decisions unmade. The relationships needing attention. The clarity you seek.
                 </p>
-                <p className="text-2xl font-medium text-sage-green mb-12">
+                <p className="text-2xl font-medium ocean-teal mb-12 bg-warm-glow/20 py-4 px-6 rounded-full inline-block">
                   These are your stones.
                 </p>
                 <p className="text-lg leading-relaxed text-deep-brown/80 mb-12 max-w-3xl mx-auto">
@@ -401,12 +401,12 @@ export default function HomePage() {
                 </div>
 
                 {/* Integration Result */}
-                <div className="relative bg-gradient-to-br from-deep-brown via-sage-green to-deep-brown p-8 rounded-lg text-warm-cream max-w-2xl mx-auto overflow-hidden">
-                  <div className="absolute inset-0 bg-deep-brown/40"></div>
+                <div className="relative accent-combo-2 p-8 rounded-lg max-w-2xl mx-auto overflow-hidden border-2 border-warm-glow">
+                  <div className="absolute inset-0 bg-ocean-teal/40"></div>
                   <div className="relative z-10">
                     <div className="text-3xl mb-4">⚡</div>
                     <h3 className="text-2xl font-semibold mb-4">Integrated Choice</h3>
-                    <p className="text-warm-cream">
+                    <p className="warm-glow">
                       Decisions emerge from the confluence of Mind (clarity), Body (somatic knowing),
                       and Spirit (wisdom)—choices that serve your whole self rather than impulse.
                     </p>

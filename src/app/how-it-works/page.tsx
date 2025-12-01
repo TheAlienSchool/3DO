@@ -59,9 +59,9 @@ export default function HowItWorksPage() {
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.8 }}
                   viewport={{ once: true }}
-                  className="bg-sage-green/10 p-8 rounded-lg"
+                  className="bg-warm-glow/20 p-8 rounded-lg border-l-4 border-ocean-teal"
                 >
-                  <h3 className="text-heading mb-4 text-sage-green">Neurological Reset</h3>
+                  <h3 className="text-heading mb-4 ocean-teal">Neurological Reset</h3>
                   <p className="text-deep-brown/80 mb-4">
                     <strong>Heart-Brain Coherence:</strong> HeartMath Institute research shows that conscious 
                     breathing and intentional pause create measurable coherence between heart and brain rhythms, 
@@ -98,9 +98,9 @@ export default function HowItWorksPage() {
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.8, delay: 0.2 }}
                   viewport={{ once: true }}
-                  className="bg-sage-green/10 p-8 rounded-lg"
+                  className="bg-warm-glow/20 p-8 rounded-lg border-l-4 border-ocean-teal"
                 >
-                  <h3 className="text-heading mb-4 text-sage-green">Creative Emergence</h3>
+                  <h3 className="text-heading mb-4 ocean-teal">Creative Emergence</h3>
                   <p className="text-deep-brown/80 mb-4">
                     <strong>Insight Generation:</strong> Neuroscience reveals that breakthrough insights 
                     require periods of "diffuse attention" :: exactly what intentional stillness provides. 
