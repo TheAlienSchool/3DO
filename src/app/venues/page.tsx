@@ -232,12 +232,12 @@ export default function VenuesPage() {
                       <span><strong>Environmental Graphics:</strong> Sanctuary signage and displays</span>
                     </div>
                   </div>
-                  <button 
-                    onClick={() => window.location.href = '/volunteer'}
-                    className="mt-4 w-full btn-contemplative px-4 py-2 rounded-full text-sm font-medium"
+                  <Link
+                    href="/venues/space-assets"
+                    className="mt-4 w-full btn-contemplative px-4 py-2 rounded-full text-sm font-medium text-center block"
                   >
-                    Volunteer :: Help Build Space Assets
-                  </button>
+                    Explore Space Assets
+                  </Link>
                 </motion.div>
 
                 {/* Event Creation Resources */}
@@ -263,12 +263,12 @@ export default function VenuesPage() {
                       <span><strong>Registration Materials:</strong> Sign-up forms and participant guides</span>
                     </div>
                   </div>
-                  <button 
-                    onClick={() => window.open('https://drive.google.com/drive/folders/event-creation-resources', '_blank')}
-                    className="mt-4 w-full btn-contemplative px-4 py-2 rounded-full text-sm font-medium"
+                  <Link
+                    href="/venues/programming"
+                    className="mt-4 w-full btn-contemplative px-4 py-2 rounded-full text-sm font-medium text-center block"
                   >
-                    Volunteer :: Help Build Event Resources
-                  </button>
+                    Explore Programming Resources
+                  </Link>
                 </motion.div>
 
                 {/* Digital Integration Tools */}
@@ -294,12 +294,12 @@ export default function VenuesPage() {
                       <span><strong>Story Format Series:</strong> Sequential visual storytelling assets</span>
                     </div>
                   </div>
-                  <button 
-                    onClick={() => window.open('https://drive.google.com/drive/folders/digital-integration-tools', '_blank')}
-                    className="mt-4 w-full btn-contemplative px-4 py-2 rounded-full text-sm font-medium"
+                  <Link
+                    href="/venues/digital-assets"
+                    className="mt-4 w-full btn-contemplative px-4 py-2 rounded-full text-sm font-medium text-center block"
                   >
-                    Volunteer :: Help Build Digital Assets
-                  </button>
+                    Explore Digital Assets
+                  </Link>
                 </motion.div>
 
                 {/* Programming Resources */}
@@ -325,12 +325,12 @@ export default function VenuesPage() {
                       <span><strong>Space Setup Guides:</strong> Layout and atmosphere creation</span>
                     </div>
                   </div>
-                  <button 
-                    onClick={() => window.open('https://drive.google.com/drive/folders/programming-resources', '_blank')}
-                    className="mt-4 w-full btn-contemplative px-4 py-2 rounded-full text-sm font-medium"
+                  <Link
+                    href="/venues/programming"
+                    className="mt-4 w-full btn-contemplative px-4 py-2 rounded-full text-sm font-medium text-center block"
                   >
-                    Volunteer :: Help Build Programming Kit
-                  </button>
+                    Explore Programming Kit
+                  </Link>
                 </motion.div>
 
                 {/* Community Engagement */}
@@ -356,12 +356,12 @@ export default function VenuesPage() {
                       <span><strong>Reflection Prompts:</strong> Integration and sharing activities</span>
                     </div>
                   </div>
-                  <button 
-                    onClick={() => window.open('https://drive.google.com/drive/folders/community-engagement', '_blank')}
-                    className="mt-4 w-full btn-contemplative px-4 py-2 rounded-full text-sm font-medium"
+                  <Link
+                    href="/venues/community"
+                    className="mt-4 w-full btn-contemplative px-4 py-2 rounded-full text-sm font-medium text-center block"
                   >
-                    Volunteer :: Help Build Community Resources
-                  </button>
+                    Explore Community Resources
+                  </Link>
                 </motion.div>
               </div>
 
