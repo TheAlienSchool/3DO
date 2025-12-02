@@ -69,7 +69,7 @@ export default function BlogPage() {
                   </Link>
                 </h3>
                 <p className="text-deep-brown/80 mb-4">
-                  A first-time participant discovers that stillness isn't about perfection :: it's about 
+                  A first-time participant discovers that stillness isn't about perfection — it's about 
                   showing up with whatever capacity you have and letting the process unfold naturally.
                 </p>
                 <Link 
@@ -277,7 +277,7 @@ export default function BlogPage() {
                     </Link>
                   </h3>
                   <p className="text-deep-brown/80 mb-4">
-                    A software developer shares their experience with Three Days On :: using intensive coding 
+                    A software developer shares their experience with Three Days On — using intensive coding 
                     sessions as a form of moving meditation and discovering profound insights through 
                     conscious engagement with challenge...
                   </p>

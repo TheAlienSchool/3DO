@@ -59,7 +59,7 @@ export default function GlobalCalendarPage() {
                   </p>
                   <p>
                     The Global 3DO Calendar represents the natural evolution of Three Days Off from 
-                    annual event to lifestyle platform :: a consciousness-serving technology that bridges 
+                    annual event to lifestyle platform — a consciousness-serving technology that bridges 
                     cultures through shared contemplative experience while honoring the unique beauty 
                     of diverse traditions.
                   </p>
@@ -337,7 +337,7 @@ export default function GlobalCalendarPage() {
                 </p>
                 <p className="text-lg leading-relaxed mb-12">
                   Together, we can create the world's first platform that serves both individual 
-                  contemplative practice and global cultural understanding :: a living bridge between 
+                  contemplative practice and global cultural understanding — a living bridge between 
                   traditions that honors diversity while revealing our shared human capacity for 
                   wisdom, compassion, and conscious pause.
                 </p>

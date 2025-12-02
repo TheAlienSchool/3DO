@@ -25,7 +25,7 @@ export default function VolunteerPage() {
                   THREE DAYS OFF
                 </h1>
                 <p className="text-xl md:text-2xl font-light text-deep-brown/80 mb-12 max-w-4xl mx-auto leading-relaxed">
-                  Help build the infrastructure for a global preparation practice :: your skills create capacity for thousands
+                  Help build the infrastructure for a global preparation practice — your skills create capacity for thousands
                 </p>
                 <p className="text-lg text-sage-green font-medium max-w-2xl mx-auto">
                   This practice costs nothing and serves everyone. Your contribution—whether a few hours or ongoing support—helps

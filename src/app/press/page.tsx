@@ -26,7 +26,7 @@ export default function PressPage() {
                   FOR THREE DAYS OFF
                 </h1>
                 <p className="text-xl md:text-2xl font-light text-deep-brown/80 mb-12 max-w-4xl mx-auto leading-relaxed">
-                  Everything you need to tell the story of a global preparation practice ::
+                  Everything you need to tell the story of a global preparation practice—
                   research-backed, practically applicable, building capacity for what matters.
                 </p>
                 <p className="text-lg ocean-teal font-medium bg-warm-glow/30 py-3 px-8 rounded-full inline-block">
@@ -50,7 +50,7 @@ export default function PressPage() {
               >
                 <h2 className="text-display mb-6 three-dots">The Story</h2>
                 <p className="text-xl text-deep-brown/80 leading-relaxed mb-6">
-                  Three Days Off is maximum internal restoration and the development of genius ::
+                  Three Days Off is maximum internal restoration and the development of genius—
                   a research-backed framework that trains Mind, Body, and Spirit to work together
                   for breakthrough capacity.
                 </p>
@@ -115,7 +115,7 @@ export default function PressPage() {
                     <li>• <strong>Inspiration:</strong> Stefan Sagmeister's 7:1 sabbatical model</li>
                     <li>• <strong>Participation:</strong> Free, voluntary, globally accessible</li>
                     <li>• <strong>Website:</strong> ThreeDaysOff.com</li>
-                    <li>• <strong>Philosophy:</strong> "Threesome with mind, body, and spirit" :: contemporary language for ancient integration</li>
+                    <li>• <strong>Philosophy:</strong> "Threesome with mind, body, and spirit"—contemporary language for ancient integration</li>
                     <li>• <strong>Framework:</strong> PAUSE • BREATHE • OBSERVE</li>
                     <li>• <strong>Lineages Honored:</strong> Buddhist mindfulness, contemplative Christianity, Indigenous ceremony, Sufi practice, yogic tradition <Link href="/press/context" className="text-sage-green hover:underline text-sm">→ See full context</Link></li>
                     <li>• <strong>Alternative:</strong> Three Days On for intensity practitioners</li>
@@ -145,7 +145,7 @@ export default function PressPage() {
                         <div>
                           <h3 className="text-heading text-sage-green">Context & Lineage</h3>
                           <p className="text-sm text-deep-brown/70 mt-1">
-                            What this practice honors :: Legacy, lineage, and lenticular vision
+                            What this practice honors—Legacy, lineage, and lenticular vision
                           </p>
                         </div>
                       </div>
@@ -252,18 +252,18 @@ export default function PressPage() {
                   <p className="text-deep-brown/80 mb-4 leading-relaxed">
                     Creator of <a href="https://thealienschool.com" target="_blank" rel="noopener noreferrer" className="text-sage-green hover:underline">TheAlienSchool.com</a> and founder of Three Days Off, Kamau brings a unique
                     perspective that bridges ancient contemplative wisdom with contemporary applications.
-                    His work explores what he calls "consciousness technology" :: practical approaches to
+                    His work explores what he calls "consciousness technology"—practical approaches to
                     awareness that honor both individual transformation and collective wellbeing.
                   </p>
                   <p className="text-deep-brown/80 mb-4 leading-relaxed">
                     Drawing inspiration from Stefan Sagmeister's sabbatical philosophy, Kamau developed 
-                    Three Days Off as a "quantum leap manifestation" of retreat practice :: making the 
-                    benefits of extended contemplative practice accessible within the constraints and 
+                    Three Days Off as a "quantum leap manifestation" of retreat practice—making the
+                    benefits of extended contemplative practice accessible within the constraints and
                     rhythms of modern life.
                   </p>
                   <p className="text-deep-brown/80 mb-6 leading-relaxed">
-                    His approach emphasizes what he calls "Reflectionary Guidance" :: creating conditions 
-                    where individuals discover their own wisdom rather than receiving prescriptive 
+                    His approach emphasizes what he calls "Reflectionary Guidance"—creating conditions
+                    where individuals discover their own wisdom rather than receiving prescriptive
                     instruction. This philosophy permeates all aspects of Three Days Off, honoring 
                     each person's unique path to stillness and insight.
                   </p>

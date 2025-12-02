@@ -26,7 +26,7 @@ export default function MediaCenterPage() {
                   MEDIA CENTER
                 </h1>
                 <p className="text-xl md:text-2xl font-light text-deep-brown/80 mb-12 max-w-4xl mx-auto leading-relaxed">
-                  Complete press kit and media resources :: designed for journalists, content creators,
+                  Complete press kit and media resources — designed for journalists, content creators,
                   and storytellers covering the global preparation practice.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -85,7 +85,7 @@ export default function MediaCenterPage() {
                       <strong>Launch:</strong> August 15, 2025
                     </div>
                     <div>
-                      <strong>Where:</strong> Global :: accessible to anyone, anywhere
+                      <strong>Where:</strong> Global — accessible to anyone, anywhere
                     </div>
                     <div>
                       <strong>Cost:</strong> Free, voluntary participation
@@ -290,7 +290,7 @@ export default function MediaCenterPage() {
               >
                 <h3 className="text-heading mb-3 text-sage-green">Future of Work</h3>
                 <p className="text-sm text-deep-brown/80 mb-4">
-                  Labor Day launch questions productivity culture :: sabbatical models,
+                  Labor Day launch questions productivity culture — sabbatical models,
                   remote work wellness, collective rest as resistance
                 </p>
                 <p className="text-xs text-deep-brown/60">
@@ -326,7 +326,7 @@ export default function MediaCenterPage() {
               >
                 <h3 className="text-heading mb-3 text-sage-green">Collective Action</h3>
                 <p className="text-sm text-deep-brown/80 mb-4">
-                  Thousands practicing stillness simultaneously :: social demonstration,
+                  Thousands practicing stillness simultaneously — social demonstration,
                   collective coherence research, consciousness as community building
                 </p>
                 <p className="text-xs text-deep-brown/60">
@@ -344,7 +344,7 @@ export default function MediaCenterPage() {
               >
                 <h3 className="text-heading mb-3 text-sage-green">Creativity & Innovation</h3>
                 <p className="text-sm text-deep-brown/80 mb-4">
-                  Sagmeister's sabbatical model scaled :: rest as creative necessity,
+                  Sagmeister's sabbatical model scaled — rest as creative necessity,
                   pause-innovation relationship, genius development framework
                 </p>
                 <p className="text-xs text-deep-brown/60">
@@ -362,7 +362,7 @@ export default function MediaCenterPage() {
               >
                 <h3 className="text-heading mb-3 text-sage-green">Cultural Evolution</h3>
                 <p className="text-sm text-deep-brown/80 mb-4">
-                  Valuing being alongside doing :: consciousness culture, generational values shift,
+                  Valuing being alongside doing — consciousness culture, generational values shift,
                   lifestyle evolution post-pandemic
                 </p>
                 <p className="text-xs text-deep-brown/60">
@@ -644,7 +644,7 @@ export default function MediaCenterPage() {
               <div className="bg-sage-green/10 p-6 rounded-lg mb-8 text-left">
                 <h3 className="font-semibold text-sage-green mb-3">Looking for Philosophical Depth?</h3>
                 <p className="text-deep-brown/80 text-sm mb-3">
-                  For spiritual, philosophical, or cultural coverage, explore our **Context & Lineage** page ::
+                  For spiritual, philosophical, or cultural coverage, explore our Context & Lineage page ::
                   legacy, lineage traditions (Buddhist, Christian, Indigenous, Sufi, yogic), and lenticular vision.
                 </p>
                 <Link

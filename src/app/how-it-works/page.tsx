@@ -26,8 +26,7 @@ export default function HowItWorksPage() {
                   ACTUALLY WORKS
                 </h1>
                 <p className="text-xl md:text-2xl font-light text-deep-brown/80 mb-12 max-w-4xl mx-auto leading-relaxed">
-                  The science, research, and real-world application behind preparation practice ::
-                  why intentional time-awareness builds measurable capacity for what matters.
+                  The science, research, and real-world application behind preparation practice—why intentional time-awareness builds measurable capacity for what matters.
                 </p>
               </motion.div>
             </div>
@@ -48,8 +47,7 @@ export default function HowItWorksPage() {
                 <h2 className="text-display mb-6 three-dots">The Research Foundation</h2>
                 <p className="text-xl text-deep-brown/80 leading-relaxed">
                   Three Days Off builds on decades of neuroscience, workplace psychology, and health research.
-                  Here's what measurably happens when mind, body, and spirit spend intentional time together ::
-                  validated by HeartMath Institute, JAMA Psychiatry, WHO studies, and workplace performance data.
+                  Here's what measurably happens when mind, body, and spirit spend intentional time together—validated by HeartMath Institute, JAMA Psychiatry, WHO studies, and workplace performance data.
                 </p>
               </motion.div>
 
@@ -68,8 +66,8 @@ export default function HowItWorksPage() {
                     reducing anxiety by up to 46% and enhancing creative problem-solving.
                   </p>
                   <p className="text-deep-brown/80">
-                    <strong>Default Mode Network:</strong> When you step away from goal-directed thinking, 
-                    your brain's default mode network activates :: the same system responsible for insight, 
+                    <strong>Default Mode Network:</strong> When you step away from goal-directed thinking,
+                    your brain's default mode network activates—the same system responsible for insight,
                     self-reflection, and integration of complex information.
                   </p>
                 </motion.div>
@@ -102,8 +100,8 @@ export default function HowItWorksPage() {
                 >
                   <h3 className="text-heading mb-4 ocean-teal">Creative Emergence</h3>
                   <p className="text-deep-brown/80 mb-4">
-                    <strong>Insight Generation:</strong> Neuroscience reveals that breakthrough insights 
-                    require periods of "diffuse attention" :: exactly what intentional stillness provides. 
+                    <strong>Insight Generation:</strong> Neuroscience reveals that breakthrough insights
+                    require periods of "diffuse attention"—exactly what intentional stillness provides.
                     Your brain literally needs space to make new connections.
                   </p>
                   <p className="text-deep-brown/80">
@@ -150,7 +148,7 @@ export default function HowItWorksPage() {
               <p className="text-xl text-deep-brown/80 max-w-3xl mx-auto">
                 Three Days Off operates on a simple three-step process that anyone can adapt
                 to their circumstances. This framework builds capacity through practical engagement
-                with each element :: adapt it to fit your life and what you're preparing for.
+                with each element—adapt it to fit your life and what you're preparing for.
               </p>
             </motion.div>
 
@@ -168,8 +166,8 @@ export default function HowItWorksPage() {
                 </div>
                 <h3 className="text-heading mb-4">PAUSE</h3>
                 <p className="text-deep-brown/80 mb-6">
-                  Intentionally interrupt the automatic flow of external input. This doesn't mean stopping 
-                  all activity :: it means choosing what receives your attention.
+                  Intentionally interrupt the automatic flow of external input. This doesn't mean stopping
+                  all activity—it means choosing what receives your attention.
                 </p>
                 <div className="text-left">
                   <h4 className="font-semibold mb-2 text-sage-green">What This Looks Like:</h4>
@@ -256,7 +254,7 @@ export default function HowItWorksPage() {
                 <h2 className="text-display mb-6">Historical Practices, Modern Research</h2>
                 <p className="text-xl text-warm-cream/90 leading-relaxed">
                   Three Days Off draws from global preparation practices while grounding them in
-                  contemporary research. Cultures worldwide have developed time-awareness practices ::
+                  contemporary research. Cultures worldwide have developed time-awareness practices—
                   now neuroscience reveals why they work.
                 </p>
               </motion.div>
@@ -278,7 +276,7 @@ export default function HowItWorksPage() {
                     and cyclical rest practices. As Tricia Hersey teaches, rest becomes resistance and restoration.
                   </p>
                   <p className="text-warm-cream/80">
-                    <strong>Ubuntu Philosophy:</strong> "I am because we are" :: individual preparation
+                    <strong>Ubuntu Philosophy:</strong> "I am because we are"—individual preparation
                     strengthens community capacity. Your practice creates space for others to practice too.
                   </p>
                 </motion.div>
@@ -456,7 +454,7 @@ export default function HowItWorksPage() {
               >
                 <h2 className="text-display mb-6">Why This Works for Everyone</h2>
                 <p className="text-xl text-deep-brown/80">
-                  Three Days Off builds on universal human biology and needs :: research-validated patterns
+                  Three Days Off builds on universal human biology and needs—research-validated patterns
                   that transcend cultural differences, beliefs, or circumstances.
                 </p>
               </motion.div>
@@ -471,9 +469,9 @@ export default function HowItWorksPage() {
                 >
                   <h3 className="text-heading mb-4 text-sage-green">Universal Biology</h3>
                   <p className="text-deep-brown/80">
-                    Every human nervous system responds to rhythm, rest, and conscious breathing. 
-                    These aren't cultural preferences :: they're biological necessities that modern 
-                    life often overlooks. Three Days Off simply provides space for natural 
+                    Every human nervous system responds to rhythm, rest, and conscious breathing.
+                    These aren't cultural preferences—they're biological necessities that modern
+                    life often overlooks. Three Days Off simply provides space for natural
                     restoration processes to function.
                   </p>
                 </motion.div>
@@ -487,8 +485,8 @@ export default function HowItWorksPage() {
                 >
                   <h3 className="text-heading mb-4 text-sage-green">Innate Wisdom</h3>
                   <p className="text-deep-brown/80">
-                    Every person already possesses the capacity for insight, self-regulation, 
-                    and wise decision-making. Three Days Off doesn't teach you anything new :: it 
+                    Every person already possesses the capacity for insight, self-regulation,
+                    and wise decision-making. Three Days Off doesn't teach you anything new—it
                     creates conditions where your existing wisdom can surface and be heard clearly.
                   </p>
                 </motion.div>
@@ -543,12 +541,12 @@ export default function HowItWorksPage() {
                 <p className="text-xl leading-relaxed mb-8 text-deep-brown/80">
                   When thousands prepare together, research suggests network effects emerge.
                   Your individual practice contributes to a global demonstration that intentional
-                  time-awareness creates measurable capacity :: for individuals and communities.
+                  time-awareness creates measurable capacity—for individuals and communities.
                 </p>
                 <div className="bg-warm-white/80 p-8 rounded-lg mb-8">
                   <h3 className="text-heading mb-4">Community Effects</h3>
                   <p className="text-deep-brown/80 leading-relaxed">
-                    People who practice Three Days Off report shifts in how they show up :: more present,
+                    People who practice Three Days Off report shifts in how they show up—more present,
                     less reactive, clearer about priorities. Others notice. Your preparation creates
                     permission for others to prepare too. Your practice models what becomes possible
                     through intentional time-awareness.
