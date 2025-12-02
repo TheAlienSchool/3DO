@@ -296,7 +296,7 @@ export default function LibraryPracticeSpacePost() {
           >
             <h3 className="text-heading mb-8 text-center">Related Stories</h3>
             <div className="grid md:grid-cols-2 gap-8">
-              <Link href="/blog/creating-practice space-spaces" className="block p-6 bg-warm-white rounded-lg hover:shadow-lg transition-shadow">
+              <Link href="/blog/creating-sanctuary-spaces" className="block p-6 bg-warm-white rounded-lg hover:shadow-lg transition-shadow">
                 <h4 className="font-semibold mb-2">Creating Practice in Small Spaces</h4>
                 <p className="text-deep-brown/70">Practical guidance for establishing preparation practice in any environment.</p>
               </Link>

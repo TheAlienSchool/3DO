@@ -137,7 +137,7 @@ export default function HomePage() {
                   <div className="text-center mb-8">
                     <h2 className="text-display mb-4">How Three Days Off Works</h2>
                     <p className="text-xl text-deep-brown/80 max-w-3xl mx-auto">
-                      Thousands prepare together :: a global practice of time awareness
+                      Thousands prepare together—a global practice of time awareness
                       that builds capacity for what matters most.
                     </p>
                   </div>
@@ -186,7 +186,7 @@ export default function HomePage() {
                 className="flex flex-col items-center"
               >
                 <p className="text-lg text-sage-green font-medium mb-6">
-                  Preparation opens possibilities :: your practice strengthens the whole
+                  Preparation opens possibilities—your practice strengthens the whole
                 </p>
                 <p className="text-sm text-deep-brown/60 max-w-md">
                   People prepare for custody transitions, solo travel, major presentations, heartbreak recovery,
@@ -315,7 +315,7 @@ export default function HomePage() {
                 </div>
 
                 <p className="text-sm text-deep-brown/60 italic">
-                  Learn the practice of conscious creation, one stone at a time ::
+                  Learn the practice of conscious creation, one stone at a time—
                   <a href="http://wayof.netlify.app" target="_blank" rel="noopener noreferrer" className="text-sage-green hover:underline ml-1">
                     The Stone Forger's Way
                   </a>
@@ -633,7 +633,7 @@ export default function HomePage() {
                   This practice is always available to you
                 </h2>
                 <p className="text-xl leading-relaxed mb-4 text-warm-cream/90">
-                  Labor Day weekend becomes an opportunity to practice :: mind, body, and spirit
+                  Labor Day weekend becomes an opportunity to practice—mind, body, and spirit
                   preparing together for what matters.
                 </p>
                 <p className="text-lg leading-relaxed mb-12 text-warm-cream/80 italic">

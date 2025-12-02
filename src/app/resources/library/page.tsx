@@ -37,7 +37,7 @@ export default function ContentLibraryPage() {
                 </h1>
                 <p className="text-xl md:text-2xl font-light text-deep-brown/80 mb-12 max-w-4xl mx-auto leading-relaxed">
                   Educational resources, practice guides, research summaries, and multimedia content
-                  to deepen your preparation practice :: free, accessible, research-backed.
+                  to deepen your preparation practice — free, accessible, research-backed.
                 </p>
               </motion.div>
             </div>
@@ -318,7 +318,7 @@ export default function ContentLibraryPage() {
                 </div>
                 <h3 className="text-heading text-center mb-4">Parents & Caregivers</h3>
                 <p className="text-deep-brown/80 mb-6 text-sm leading-relaxed">
-                  Caregiving doesn't stop. Practice while caring :: turning daily activities
+                  Caregiving doesn't stop. Practice while caring — turning daily activities
                   into mindful moments. Stillness alongside responsibility.
                 </p>
                 <ul className="space-y-2 text-sm text-deep-brown/70 mb-6">
@@ -338,7 +338,7 @@ export default function ContentLibraryPage() {
             <div className="max-w-3xl mx-auto mt-12 bg-deep-brown text-warm-cream p-8 rounded-lg text-center">
               <h3 className="text-heading mb-4">Need a Specific Guide?</h3>
               <p className="text-warm-cream/90 mb-6">
-                We're building practice guides for different situations :: chronic illness,
+                We're building practice guides for different situations — chronic illness,
                 financial stress, social isolation, physical limitations, and more.
               </p>
               <Link
@@ -435,7 +435,7 @@ export default function ContentLibraryPage() {
                   <div className="text-4xl mb-3">🔬</div>
                   <h4 className="font-semibold mb-2">Research Explained Series</h4>
                   <p className="text-sm text-deep-brown/70 mb-4">
-                    Making the science accessible :: anxiety, HRV, workplace wellness
+                    Making the science accessible — anxiety, HRV, workplace wellness
                   </p>
                   <Link href="/volunteer" className="text-sage-green hover:underline text-sm font-medium">
                     Volunteer :: Help Explain Research →

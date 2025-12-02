@@ -144,7 +144,7 @@ export default function PledgePage() {
                 </h1>
                 <p className="text-xl md:text-2xl font-light text-deep-brown/80 mb-12 max-w-4xl mx-auto leading-relaxed">
                   Your practice connects you to thousands preparing together.
-                  Simple, practical, research-backed :: preparation for what matters to you.
+                  Simple, practical, research-backed—preparation for what matters to you.
                 </p>
               </motion.div>
             </div>
